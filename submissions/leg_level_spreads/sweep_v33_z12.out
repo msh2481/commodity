@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1112
+[validate] queued fold 1 -> group gpu1 task 1113
+[validate] queued fold 2 -> group gpu2 task 1114
+[validate] queued fold 3 -> group gpu3 task 1115
+[validate] waiting for tasks [1112, 1113, 1114, 1115]
+19:31:50 - Task 1114 changed from Queued to Running
+19:31:53 - Task 1112 changed from Queued to Running
+19:31:53 - Task 1113 changed from Queued to Running
+19:31:53 - Task 1115 changed from Queued to Running
+19:43:52 - Task 1114 succeeded with 0
+19:43:54 - Task 1113 succeeded with 0
+19:44:08 - Task 1115 succeeded with 0
+19:44:22 - Task 1112 succeeded with 0
+
+=== 20260421T193131Z_v33-v32-lag-scaling-0-0-1-1-zero-lag-1-2 ===
+description:  v33 v32 + lag scaling (0, 0, 1, 1) zero lag=1+2
+overall:      Sharpe=+0.1319  mean_rho=+0.02913  std_rho=0.22088  n=1961
+fold 0:       Sharpe=+0.0018  mean_rho=+0.00039  std_rho=0.22117  n=491  runtime= 750.4s
+fold 1:       Sharpe=+0.1382  mean_rho=+0.03078  std_rho=0.22263  n=491  runtime= 723.0s
+fold 2:       Sharpe=+0.1736  mean_rho=+0.03709  std_rho=0.21368  n=491  runtime= 720.6s
+fold 3:       Sharpe=+0.2162  mean_rho=+0.04837  std_rho=0.22372  n=488  runtime= 734.3s
+last-fold-delta (fold3 - mean(others)):  +0.1117
+eval time:    compute=2928.2s  wallclock=750.4s
+cached preds: /root/commodity/validation/predictions_cache/20260421T193131Z_v33-v32-lag-scaling-0-0-1-1-zero-lag-1-2.csv
+log:          /root/commodity/validation/log.csv

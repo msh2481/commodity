@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 537
+[validate] queued fold 1 -> group cpu task 541
+[validate] queued fold 2 -> group cpu task 544
+[validate] queued fold 3 -> group cpu task 546
+[validate] waiting for tasks [537, 541, 544, 546]
+15:28:23 - Task 537 changed from Queued to Running
+15:28:38 - Task 537 succeeded with 0
+15:28:38 - Task 541 changed from Queued to Running
+15:28:46 - Task 544 changed from Queued to Running
+15:28:52 - Task 541 succeeded with 0
+15:28:52 - Task 546 changed from Queued to Running
+15:29:01 - Task 544 succeeded with 0
+15:29:07 - Task 546 succeeded with 0
+
+=== 20260421T152711Z_v7-ensemble-l30-d30 ===
+description:  v7 ensemble L30_D30
+overall:      Sharpe=+0.0892  mean_rho=+0.02210  std_rho=0.24766  n=1961
+fold 0:       Sharpe=+0.0139  mean_rho=+0.00329  std_rho=0.23702  n=491  runtime=  15.4s
+fold 1:       Sharpe=+0.0770  mean_rho=+0.01859  std_rho=0.24150  n=491  runtime=  14.5s
+fold 2:       Sharpe=+0.0917  mean_rho=+0.02364  std_rho=0.25793  n=491  runtime=  14.4s
+fold 3:       Sharpe=+0.1701  mean_rho=+0.04299  std_rho=0.25277  n=488  runtime=  14.8s
+last-fold-delta (fold3 - mean(others)):  +0.1092
+eval time:    compute=59.0s  wallclock=15.4s
+cached preds: /root/commodity/validation/predictions_cache/20260421T152711Z_v7-ensemble-l30-d30.csv
+log:          /root/commodity/validation/log.csv

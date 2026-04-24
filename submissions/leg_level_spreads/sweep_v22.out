@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 932
+[validate] queued fold 1 -> group cpu task 933
+[validate] queued fold 2 -> group cpu task 934
+[validate] queued fold 3 -> group cpu task 935
+[validate] waiting for tasks [932, 933, 934, 935]
+16:27:12 - Found active Task 932 with status Running
+16:27:14 - Task 933 changed from Queued to Running
+16:27:14 - Task 934 changed from Queued to Running
+16:27:14 - Task 935 changed from Queued to Running
+16:27:35 - Task 932 succeeded with 0
+16:27:35 - Task 933 succeeded with 0
+16:27:35 - Task 935 succeeded with 0
+16:27:37 - Task 934 succeeded with 0
+
+=== 20260421T162712Z_v22-v19-pair-features-only-in-direct-rid ===
+description:  v22 v19 + pair features ONLY in direct ridge (alpha_leg=30 alpha_dir=100)
+overall:      Sharpe=+0.0948  mean_rho=+0.02405  std_rho=0.25375  n=1961
+fold 0:       Sharpe=+0.0062  mean_rho=+0.00158  std_rho=0.25488  n=491  runtime=  22.0s
+fold 1:       Sharpe=+0.0770  mean_rho=+0.01885  std_rho=0.24472  n=491  runtime=  22.5s
+fold 2:       Sharpe=+0.0967  mean_rho=+0.02440  std_rho=0.25245  n=491  runtime=  23.1s
+fold 3:       Sharpe=+0.1974  mean_rho=+0.05152  std_rho=0.26098  n=488  runtime=  21.2s
+last-fold-delta (fold3 - mean(others)):  +0.1374
+eval time:    compute=88.8s  wallclock=23.1s
+cached preds: /root/commodity/validation/predictions_cache/20260421T162712Z_v22-v19-pair-features-only-in-direct-rid.csv
+log:          /root/commodity/validation/log.csv

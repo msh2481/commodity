@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 752
+[validate] queued fold 1 -> group gpu1 task 753
+[validate] queued fold 2 -> group gpu2 task 754
+[validate] queued fold 3 -> group gpu3 task 755
+[validate] waiting for tasks [752, 753, 754, 755]
+16:00:33 - Task 754 changed from Queued to Running
+16:00:39 - Task 755 changed from Queued to Running
+16:02:10 - Task 754 succeeded with 0
+16:02:15 - Task 755 succeeded with 0
+16:03:54 - Task 753 changed from Queued to Running
+16:04:12 - Task 752 changed from Queued to Running
+16:05:29 - Task 753 succeeded with 0
+16:05:46 - Task 752 succeeded with 0
+
+=== 20260421T155709Z_v15-3-way-ensemble-ridge-leg-ridge-direc ===
+description:  v15 3-way ensemble ridge_leg + ridge_direct + xgb_leg (80 rounds, equal weights)
+overall:      Sharpe=+0.0884  mean_rho=+0.02173  std_rho=0.24568  n=1961
+fold 0:       Sharpe=+0.0072  mean_rho=+0.00171  std_rho=0.23609  n=491  runtime=  92.4s
+fold 1:       Sharpe=+0.0457  mean_rho=+0.01097  std_rho=0.23992  n=491  runtime=  94.5s
+fold 2:       Sharpe=+0.0919  mean_rho=+0.02356  std_rho=0.25643  n=491  runtime=  97.2s
+fold 3:       Sharpe=+0.2052  mean_rho=+0.05084  std_rho=0.24775  n=488  runtime=  95.5s
+last-fold-delta (fold3 - mean(others)):  +0.1569
+eval time:    compute=379.5s  wallclock=97.2s
+cached preds: /root/commodity/validation/predictions_cache/20260421T155709Z_v15-3-way-ensemble-ridge-leg-ridge-direc.csv
+log:          /root/commodity/validation/log.csv

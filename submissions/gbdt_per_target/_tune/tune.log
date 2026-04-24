@@ -1,0 +1,946 @@
+[tune] resuming with 74 prior trials
+[tune] best Sharpe so far: +0.2265
+
+[tune] trial 75/100000: {'n_estimators': 230, 'max_depth': 7, 'learning_rate': 0.031585252928138505, 'min_child_weight': 7, 'subsample': 0.8196118729333761, 'colsample_bytree': 0.43322765608243397, 'reg_lambda': 48.272428671621974, 'reg_alpha': 0.021173051419202393, 'gamma': 0.010465885729171938}
+[tune] trial 75 done: Sharpe=+0.1619  cost=102.8s  best=+0.2265 
+
+[tune] trial 76/100000: {'n_estimators': 462, 'max_depth': 3, 'learning_rate': 0.1519299635715131, 'min_child_weight': 2, 'subsample': 0.6349460912867547, 'colsample_bytree': 0.3021746928600858, 'reg_lambda': 0.013324268423105853, 'reg_alpha': 0.009525484880017884, 'gamma': 0.0065311108810724}
+[tune] trial 76 done: Sharpe=+0.2142  cost=133.6s  best=+0.2265 
+
+[tune] trial 77/100000: {'n_estimators': 187, 'max_depth': 6, 'learning_rate': 0.01242270085935344, 'min_child_weight': 1, 'subsample': 0.8470935561796906, 'colsample_bytree': 0.7083344013052053, 'reg_lambda': 1.5256592338866664, 'reg_alpha': 0.0010232476167352175, 'gamma': 0.006945950855751528}
+[tune] trial 77 done: Sharpe=+0.1930  cost=100.8s  best=+0.2265 
+
+[tune] trial 78/100000: {'n_estimators': 142, 'max_depth': 4, 'learning_rate': 0.193145219034389, 'min_child_weight': 3, 'subsample': 0.8788342564506304, 'colsample_bytree': 0.630132742271343, 'reg_lambda': 24.95198063175546, 'reg_alpha': 0.003406919199670791, 'gamma': 0.006418861661040082}
+[tune] trial 78 done: Sharpe=+0.1904  cost=83.0s  best=+0.2265 
+
+[tune] trial 79/100000: {'n_estimators': 72, 'max_depth': 7, 'learning_rate': 0.1659338900096995, 'min_child_weight': 2, 'subsample': 0.9169271768696534, 'colsample_bytree': 0.9178720659612352, 'reg_lambda': 0.012356243270784948, 'reg_alpha': 0.0010674227158564528, 'gamma': 0.007996382205454467}
+[tune] trial 79 done: Sharpe=+0.1703  cost=78.2s  best=+0.2265 
+
+[tune] trial 80/100000: {'n_estimators': 114, 'max_depth': 5, 'learning_rate': 0.16761722013446909, 'min_child_weight': 1, 'subsample': 0.9829783040740492, 'colsample_bytree': 0.4029018801177439, 'reg_lambda': 4.277513103398601, 'reg_alpha': 0.020867470384750196, 'gamma': 0.003282940713412053}
+[tune] trial 80 done: Sharpe=+0.1930  cost=66.4s  best=+0.2265 
+
+[tune] trial 81/100000: {'n_estimators': 408, 'max_depth': 6, 'learning_rate': 0.17695801135709077, 'min_child_weight': 3, 'subsample': 0.6368679297550485, 'colsample_bytree': 0.4218989453391049, 'reg_lambda': 9.41910038315982, 'reg_alpha': 0.17258807816351673, 'gamma': 0.0010498965152132209}
+[tune] trial 81 done: Sharpe=+0.1779  cost=138.4s  best=+0.2265 
+
+[tune] trial 82/100000: {'n_estimators': 256, 'max_depth': 5, 'learning_rate': 0.14066536367605906, 'min_child_weight': 1, 'subsample': 0.6475141273514896, 'colsample_bytree': 0.7980180608966303, 'reg_lambda': 0.035014144784970266, 'reg_alpha': 0.005964719195866854, 'gamma': 0.0027503819195109024}
+[tune] trial 82 done: Sharpe=+0.1743  cost=106.5s  best=+0.2265 
+
+[tune] trial 83/100000: {'n_estimators': 446, 'max_depth': 7, 'learning_rate': 0.16782340753058453, 'min_child_weight': 5, 'subsample': 0.8619307802183689, 'colsample_bytree': 0.4079804449659179, 'reg_lambda': 0.05691307201615743, 'reg_alpha': 0.0012255974995242782, 'gamma': 0.0010034687765067916}
+[tune] trial 83 done: Sharpe=+0.2138  cost=148.7s  best=+0.2265 
+
+[tune] trial 84/100000: {'n_estimators': 387, 'max_depth': 6, 'learning_rate': 0.01471547794906057, 'min_child_weight': 3, 'subsample': 0.5757851035944672, 'colsample_bytree': 0.5584382468327171, 'reg_lambda': 0.01401525688090978, 'reg_alpha': 0.06623115565734256, 'gamma': 0.0010224549580058525}
+[tune] trial 84 done: Sharpe=+0.2054  cost=157.0s  best=+0.2265 
+
+[tune] trial 85/100000: {'n_estimators': 173, 'max_depth': 6, 'learning_rate': 0.13920407531869736, 'min_child_weight': 50, 'subsample': 0.6596424373607822, 'colsample_bytree': 0.8925809665040687, 'reg_lambda': 10.406526769600301, 'reg_alpha': 0.026557477854680208, 'gamma': 0.009605140975632776}
+[tune] trial 85 done: Sharpe=+0.1405  cost=91.7s  best=+0.2265 
+
+[tune] trial 86/100000: {'n_estimators': 248, 'max_depth': 7, 'learning_rate': 0.1786936272400728, 'min_child_weight': 1, 'subsample': 0.7691137270649456, 'colsample_bytree': 0.7319833319062095, 'reg_lambda': 8.727410057866729, 'reg_alpha': 0.07754823811415248, 'gamma': 0.006516328351856872}
+[tune] trial 86 done: Sharpe=+0.1819  cost=102.1s  best=+0.2265 
+
+[tune] trial 87/100000: {'n_estimators': 317, 'max_depth': 7, 'learning_rate': 0.1505716847319253, 'min_child_weight': 4, 'subsample': 0.6114565548976113, 'colsample_bytree': 0.9404987294725027, 'reg_lambda': 0.011311957819405142, 'reg_alpha': 0.001198207701385602, 'gamma': 0.0013866037692379304}
+[tune] trial 87 done: Sharpe=+0.1930  cost=124.1s  best=+0.2265 
+
+[tune] trial 88/100000: {'n_estimators': 472, 'max_depth': 3, 'learning_rate': 0.16486479844214258, 'min_child_weight': 2, 'subsample': 0.9017957458543034, 'colsample_bytree': 0.4851932024540324, 'reg_lambda': 0.8947275970415932, 'reg_alpha': 0.001325507854316472, 'gamma': 0.0010792891913550314}
+[tune] trial 88 done: Sharpe=+0.2039  cost=160.2s  best=+0.2265 
+
+[tune] trial 89/100000: {'n_estimators': 465, 'max_depth': 5, 'learning_rate': 0.11092281918483604, 'min_child_weight': 1, 'subsample': 0.5965897194387916, 'colsample_bytree': 0.32692474408809896, 'reg_lambda': 19.354973470106202, 'reg_alpha': 0.028599664959525442, 'gamma': 0.0010506374883912143}
+[tune] trial 89 done: Sharpe=+0.1657  cost=154.8s  best=+0.2265 
+
+[tune] trial 90/100000: {'n_estimators': 343, 'max_depth': 6, 'learning_rate': 0.1241479173054532, 'min_child_weight': 1, 'subsample': 0.7889514094024439, 'colsample_bytree': 0.8315001467761021, 'reg_lambda': 0.6849523498147432, 'reg_alpha': 0.0017317085499895398, 'gamma': 0.9950709881511258}
+[tune] trial 90 done: Sharpe=-0.0117  cost=109.3s  best=+0.2265 
+
+[tune] trial 91/100000: {'n_estimators': 78, 'max_depth': 3, 'learning_rate': 0.018757246504523886, 'min_child_weight': 7, 'subsample': 0.9096591362099109, 'colsample_bytree': 0.8583531914794322, 'reg_lambda': 0.0191962610229538, 'reg_alpha': 0.009972344104797283, 'gamma': 0.005173474692547312}
+[tune] trial 91 done: Sharpe=+0.1670  cost=76.0s  best=+0.2265 
+
+[tune] trial 92/100000: {'n_estimators': 281, 'max_depth': 4, 'learning_rate': 0.19672311839257686, 'min_child_weight': 4, 'subsample': 0.9130727938875003, 'colsample_bytree': 0.7711788335261097, 'reg_lambda': 0.01981342585635503, 'reg_alpha': 0.2864930674724173, 'gamma': 0.00101635905229975}
+[tune] trial 92 done: Sharpe=+0.1909  cost=109.2s  best=+0.2265 
+
+[tune] trial 93/100000: {'n_estimators': 85, 'max_depth': 8, 'learning_rate': 0.010876159094217845, 'min_child_weight': 7, 'subsample': 0.5860823228953593, 'colsample_bytree': 0.5839353911823443, 'reg_lambda': 35.96614621669556, 'reg_alpha': 0.001068340257621786, 'gamma': 0.005289743985104494}
+[tune] trial 93 done: Sharpe=+0.1513  cost=83.7s  best=+0.2265 
+
+[tune] trial 94/100000: {'n_estimators': 408, 'max_depth': 5, 'learning_rate': 0.05795054587298046, 'min_child_weight': 2, 'subsample': 0.9933712591833952, 'colsample_bytree': 0.977746690229248, 'reg_lambda': 0.013846215571453758, 'reg_alpha': 0.04949002906909154, 'gamma': 0.0010604624075237486}
+[tune] trial 94 done: Sharpe=+0.1789  cost=133.9s  best=+0.2265 
+
+[tune] trial 95/100000: {'n_estimators': 90, 'max_depth': 8, 'learning_rate': 0.19145421413524163, 'min_child_weight': 2, 'subsample': 0.9259642146408358, 'colsample_bytree': 0.517822836152644, 'reg_lambda': 0.020931477365292123, 'reg_alpha': 0.03312179469888108, 'gamma': 0.004043409271079577}
+[tune] trial 95 done: Sharpe=+0.2000  cost=85.2s  best=+0.2265 
+
+[tune] trial 96/100000: {'n_estimators': 80, 'max_depth': 5, 'learning_rate': 0.0182654684355949, 'min_child_weight': 1, 'subsample': 0.7739302791708427, 'colsample_bytree': 0.39371505746371216, 'reg_lambda': 0.05662566600685348, 'reg_alpha': 0.0010336559905756045, 'gamma': 0.0012681486464935394}
+[tune] trial 96 done: Sharpe=+0.1643  cost=87.9s  best=+0.2265 
+
+[tune] trial 97/100000: {'n_estimators': 490, 'max_depth': 6, 'learning_rate': 0.19117271404713992, 'min_child_weight': 4, 'subsample': 0.6223197578305515, 'colsample_bytree': 0.9924177149553155, 'reg_lambda': 0.044561935343516365, 'reg_alpha': 0.0018577488268685014, 'gamma': 0.0043075945874276045}
+[tune] trial 97 done: Sharpe=+0.1607  cost=147.8s  best=+0.2265 
+
+[tune] trial 98/100000: {'n_estimators': 483, 'max_depth': 4, 'learning_rate': 0.013949280425165822, 'min_child_weight': 4, 'subsample': 0.9200773584654329, 'colsample_bytree': 0.912612059699359, 'reg_lambda': 4.968951274022362, 'reg_alpha': 0.01837589515122132, 'gamma': 0.0033706646151425343}
+[tune] trial 98 done: Sharpe=+0.2058  cost=157.8s  best=+0.2265 
+
+[tune] trial 99/100000: {'n_estimators': 487, 'max_depth': 5, 'learning_rate': 0.018780981225767813, 'min_child_weight': 2, 'subsample': 0.5376197827572703, 'colsample_bytree': 0.3598150430241742, 'reg_lambda': 4.219898522741465, 'reg_alpha': 0.020398962643054644, 'gamma': 0.005199417904811878}
+[tune] trial 99 done: Sharpe=+0.2018  cost=165.6s  best=+0.2265 
+
+[tune] trial 100/100000: {'n_estimators': 435, 'max_depth': 5, 'learning_rate': 0.013402343551865585, 'min_child_weight': 10, 'subsample': 0.6588372778656565, 'colsample_bytree': 0.9805308106118831, 'reg_lambda': 30.306696780652064, 'reg_alpha': 0.0010636021174839619, 'gamma': 0.0014565738435163742}
+[tune] trial 100 done: Sharpe=+0.2049  cost=169.2s  best=+0.2265 
+
+[tune] trial 101/100000: {'n_estimators': 492, 'max_depth': 6, 'learning_rate': 0.010312131660941545, 'min_child_weight': 17, 'subsample': 0.7659958644922369, 'colsample_bytree': 0.6278959994355449, 'reg_lambda': 2.2618967354987665, 'reg_alpha': 0.00110683238227746, 'gamma': 0.002856002624830875}
+[tune] trial 101 done: Sharpe=+0.2147  cost=168.6s  best=+0.2265 
+
+[tune] trial 102/100000: {'n_estimators': 475, 'max_depth': 6, 'learning_rate': 0.014942192884664843, 'min_child_weight': 2, 'subsample': 0.799447992486789, 'colsample_bytree': 0.7183007616078383, 'reg_lambda': 0.39955981780787553, 'reg_alpha': 0.04578821742163393, 'gamma': 0.0010424478921929122}
+[tune] trial 102 done: Sharpe=+0.1994  cost=170.7s  best=+0.2265 
+
+[tune] trial 103/100000: {'n_estimators': 495, 'max_depth': 4, 'learning_rate': 0.010241564677071555, 'min_child_weight': 3, 'subsample': 0.993580044527824, 'colsample_bytree': 0.9824949302968977, 'reg_lambda': 0.04220907172796823, 'reg_alpha': 0.003332903356796728, 'gamma': 0.0020757078794923648}
+[tune] trial 103 done: Sharpe=+0.1966  cost=162.9s  best=+0.2265 
+
+[tune] trial 104/100000: {'n_estimators': 440, 'max_depth': 7, 'learning_rate': 0.03024719209937433, 'min_child_weight': 1, 'subsample': 0.5060896092188759, 'colsample_bytree': 0.4037742357154115, 'reg_lambda': 4.685682904626, 'reg_alpha': 0.0013095763467882897, 'gamma': 0.001062769893118908}
+[tune] trial 104 done: Sharpe=+0.2021  cost=172.6s  best=+0.2265 
+
+[tune] trial 105/100000: {'n_estimators': 497, 'max_depth': 8, 'learning_rate': 0.020503266501176523, 'min_child_weight': 7, 'subsample': 0.6281901989139169, 'colsample_bytree': 0.8662746263580572, 'reg_lambda': 0.5006604883723076, 'reg_alpha': 0.005858110954737449, 'gamma': 0.004310203899006725}
+[tune] trial 105 done: Sharpe=+0.2125  cost=164.7s  best=+0.2265 
+
+[tune] trial 106/100000: {'n_estimators': 468, 'max_depth': 4, 'learning_rate': 0.05840811854964634, 'min_child_weight': 4, 'subsample': 0.7032011651856698, 'colsample_bytree': 0.9276860813259582, 'reg_lambda': 1.6504982726744581, 'reg_alpha': 0.014830190796907719, 'gamma': 0.006637837135190843}
+[tune] trial 106 done: Sharpe=+0.1990  cost=139.7s  best=+0.2265 
+
+[tune] trial 107/100000: {'n_estimators': 360, 'max_depth': 7, 'learning_rate': 0.04051780661056676, 'min_child_weight': 2, 'subsample': 0.7970489186013374, 'colsample_bytree': 0.8339411575003739, 'reg_lambda': 0.024473020466401794, 'reg_alpha': 0.0010454535449643183, 'gamma': 0.005797847550346791}
+[tune] trial 107 done: Sharpe=+0.1926  cost=113.4s  best=+0.2265 
+
+[tune] trial 108/100000: {'n_estimators': 490, 'max_depth': 5, 'learning_rate': 0.010659723614207752, 'min_child_weight': 4, 'subsample': 0.5864175039863596, 'colsample_bytree': 0.7405803871861125, 'reg_lambda': 1.3382981801916827, 'reg_alpha': 0.015008933251588944, 'gamma': 0.0017428288359106832}
+[tune] trial 108 done: Sharpe=+0.2102  cost=168.8s  best=+0.2265 
+
+[tune] trial 109/100000: {'n_estimators': 495, 'max_depth': 5, 'learning_rate': 0.018757344012040815, 'min_child_weight': 27, 'subsample': 0.507220216351162, 'colsample_bytree': 0.9046327430732326, 'reg_lambda': 0.033719071940436524, 'reg_alpha': 0.0010622091588347125, 'gamma': 0.0010794208313616653}
+[tune] trial 109 done: Sharpe=+0.1808  cost=250.3s  best=+0.2265 
+
+[tune] trial 110/100000: {'n_estimators': 77, 'max_depth': 4, 'learning_rate': 0.16664248201778004, 'min_child_weight': 2, 'subsample': 0.9928623087126213, 'colsample_bytree': 0.8236260198693413, 'reg_lambda': 0.4957454571412846, 'reg_alpha': 0.17522391408487556, 'gamma': 0.0010333749118966295}
+[tune] trial 110 done: Sharpe=+0.1950  cost=69.1s  best=+0.2265 
+
+[tune] trial 111/100000: {'n_estimators': 491, 'max_depth': 8, 'learning_rate': 0.017696447524054904, 'min_child_weight': 2, 'subsample': 0.9942066856638287, 'colsample_bytree': 0.4577308120231781, 'reg_lambda': 0.02082663334880986, 'reg_alpha': 0.007373710763035006, 'gamma': 0.0048460728116278265}
+[tune] trial 111 done: Sharpe=+0.1780  cost=152.6s  best=+0.2265 
+
+[tune] trial 112/100000: {'n_estimators': 482, 'max_depth': 3, 'learning_rate': 0.012674889770560154, 'min_child_weight': 50, 'subsample': 0.6046079789574764, 'colsample_bytree': 0.7793171228341393, 'reg_lambda': 0.0811933802871849, 'reg_alpha': 0.10834121357663366, 'gamma': 0.00120022936286928}
+[tune] trial 112 done: Sharpe=+0.1727  cost=155.1s  best=+0.2265 
+
+[tune] trial 113/100000: {'n_estimators': 71, 'max_depth': 6, 'learning_rate': 0.10530980430625415, 'min_child_weight': 6, 'subsample': 0.893745751014538, 'colsample_bytree': 0.6068643544385173, 'reg_lambda': 0.030412684184068603, 'reg_alpha': 0.0010273059634189744, 'gamma': 0.0010493906893696363}
+[tune] trial 113 done: Sharpe=+0.1909  cost=77.6s  best=+0.2265 
+
+[tune] trial 114/100000: {'n_estimators': 485, 'max_depth': 6, 'learning_rate': 0.011510615547559862, 'min_child_weight': 2, 'subsample': 0.5346014775800482, 'colsample_bytree': 0.3958256343279754, 'reg_lambda': 0.0247397393536005, 'reg_alpha': 0.044702393355245444, 'gamma': 0.0027092357985855093}
+[tune] trial 114 done: Sharpe=+0.1923  cost=171.7s  best=+0.2265 
+
+[tune] trial 115/100000: {'n_estimators': 488, 'max_depth': 8, 'learning_rate': 0.011329721662689111, 'min_child_weight': 49, 'subsample': 0.933656335633773, 'colsample_bytree': 0.9615733218290421, 'reg_lambda': 0.022759110113176478, 'reg_alpha': 0.019311962858148735, 'gamma': 0.0011011717324879316}
+[tune] trial 115 done: Sharpe=+0.1653  cost=185.3s  best=+0.2265 
+
+[tune] trial 116/100000: {'n_estimators': 463, 'max_depth': 6, 'learning_rate': 0.16809650112501012, 'min_child_weight': 3, 'subsample': 0.7439965745645947, 'colsample_bytree': 0.5589401879190252, 'reg_lambda': 20.716397414499784, 'reg_alpha': 0.06949813910598587, 'gamma': 0.006146451866129717}
+[tune] trial 116 done: Sharpe=+0.1817  cost=132.6s  best=+0.2265 
+
+[tune] trial 117/100000: {'n_estimators': 439, 'max_depth': 5, 'learning_rate': 0.014456573795929673, 'min_child_weight': 1, 'subsample': 0.8291553560045679, 'colsample_bytree': 0.9607112527475941, 'reg_lambda': 1.2457258571760592, 'reg_alpha': 0.0010585818383441747, 'gamma': 0.004034823394814133}
+[tune] trial 117 done: Sharpe=+0.1816  cost=165.4s  best=+0.2265 
+
+[tune] trial 118/100000: {'n_estimators': 463, 'max_depth': 7, 'learning_rate': 0.19253858064054477, 'min_child_weight': 5, 'subsample': 0.8023204502520234, 'colsample_bytree': 0.7918410981021586, 'reg_lambda': 0.055390535347196304, 'reg_alpha': 0.0010334007233837486, 'gamma': 0.01756490052199819}
+[tune] trial 118 done: Sharpe=+0.1610  cost=132.2s  best=+0.2265 
+
+[tune] trial 119/100000: {'n_estimators': 486, 'max_depth': 4, 'learning_rate': 0.01196287722554944, 'min_child_weight': 2, 'subsample': 0.6960156826839943, 'colsample_bytree': 0.9512159051980225, 'reg_lambda': 16.785188396741304, 'reg_alpha': 0.0014180146473377606, 'gamma': 0.0010876199749849074}
+[tune] trial 119 done: Sharpe=+0.2164  cost=171.7s  best=+0.2265 
+
+[tune] trial 120/100000: {'n_estimators': 68, 'max_depth': 5, 'learning_rate': 0.18466079519780135, 'min_child_weight': 2, 'subsample': 0.5186041845740865, 'colsample_bytree': 0.30652980084038334, 'reg_lambda': 0.024380610613614583, 'reg_alpha': 0.0032094249710521365, 'gamma': 0.0012671501934640925}
+[tune] trial 120 done: Sharpe=+0.1765  cost=80.4s  best=+0.2265 
+
+[tune] trial 121/100000: {'n_estimators': 482, 'max_depth': 5, 'learning_rate': 0.16491322306608114, 'min_child_weight': 3, 'subsample': 0.8327196601797378, 'colsample_bytree': 0.9635107390661997, 'reg_lambda': 0.026419168256332278, 'reg_alpha': 0.006694064697137685, 'gamma': 0.011016351040092158}
+[tune] trial 121 done: Sharpe=+0.1733  cost=127.7s  best=+0.2265 
+
+[tune] trial 122/100000: {'n_estimators': 488, 'max_depth': 4, 'learning_rate': 0.010429089948839959, 'min_child_weight': 3, 'subsample': 0.7743586272891788, 'colsample_bytree': 0.9956669052323988, 'reg_lambda': 10.606121316257559, 'reg_alpha': 0.0013534510274154797, 'gamma': 0.0010504730415779688}
+[tune] trial 122 done: Sharpe=+0.2130  cost=162.7s  best=+0.2265 
+
+[tune] trial 123/100000: {'n_estimators': 491, 'max_depth': 8, 'learning_rate': 0.013583044681673203, 'min_child_weight': 2, 'subsample': 0.6386758916783045, 'colsample_bytree': 0.35817069869463314, 'reg_lambda': 0.014425373643952407, 'reg_alpha': 0.09061657176079194, 'gamma': 0.003815693736339116}
+[tune] trial 123 done: Sharpe=+0.1833  cost=182.1s  best=+0.2265 
+
+[tune] trial 124/100000: {'n_estimators': 460, 'max_depth': 5, 'learning_rate': 0.012136628193358638, 'min_child_weight': 1, 'subsample': 0.5251469188214202, 'colsample_bytree': 0.7567618717536115, 'reg_lambda': 15.668785588204125, 'reg_alpha': 0.063062022904267, 'gamma': 0.001171989487044617}
+[tune] trial 124 done: Sharpe=+0.1922  cost=160.2s  best=+0.2265 
+
+[tune] trial 125/100000: {'n_estimators': 480, 'max_depth': 3, 'learning_rate': 0.01010908421473185, 'min_child_weight': 46, 'subsample': 0.9638548711540034, 'colsample_bytree': 0.5458060911235704, 'reg_lambda': 2.5239036242673456, 'reg_alpha': 0.010193991922372593, 'gamma': 0.005581775512032336}
+[tune] trial 125 done: Sharpe=+0.1658  cost=136.2s  best=+0.2265 
+
+[tune] trial 126/100000: {'n_estimators': 58, 'max_depth': 6, 'learning_rate': 0.17770664814839993, 'min_child_weight': 5, 'subsample': 0.9040604111367758, 'colsample_bytree': 0.8763115313811507, 'reg_lambda': 37.04274478693566, 'reg_alpha': 0.1333140203402019, 'gamma': 0.0017860555329311072}
+[tune] trial 126 done: Sharpe=+0.1866  cost=74.9s  best=+0.2265 
+
+[tune] trial 127/100000: {'n_estimators': 488, 'max_depth': 3, 'learning_rate': 0.18428938551935847, 'min_child_weight': 1, 'subsample': 0.6531110286697503, 'colsample_bytree': 0.5726761390797896, 'reg_lambda': 0.019556758259142253, 'reg_alpha': 9.815619908024512, 'gamma': 0.01730654569336753}
+[tune] trial 127 done: Sharpe=-0.0129  cost=132.2s  best=+0.2265 
+
+[tune] trial 128/100000: {'n_estimators': 51, 'max_depth': 4, 'learning_rate': 0.16784788343278903, 'min_child_weight': 25, 'subsample': 0.8923736987061015, 'colsample_bytree': 0.670551659233737, 'reg_lambda': 4.472284075461198, 'reg_alpha': 0.6478721684098486, 'gamma': 0.0010687985027597196}
+[tune] trial 128 done: Sharpe=+0.1887  cost=73.2s  best=+0.2265 
+
+[tune] trial 129/100000: {'n_estimators': 483, 'max_depth': 4, 'learning_rate': 0.012854133095339374, 'min_child_weight': 2, 'subsample': 0.5071499691883735, 'colsample_bytree': 0.35662983834813594, 'reg_lambda': 0.026669083008927785, 'reg_alpha': 0.0012140369938257252, 'gamma': 0.0027172913743166035}
+[tune] trial 129 done: Sharpe=+0.2105  cost=164.2s  best=+0.2265 
+
+[tune] trial 130/100000: {'n_estimators': 492, 'max_depth': 7, 'learning_rate': 0.010062313565666912, 'min_child_weight': 2, 'subsample': 0.9448097244405151, 'colsample_bytree': 0.5426595945427874, 'reg_lambda': 0.17859714180759953, 'reg_alpha': 0.00255555426476416, 'gamma': 0.001603340157073885}
+[tune] trial 130 done: Sharpe=+0.1904  cost=169.7s  best=+0.2265 
+
+[tune] trial 131/100000: {'n_estimators': 486, 'max_depth': 5, 'learning_rate': 0.010924167175522241, 'min_child_weight': 4, 'subsample': 0.7207386276234262, 'colsample_bytree': 0.48063879904033335, 'reg_lambda': 0.031072494055822894, 'reg_alpha': 0.001132535617159516, 'gamma': 0.0011364060208362316}
+[tune] trial 131 done: Sharpe=+0.2116  cost=169.8s  best=+0.2265 
+
+[tune] trial 132/100000: {'n_estimators': 91, 'max_depth': 8, 'learning_rate': 0.1995384933035255, 'min_child_weight': 16, 'subsample': 0.8697044749002056, 'colsample_bytree': 0.8753651717016251, 'reg_lambda': 3.0515374704096923, 'reg_alpha': 1.7138855744893269, 'gamma': 0.0010923540582109647}
+[tune] trial 132 done: Sharpe=+0.0813  cost=78.6s  best=+0.2265 
+
+[tune] trial 133/100000: {'n_estimators': 72, 'max_depth': 3, 'learning_rate': 0.1878462891471725, 'min_child_weight': 5, 'subsample': 0.8388850342094238, 'colsample_bytree': 0.7813688223492918, 'reg_lambda': 0.19968323162679286, 'reg_alpha': 0.0010124706549591348, 'gamma': 0.0010908421245717254}
+[tune] trial 133 done: Sharpe=+0.2154  cost=76.8s  best=+0.2265 
+
+[tune] trial 134/100000: {'n_estimators': 466, 'max_depth': 4, 'learning_rate': 0.1636658603017586, 'min_child_weight': 3, 'subsample': 0.5482658044057269, 'colsample_bytree': 0.30958489873638845, 'reg_lambda': 24.21451707001295, 'reg_alpha': 0.0010780277526793872, 'gamma': 0.007839718219232381}
+[tune] trial 134 done: Sharpe=+0.2042  cost=135.9s  best=+0.2265 
+
+[tune] trial 135/100000: {'n_estimators': 73, 'max_depth': 8, 'learning_rate': 0.19188263454013108, 'min_child_weight': 7, 'subsample': 0.6671690472520614, 'colsample_bytree': 0.8924801764123789, 'reg_lambda': 2.984523378216621, 'reg_alpha': 0.09561651690398154, 'gamma': 0.001072475338731251}
+[tune] trial 135 done: Sharpe=+0.2033  cost=92.7s  best=+0.2265 
+
+[tune] trial 136/100000: {'n_estimators': 495, 'max_depth': 5, 'learning_rate': 0.0206117320748723, 'min_child_weight': 1, 'subsample': 0.655599083457055, 'colsample_bytree': 0.939009380347489, 'reg_lambda': 2.382235954528178, 'reg_alpha': 0.019238558796018258, 'gamma': 0.007111742654251763}
+[tune] trial 136 done: Sharpe=+0.1943  cost=153.1s  best=+0.2265 
+
+[tune] trial 137/100000: {'n_estimators': 493, 'max_depth': 6, 'learning_rate': 0.01130832794261719, 'min_child_weight': 1, 'subsample': 0.552603585902134, 'colsample_bytree': 0.39872786380952685, 'reg_lambda': 39.5984146002176, 'reg_alpha': 0.029987255260964976, 'gamma': 0.0011018876716122378}
+[tune] trial 137 done: Sharpe=+0.1872  cost=181.5s  best=+0.2265 
+
+[tune] trial 138/100000: {'n_estimators': 496, 'max_depth': 5, 'learning_rate': 0.17209835369228993, 'min_child_weight': 46, 'subsample': 0.9428306220787875, 'colsample_bytree': 0.8416315162711374, 'reg_lambda': 0.039684687967357586, 'reg_alpha': 0.1664773467407943, 'gamma': 0.0011047229262254549}
+[tune] trial 138 done: Sharpe=+0.1814  cost=150.4s  best=+0.2265 
+
+[tune] trial 139/100000: {'n_estimators': 483, 'max_depth': 7, 'learning_rate': 0.1921374236590241, 'min_child_weight': 4, 'subsample': 0.7599337110302768, 'colsample_bytree': 0.5577114879343756, 'reg_lambda': 0.6801930814453245, 'reg_alpha': 0.016282579876050467, 'gamma': 0.008349408015467297}
+[tune] trial 139 done: Sharpe=+0.1702  cost=135.6s  best=+0.2265 
+
+[tune] trial 140/100000: {'n_estimators': 464, 'max_depth': 8, 'learning_rate': 0.01333035977986775, 'min_child_weight': 2, 'subsample': 0.9970216109856405, 'colsample_bytree': 0.4334653342657904, 'reg_lambda': 0.36005491885406576, 'reg_alpha': 0.3936799370287416, 'gamma': 0.0011140423198952143}
+[tune] trial 140 done: Sharpe=+0.1579  cost=164.4s  best=+0.2265 
+
+[tune] trial 141/100000: {'n_estimators': 55, 'max_depth': 4, 'learning_rate': 0.18055463599330812, 'min_child_weight': 45, 'subsample': 0.6688570792534103, 'colsample_bytree': 0.8869668313522567, 'reg_lambda': 21.374900033261955, 'reg_alpha': 0.12392549742266544, 'gamma': 0.0012092520444458292}
+[tune] trial 141 done: Sharpe=+0.1546  cost=77.5s  best=+0.2265 
+
+[tune] trial 142/100000: {'n_estimators': 498, 'max_depth': 4, 'learning_rate': 0.011868088059812609, 'min_child_weight': 5, 'subsample': 0.5735427103058363, 'colsample_bytree': 0.8156729092501609, 'reg_lambda': 2.0248054390583636, 'reg_alpha': 0.004060353141302455, 'gamma': 0.0010649329603385916}
+[tune] trial 142 done: Sharpe=+0.2298  cost=170.1s  best=+0.2298 NEW BEST
+
+[tune] trial 143/100000: {'n_estimators': 483, 'max_depth': 4, 'learning_rate': 0.08266363872365652, 'min_child_weight': 2, 'subsample': 0.7043587919924237, 'colsample_bytree': 0.5400346267586013, 'reg_lambda': 0.13786349012730686, 'reg_alpha': 0.02746732010597819, 'gamma': 0.003788489182380162}
+[tune] trial 143 done: Sharpe=+0.1881  cost=142.0s  best=+0.2298 
+
+[tune] trial 144/100000: {'n_estimators': 495, 'max_depth': 7, 'learning_rate': 0.11373182117592659, 'min_child_weight': 28, 'subsample': 0.6995296322176835, 'colsample_bytree': 0.31196586623769584, 'reg_lambda': 0.024188834349475104, 'reg_alpha': 0.0010422590528401817, 'gamma': 0.002791225630411087}
+[tune] trial 144 done: Sharpe=+0.1883  cost=149.5s  best=+0.2298 
+
+[tune] trial 145/100000: {'n_estimators': 301, 'max_depth': 8, 'learning_rate': 0.19929356771690163, 'min_child_weight': 2, 'subsample': 0.5535723055731359, 'colsample_bytree': 0.30611285842072805, 'reg_lambda': 1.8827763009145968, 'reg_alpha': 0.0010083586947579445, 'gamma': 0.004701527556546512}
+[tune] trial 145 done: Sharpe=+0.1553  cost=123.0s  best=+0.2298 
+
+[tune] trial 146/100000: {'n_estimators': 85, 'max_depth': 5, 'learning_rate': 0.17790711747819746, 'min_child_weight': 43, 'subsample': 0.5932974921935775, 'colsample_bytree': 0.3008051975033686, 'reg_lambda': 29.035772987842815, 'reg_alpha': 0.1244254387247171, 'gamma': 0.0036497104015023}
+[tune] trial 146 done: Sharpe=+0.1432  cost=80.8s  best=+0.2298 
+
+[tune] trial 147/100000: {'n_estimators': 475, 'max_depth': 4, 'learning_rate': 0.17292666647884103, 'min_child_weight': 2, 'subsample': 0.8413542210457445, 'colsample_bytree': 0.8375422225010816, 'reg_lambda': 5.060993878549618, 'reg_alpha': 0.005945337878777595, 'gamma': 0.0010073630605488477}
+[tune] trial 147 done: Sharpe=+0.1848  cost=144.1s  best=+0.2298 
+
+[tune] trial 148/100000: {'n_estimators': 477, 'max_depth': 3, 'learning_rate': 0.02299523036996159, 'min_child_weight': 5, 'subsample': 0.9351303851630968, 'colsample_bytree': 0.6643381409054687, 'reg_lambda': 0.03773574565320463, 'reg_alpha': 0.0010328553676866956, 'gamma': 0.005010787163557613}
+[tune] trial 148 done: Sharpe=+0.1884  cost=150.7s  best=+0.2298 
+
+[tune] trial 149/100000: {'n_estimators': 425, 'max_depth': 7, 'learning_rate': 0.010939687772297129, 'min_child_weight': 2, 'subsample': 0.5636421370792399, 'colsample_bytree': 0.49241786877983457, 'reg_lambda': 7.46129764336249, 'reg_alpha': 0.005704466326380982, 'gamma': 0.0010546291644976627}
+[tune] trial 149 done: Sharpe=+0.1906  cost=175.7s  best=+0.2298 
+
+[tune] trial 150/100000: {'n_estimators': 481, 'max_depth': 4, 'learning_rate': 0.01414726314478625, 'min_child_weight': 1, 'subsample': 0.5574601611384948, 'colsample_bytree': 0.8208253296702839, 'reg_lambda': 0.02705284918953723, 'reg_alpha': 0.0011537923969066916, 'gamma': 0.0030402901066064105}
+[tune] trial 150 done: Sharpe=+0.2189  cost=163.8s  best=+0.2298 
+
+[tune] trial 151/100000: {'n_estimators': 62, 'max_depth': 8, 'learning_rate': 0.011042225751228199, 'min_child_weight': 6, 'subsample': 0.7114659743100396, 'colsample_bytree': 0.7698229004867242, 'reg_lambda': 0.8578087446918348, 'reg_alpha': 0.052239599929747825, 'gamma': 0.0010140293019606397}
+[tune] trial 151 done: Sharpe=+0.1849  cost=87.1s  best=+0.2298 
+
+[tune] trial 152/100000: {'n_estimators': 70, 'max_depth': 4, 'learning_rate': 0.19532755721095044, 'min_child_weight': 2, 'subsample': 0.8850577739135426, 'colsample_bytree': 0.692544423845421, 'reg_lambda': 0.3268566338398251, 'reg_alpha': 0.009607308495019671, 'gamma': 0.006973000970776554}
+[tune] trial 152 done: Sharpe=+0.1849  cost=77.5s  best=+0.2298 
+
+[tune] trial 153/100000: {'n_estimators': 489, 'max_depth': 6, 'learning_rate': 0.03022153781675655, 'min_child_weight': 49, 'subsample': 0.7318804044841117, 'colsample_bytree': 0.7976227245152097, 'reg_lambda': 0.028383143627395722, 'reg_alpha': 0.0011085682281403559, 'gamma': 0.00697236382703617}
+[tune] trial 153 done: Sharpe=+0.1571  cost=152.8s  best=+0.2298 
+
+[tune] trial 154/100000: {'n_estimators': 490, 'max_depth': 3, 'learning_rate': 0.01243438827513379, 'min_child_weight': 8, 'subsample': 0.6718072560842664, 'colsample_bytree': 0.41448378919748974, 'reg_lambda': 0.26426272321441335, 'reg_alpha': 0.008267862076952263, 'gamma': 0.0025916149295636486}
+[tune] trial 154 done: Sharpe=+0.2122  cost=153.5s  best=+0.2298 
+
+[tune] trial 155/100000: {'n_estimators': 483, 'max_depth': 7, 'learning_rate': 0.02247835830546098, 'min_child_weight': 48, 'subsample': 0.6874271212049073, 'colsample_bytree': 0.5831305031136504, 'reg_lambda': 0.3988682616451769, 'reg_alpha': 0.0010065263323724013, 'gamma': 0.001000432730353556}
+[tune] trial 155 done: Sharpe=+0.1580  cost=187.9s  best=+0.2298 
+
+[tune] trial 156/100000: {'n_estimators': 472, 'max_depth': 3, 'learning_rate': 0.010220470952841093, 'min_child_weight': 3, 'subsample': 0.6688491921417304, 'colsample_bytree': 0.7237379590530038, 'reg_lambda': 46.45003170230005, 'reg_alpha': 0.00785128202495647, 'gamma': 0.0031428665982837383}
+[tune] trial 156 done: Sharpe=+0.2065  cost=172.8s  best=+0.2298 
+
+[tune] trial 157/100000: {'n_estimators': 68, 'max_depth': 4, 'learning_rate': 0.195542668679727, 'min_child_weight': 1, 'subsample': 0.6023976612261704, 'colsample_bytree': 0.6592022903868149, 'reg_lambda': 1.4689050669963493, 'reg_alpha': 0.004282319321869984, 'gamma': 0.0033419856174883894}
+[tune] trial 157 done: Sharpe=+0.1780  cost=78.9s  best=+0.2298 
+
+[tune] trial 158/100000: {'n_estimators': 488, 'max_depth': 3, 'learning_rate': 0.18310144744610957, 'min_child_weight': 4, 'subsample': 0.885126238725849, 'colsample_bytree': 0.9046756855075253, 'reg_lambda': 7.622548485292325, 'reg_alpha': 0.02729281355000191, 'gamma': 0.003328628809810555}
+[tune] trial 158 done: Sharpe=+0.2131  cost=157.6s  best=+0.2298 
+
+[tune] trial 159/100000: {'n_estimators': 498, 'max_depth': 7, 'learning_rate': 0.01114879706427428, 'min_child_weight': 6, 'subsample': 0.5717175540979712, 'colsample_bytree': 0.7236338573190451, 'reg_lambda': 0.03386822944197407, 'reg_alpha': 0.0010534285344331736, 'gamma': 0.0019652548182136358}
+[tune] trial 159 done: Sharpe=+0.2113  cost=179.2s  best=+0.2298 
+
+[tune] trial 160/100000: {'n_estimators': 488, 'max_depth': 4, 'learning_rate': 0.19778040023392507, 'min_child_weight': 45, 'subsample': 0.5329237368105321, 'colsample_bytree': 0.9547048413954191, 'reg_lambda': 0.48752714714892015, 'reg_alpha': 0.011748955235521195, 'gamma': 0.008348795330654383}
+[tune] trial 160 done: Sharpe=+0.1733  cost=153.1s  best=+0.2298 
+
+[tune] trial 161/100000: {'n_estimators': 484, 'max_depth': 3, 'learning_rate': 0.010473706253353365, 'min_child_weight': 5, 'subsample': 0.8299937175126276, 'colsample_bytree': 0.6110246386574953, 'reg_lambda': 2.986208507428114, 'reg_alpha': 0.003601842007582593, 'gamma': 0.0060193279609451365}
+[tune] trial 161 done: Sharpe=+0.2057  cost=145.2s  best=+0.2298 
+
+[tune] trial 162/100000: {'n_estimators': 54, 'max_depth': 4, 'learning_rate': 0.011076315563402201, 'min_child_weight': 1, 'subsample': 0.5175084912330339, 'colsample_bytree': 0.796465168764908, 'reg_lambda': 23.800135378346077, 'reg_alpha': 0.0015656069504176415, 'gamma': 0.0019311410598376797}
+[tune] trial 162 done: Sharpe=+0.1294  cost=72.5s  best=+0.2298 
+
+[tune] trial 163/100000: {'n_estimators': 449, 'max_depth': 3, 'learning_rate': 0.05539879069243766, 'min_child_weight': 3, 'subsample': 0.5453230171504524, 'colsample_bytree': 0.4124612351406089, 'reg_lambda': 0.05172115623690997, 'reg_alpha': 0.018974974812904853, 'gamma': 0.003656564035543062}
+[tune] trial 163 done: Sharpe=+0.2032  cost=148.5s  best=+0.2298 
+
+[tune] trial 164/100000: {'n_estimators': 125, 'max_depth': 6, 'learning_rate': 0.16311707955228943, 'min_child_weight': 7, 'subsample': 0.8579979206057629, 'colsample_bytree': 0.7775257742586392, 'reg_lambda': 2.3893784536879363, 'reg_alpha': 0.0010999642126070866, 'gamma': 0.0010214084770029598}
+[tune] trial 164 done: Sharpe=+0.2170  cost=94.7s  best=+0.2298 
+
+[tune] trial 165/100000: {'n_estimators': 497, 'max_depth': 3, 'learning_rate': 0.03482393205226186, 'min_child_weight': 6, 'subsample': 0.7848805171939983, 'colsample_bytree': 0.5938796063872958, 'reg_lambda': 6.566014465395799, 'reg_alpha': 0.0012930463917818135, 'gamma': 0.0011514671395641764}
+[tune] trial 165 done: Sharpe=+0.2185  cost=156.0s  best=+0.2298 
+
+[tune] trial 166/100000: {'n_estimators': 466, 'max_depth': 3, 'learning_rate': 0.17318058299680725, 'min_child_weight': 45, 'subsample': 0.9727391242300873, 'colsample_bytree': 0.884499702254363, 'reg_lambda': 0.06725651513403665, 'reg_alpha': 0.0010811157682314866, 'gamma': 0.00617582319968653}
+[tune] trial 166 done: Sharpe=+0.1931  cost=136.7s  best=+0.2298 
+
+[tune] trial 167/100000: {'n_estimators': 118, 'max_depth': 8, 'learning_rate': 0.1625140865844479, 'min_child_weight': 49, 'subsample': 0.8666924338599595, 'colsample_bytree': 0.3515496433024765, 'reg_lambda': 0.02349766300089423, 'reg_alpha': 0.0011216497022551613, 'gamma': 0.0012516944302330129}
+[tune] trial 167 done: Sharpe=+0.1355  cost=92.4s  best=+0.2298 
+
+[tune] trial 168/100000: {'n_estimators': 479, 'max_depth': 3, 'learning_rate': 0.03013573460901194, 'min_child_weight': 37, 'subsample': 0.7654703227508012, 'colsample_bytree': 0.5091633549652417, 'reg_lambda': 0.07327462814946423, 'reg_alpha': 0.013951450506778533, 'gamma': 0.0010698237452047732}
+[tune] trial 168 done: Sharpe=+0.1988  cost=152.9s  best=+0.2298 
+
+[tune] trial 169/100000: {'n_estimators': 492, 'max_depth': 3, 'learning_rate': 0.013026268646549799, 'min_child_weight': 18, 'subsample': 0.524489714434946, 'colsample_bytree': 0.35855112952889084, 'reg_lambda': 17.112429010156493, 'reg_alpha': 0.14049053983895501, 'gamma': 0.0010031491606873487}
+[tune] trial 169 done: Sharpe=+0.1758  cost=150.6s  best=+0.2298 
+
+[tune] trial 170/100000: {'n_estimators': 494, 'max_depth': 3, 'learning_rate': 0.1738566147933193, 'min_child_weight': 28, 'subsample': 0.7484674397602962, 'colsample_bytree': 0.49294616641084466, 'reg_lambda': 0.0903996862383653, 'reg_alpha': 0.023684039511525843, 'gamma': 0.0011399308816371356}
+[tune] trial 170 done: Sharpe=+0.2029  cost=155.4s  best=+0.2298 
+
+[tune] trial 171/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.031581768833571264, 'min_child_weight': 27, 'subsample': 0.7817445796141378, 'colsample_bytree': 0.7430878647445813, 'reg_lambda': 0.019606726324207818, 'reg_alpha': 0.009054432847417361, 'gamma': 0.002905641941128333}
+[tune] trial 171 done: Sharpe=+0.1931  cost=159.5s  best=+0.2298 
+
+[tune] trial 172/100000: {'n_estimators': 194, 'max_depth': 3, 'learning_rate': 0.18708752663490358, 'min_child_weight': 13, 'subsample': 0.6290665578274552, 'colsample_bytree': 0.5048470895054517, 'reg_lambda': 0.04375118991489165, 'reg_alpha': 0.027427273488846333, 'gamma': 0.001024726611243163}
+[tune] trial 172 done: Sharpe=+0.2326  cost=103.5s  best=+0.2326 NEW BEST
+
+[tune] trial 173/100000: {'n_estimators': 76, 'max_depth': 3, 'learning_rate': 0.1937847692491382, 'min_child_weight': 8, 'subsample': 0.9107276900926223, 'colsample_bytree': 0.6347581585654433, 'reg_lambda': 1.0454073334731822, 'reg_alpha': 0.0230486792786352, 'gamma': 0.0010728223132108695}
+[tune] trial 173 done: Sharpe=+0.2100  cost=81.8s  best=+0.2326 
+
+[tune] trial 174/100000: {'n_estimators': 235, 'max_depth': 3, 'learning_rate': 0.18264462639793128, 'min_child_weight': 34, 'subsample': 0.5755772147678944, 'colsample_bytree': 0.4133494392147744, 'reg_lambda': 9.59750095876546, 'reg_alpha': 0.09919378167745678, 'gamma': 0.0010210291956560546}
+[tune] trial 174 done: Sharpe=+0.1783  cost=108.7s  best=+0.2326 
+
+[tune] trial 175/100000: {'n_estimators': 464, 'max_depth': 3, 'learning_rate': 0.015076459677577663, 'min_child_weight': 20, 'subsample': 0.615172276625183, 'colsample_bytree': 0.6359480515978015, 'reg_lambda': 0.5008935479321303, 'reg_alpha': 0.0012904354281205168, 'gamma': 0.014794541128997269}
+[tune] trial 175 done: Sharpe=+0.1667  cost=150.2s  best=+0.2326 
+
+[tune] trial 176/100000: {'n_estimators': 481, 'max_depth': 8, 'learning_rate': 0.012617635428357076, 'min_child_weight': 28, 'subsample': 0.6697236538610281, 'colsample_bytree': 0.973078363378133, 'reg_lambda': 0.017076705054082885, 'reg_alpha': 0.008821359750755391, 'gamma': 0.003616976919686133}
+[tune] trial 176 done: Sharpe=+0.1872  cost=189.2s  best=+0.2326 
+
+[tune] trial 177/100000: {'n_estimators': 166, 'max_depth': 3, 'learning_rate': 0.1956075345057714, 'min_child_weight': 22, 'subsample': 0.9993778930776214, 'colsample_bytree': 0.5455623251655409, 'reg_lambda': 0.34806212566993555, 'reg_alpha': 0.007382615030138403, 'gamma': 0.0010007251865669102}
+[tune] trial 177 done: Sharpe=+0.2021  cost=93.4s  best=+0.2326 
+
+[tune] trial 178/100000: {'n_estimators': 65, 'max_depth': 3, 'learning_rate': 0.19116750135444444, 'min_child_weight': 39, 'subsample': 0.7763027386193202, 'colsample_bytree': 0.3675055610376361, 'reg_lambda': 0.6213063491791384, 'reg_alpha': 0.0010425919222149705, 'gamma': 0.006923104969205248}
+[tune] trial 178 done: Sharpe=+0.1761  cost=77.9s  best=+0.2326 
+
+[tune] trial 179/100000: {'n_estimators': 320, 'max_depth': 3, 'learning_rate': 0.19937587644404078, 'min_child_weight': 20, 'subsample': 0.6789817687117878, 'colsample_bytree': 0.8057379170895438, 'reg_lambda': 0.03573058089466034, 'reg_alpha': 0.001217113672954419, 'gamma': 0.0010668225794090538}
+[tune] trial 179 done: Sharpe=+0.2053  cost=120.3s  best=+0.2326 
+
+[tune] trial 180/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.19377391097412802, 'min_child_weight': 40, 'subsample': 0.9620420161213554, 'colsample_bytree': 0.32423622394179386, 'reg_lambda': 0.035154407440201686, 'reg_alpha': 0.0012689677594650076, 'gamma': 0.0024363427316477742}
+[tune] trial 180 done: Sharpe=+0.1796  cost=146.7s  best=+0.2326 
+
+[tune] trial 181/100000: {'n_estimators': 479, 'max_depth': 3, 'learning_rate': 0.1544429706201146, 'min_child_weight': 24, 'subsample': 0.812127264512956, 'colsample_bytree': 0.45546396879180145, 'reg_lambda': 22.074639362687908, 'reg_alpha': 0.1074921313834871, 'gamma': 0.004922629072763252}
+[tune] trial 181 done: Sharpe=+0.2132  cost=142.7s  best=+0.2326 
+
+[tune] trial 182/100000: {'n_estimators': 196, 'max_depth': 3, 'learning_rate': 0.1490967469003453, 'min_child_weight': 24, 'subsample': 0.5359699120499061, 'colsample_bytree': 0.3240614499921845, 'reg_lambda': 0.11312180809817637, 'reg_alpha': 0.012959604299035, 'gamma': 0.005672694370006133}
+[tune] trial 182 done: Sharpe=+0.1760  cost=100.2s  best=+0.2326 
+
+[tune] trial 183/100000: {'n_estimators': 301, 'max_depth': 3, 'learning_rate': 0.07478740675745726, 'min_child_weight': 2, 'subsample': 0.7763289240034662, 'colsample_bytree': 0.3937141815394999, 'reg_lambda': 2.7226714549286823, 'reg_alpha': 0.0010080572661866941, 'gamma': 0.011555176922009499}
+[tune] trial 183 done: Sharpe=+0.1721  cost=116.2s  best=+0.2326 
+
+[tune] trial 184/100000: {'n_estimators': 85, 'max_depth': 3, 'learning_rate': 0.19260389480013074, 'min_child_weight': 5, 'subsample': 0.9337961124063792, 'colsample_bytree': 0.5903826385650848, 'reg_lambda': 0.267076862067985, 'reg_alpha': 0.08968395835263651, 'gamma': 0.001157837003550616}
+[tune] trial 184 done: Sharpe=+0.2095  cost=82.3s  best=+0.2326 
+
+[tune] trial 185/100000: {'n_estimators': 496, 'max_depth': 4, 'learning_rate': 0.18671753301275568, 'min_child_weight': 48, 'subsample': 0.8761834322215027, 'colsample_bytree': 0.685968528062663, 'reg_lambda': 0.11451736827223767, 'reg_alpha': 0.05801146619335544, 'gamma': 0.007125447037727877}
+[tune] trial 185 done: Sharpe=+0.1647  cost=143.7s  best=+0.2326 
+
+[tune] trial 186/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.025579035116482577, 'min_child_weight': 30, 'subsample': 0.7986518455629209, 'colsample_bytree': 0.8150910481792633, 'reg_lambda': 0.012771251312564883, 'reg_alpha': 0.07468306908482202, 'gamma': 0.003843558873807511}
+[tune] trial 186 done: Sharpe=+0.2039  cost=159.7s  best=+0.2326 
+
+[tune] trial 187/100000: {'n_estimators': 383, 'max_depth': 3, 'learning_rate': 0.010543588736074671, 'min_child_weight': 9, 'subsample': 0.8391590346769786, 'colsample_bytree': 0.6603730921515829, 'reg_lambda': 0.09189379956738852, 'reg_alpha': 0.0010443296598945037, 'gamma': 0.0010127215774320055}
+[tune] trial 187 done: Sharpe=+0.2118  cost=135.3s  best=+0.2326 
+
+[tune] trial 188/100000: {'n_estimators': 496, 'max_depth': 4, 'learning_rate': 0.010335705069817805, 'min_child_weight': 18, 'subsample': 0.9855291832375319, 'colsample_bytree': 0.46070664704267184, 'reg_lambda': 0.5449834433274785, 'reg_alpha': 0.02329093174946157, 'gamma': 0.0024487829137595334}
+[tune] trial 188 done: Sharpe=+0.2126  cost=166.2s  best=+0.2326 
+
+[tune] trial 189/100000: {'n_estimators': 491, 'max_depth': 3, 'learning_rate': 0.10807886891904224, 'min_child_weight': 23, 'subsample': 0.5448780683693251, 'colsample_bytree': 0.7335547801389526, 'reg_lambda': 0.19811775565074555, 'reg_alpha': 0.027266048119233086, 'gamma': 0.003656292186068647}
+[tune] trial 189 done: Sharpe=+0.1818  cost=141.7s  best=+0.2326 
+
+[tune] trial 190/100000: {'n_estimators': 493, 'max_depth': 3, 'learning_rate': 0.010834417661580184, 'min_child_weight': 30, 'subsample': 0.821196763309025, 'colsample_bytree': 0.3686684861950532, 'reg_lambda': 0.33288460752194704, 'reg_alpha': 0.01247590348250034, 'gamma': 0.0013148710188494034}
+[tune] trial 190 done: Sharpe=+0.1920  cost=169.0s  best=+0.2326 
+
+[tune] trial 191/100000: {'n_estimators': 499, 'max_depth': 7, 'learning_rate': 0.01028645254778766, 'min_child_weight': 48, 'subsample': 0.5037938426565641, 'colsample_bytree': 0.45338728131215256, 'reg_lambda': 22.468593364362352, 'reg_alpha': 0.002428569077581984, 'gamma': 0.8179393094010546}
+[tune] trial 191 done: Sharpe=-0.0182  cost=135.9s  best=+0.2326 
+
+[tune] trial 192/100000: {'n_estimators': 486, 'max_depth': 3, 'learning_rate': 0.1476319291415611, 'min_child_weight': 9, 'subsample': 0.7469345243757587, 'colsample_bytree': 0.3575407095016104, 'reg_lambda': 0.1067955565567, 'reg_alpha': 0.0010141761657588152, 'gamma': 0.006238687603998927}
+[tune] trial 192 done: Sharpe=+0.2004  cost=136.8s  best=+0.2326 
+
+[tune] trial 193/100000: {'n_estimators': 496, 'max_depth': 3, 'learning_rate': 0.05158565062737006, 'min_child_weight': 5, 'subsample': 0.7060874617474274, 'colsample_bytree': 0.3805965876225476, 'reg_lambda': 16.157971147562343, 'reg_alpha': 0.0012049019658027832, 'gamma': 0.0010179858193395139}
+[tune] trial 193 done: Sharpe=+0.2133  cost=167.0s  best=+0.2326 
+
+[tune] trial 194/100000: {'n_estimators': 463, 'max_depth': 3, 'learning_rate': 0.010891059774926175, 'min_child_weight': 2, 'subsample': 0.5836931373621473, 'colsample_bytree': 0.49794239495657067, 'reg_lambda': 7.025162041529562, 'reg_alpha': 0.041636018880154196, 'gamma': 0.006044904815167776}
+[tune] trial 194 done: Sharpe=+0.1930  cost=150.1s  best=+0.2326 
+
+[tune] trial 195/100000: {'n_estimators': 489, 'max_depth': 8, 'learning_rate': 0.010276687734028305, 'min_child_weight': 39, 'subsample': 0.750351762550033, 'colsample_bytree': 0.35363497183970505, 'reg_lambda': 23.705233960201753, 'reg_alpha': 0.11528388897867334, 'gamma': 0.003981564202648174}
+[tune] trial 195 done: Sharpe=+0.1533  cost=169.1s  best=+0.2326 
+
+[tune] trial 196/100000: {'n_estimators': 498, 'max_depth': 8, 'learning_rate': 0.017165911341979593, 'min_child_weight': 4, 'subsample': 0.6243455288387266, 'colsample_bytree': 0.7124463130632617, 'reg_lambda': 14.353857447568494, 'reg_alpha': 0.001202626630912136, 'gamma': 0.00113764200502068}
+[tune] trial 196 done: Sharpe=+0.2056  cost=190.3s  best=+0.2326 
+
+[tune] trial 197/100000: {'n_estimators': 498, 'max_depth': 3, 'learning_rate': 0.010061706007374967, 'min_child_weight': 14, 'subsample': 0.792073764310306, 'colsample_bytree': 0.7719568350189762, 'reg_lambda': 0.04315761302975289, 'reg_alpha': 0.008225664275755919, 'gamma': 0.001032024314369799}
+[tune] trial 197 done: Sharpe=+0.2157  cost=148.2s  best=+0.2326 
+
+[tune] trial 198/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.01659462547219498, 'min_child_weight': 23, 'subsample': 0.9433830701880357, 'colsample_bytree': 0.5958605208420007, 'reg_lambda': 0.050476915232902736, 'reg_alpha': 0.019571352082871564, 'gamma': 0.0010714367327355873}
+[tune] trial 198 done: Sharpe=+0.2202  cost=161.2s  best=+0.2326 
+
+[tune] trial 199/100000: {'n_estimators': 490, 'max_depth': 3, 'learning_rate': 0.010499412727806143, 'min_child_weight': 16, 'subsample': 0.8788581466716348, 'colsample_bytree': 0.9899153166330512, 'reg_lambda': 6.252800295451589, 'reg_alpha': 0.007348936726424483, 'gamma': 0.004863595743942833}
+[tune] trial 199 done: Sharpe=+0.2134  cost=151.1s  best=+0.2326 
+
+[tune] trial 200/100000: {'n_estimators': 54, 'max_depth': 3, 'learning_rate': 0.18676532321472752, 'min_child_weight': 3, 'subsample': 0.9483280612171383, 'colsample_bytree': 0.38315893694998976, 'reg_lambda': 4.927478207760005, 'reg_alpha': 0.0014243818098485348, 'gamma': 0.001093451955199697}
+[tune] trial 200 done: Sharpe=+0.2051  cost=75.3s  best=+0.2326 
+
+[tune] trial 201/100000: {'n_estimators': 489, 'max_depth': 8, 'learning_rate': 0.011524020468052669, 'min_child_weight': 31, 'subsample': 0.9515009781724776, 'colsample_bytree': 0.9669410790992219, 'reg_lambda': 24.724186561477758, 'reg_alpha': 0.0012752920336344367, 'gamma': 0.002920557365030709}
+[tune] trial 201 done: Sharpe=+0.1892  cost=176.8s  best=+0.2326 
+
+[tune] trial 202/100000: {'n_estimators': 69, 'max_depth': 4, 'learning_rate': 0.010842585102505, 'min_child_weight': 3, 'subsample': 0.9222070954432733, 'colsample_bytree': 0.5509907964132681, 'reg_lambda': 1.5506398951928477, 'reg_alpha': 0.02682585111854587, 'gamma': 0.9554689061920754}
+[tune] trial 202 done: Sharpe=-0.0131  cost=56.6s  best=+0.2326 
+
+[tune] trial 203/100000: {'n_estimators': 490, 'max_depth': 3, 'learning_rate': 0.19783713946868828, 'min_child_weight': 13, 'subsample': 0.7730997365226173, 'colsample_bytree': 0.6158196401173108, 'reg_lambda': 33.23554508163769, 'reg_alpha': 0.5692517146793177, 'gamma': 0.002649529814342115}
+[tune] trial 203 done: Sharpe=+0.1877  cost=140.6s  best=+0.2326 
+
+[tune] trial 204/100000: {'n_estimators': 493, 'max_depth': 3, 'learning_rate': 0.15396728051691333, 'min_child_weight': 14, 'subsample': 0.736748031528632, 'colsample_bytree': 0.5820805951621435, 'reg_lambda': 30.29736785743602, 'reg_alpha': 0.05046512192490341, 'gamma': 0.011583202336100865}
+[tune] trial 204 done: Sharpe=+0.1716  cost=139.8s  best=+0.2326 
+
+[tune] trial 205/100000: {'n_estimators': 432, 'max_depth': 3, 'learning_rate': 0.010579450560714606, 'min_child_weight': 21, 'subsample': 0.5048009556982497, 'colsample_bytree': 0.6123053452559899, 'reg_lambda': 0.2992143551856681, 'reg_alpha': 0.0013642441255778005, 'gamma': 0.001068652347386072}
+[tune] trial 205 done: Sharpe=+0.1863  cost=142.8s  best=+0.2326 
+
+[tune] trial 206/100000: {'n_estimators': 471, 'max_depth': 3, 'learning_rate': 0.1045001052902096, 'min_child_weight': 9, 'subsample': 0.9951116325952056, 'colsample_bytree': 0.38757995683864654, 'reg_lambda': 16.68410441749189, 'reg_alpha': 0.34630539661248166, 'gamma': 0.0010481918916851805}
+[tune] trial 206 done: Sharpe=+0.2016  cost=139.5s  best=+0.2326 
+
+[tune] trial 207/100000: {'n_estimators': 269, 'max_depth': 8, 'learning_rate': 0.013159294107131757, 'min_child_weight': 19, 'subsample': 0.9615362403914465, 'colsample_bytree': 0.9553469706534827, 'reg_lambda': 1.361595378002838, 'reg_alpha': 0.0011327154260537626, 'gamma': 0.00100692099929631}
+[tune] trial 207 done: Sharpe=+0.2205  cost=136.5s  best=+0.2326 
+
+[tune] trial 208/100000: {'n_estimators': 97, 'max_depth': 3, 'learning_rate': 0.1646500194301839, 'min_child_weight': 5, 'subsample': 0.6731048677370601, 'colsample_bytree': 0.7580858389691689, 'reg_lambda': 7.913726882352785, 'reg_alpha': 0.04837605678095835, 'gamma': 0.0010804878951531382}
+[tune] trial 208 done: Sharpe=+0.2164  cost=84.0s  best=+0.2326 
+
+[tune] trial 209/100000: {'n_estimators': 493, 'max_depth': 3, 'learning_rate': 0.19329482408067328, 'min_child_weight': 31, 'subsample': 0.7983325834021451, 'colsample_bytree': 0.43873260911261786, 'reg_lambda': 34.55656168138862, 'reg_alpha': 0.12755116534142952, 'gamma': 0.0011888224999272346}
+[tune] trial 209 done: Sharpe=+0.1898  cost=148.9s  best=+0.2326 
+
+[tune] trial 210/100000: {'n_estimators': 480, 'max_depth': 3, 'learning_rate': 0.1845647264861162, 'min_child_weight': 41, 'subsample': 0.5520635477964945, 'colsample_bytree': 0.3101572052004557, 'reg_lambda': 0.3070680167540171, 'reg_alpha': 0.0017484046504778116, 'gamma': 0.017951428706755142}
+[tune] trial 210 done: Sharpe=+0.1290  cost=140.8s  best=+0.2326 
+
+[tune] trial 211/100000: {'n_estimators': 291, 'max_depth': 3, 'learning_rate': 0.18153796243684198, 'min_child_weight': 18, 'subsample': 0.9829261928168049, 'colsample_bytree': 0.7225243326145345, 'reg_lambda': 1.124601446461878, 'reg_alpha': 0.06264570908469114, 'gamma': 0.004685867444388793}
+[tune] trial 211 done: Sharpe=+0.2011  cost=99.6s  best=+0.2326 
+
+[tune] trial 212/100000: {'n_estimators': 495, 'max_depth': 3, 'learning_rate': 0.03897392006136009, 'min_child_weight': 1, 'subsample': 0.9899876533944774, 'colsample_bytree': 0.5185416133793461, 'reg_lambda': 0.19550660950563256, 'reg_alpha': 0.10549237329457166, 'gamma': 0.006406412626833343}
+[tune] trial 212 done: Sharpe=+0.1776  cost=144.8s  best=+0.2326 
+
+[tune] trial 213/100000: {'n_estimators': 494, 'max_depth': 3, 'learning_rate': 0.014540851526316718, 'min_child_weight': 16, 'subsample': 0.9341550619911998, 'colsample_bytree': 0.7213448757930535, 'reg_lambda': 6.678512004087567, 'reg_alpha': 0.05354784896907012, 'gamma': 0.0020809711598970544}
+[tune] trial 213 done: Sharpe=+0.2249  cost=149.6s  best=+0.2326 
+
+[tune] trial 214/100000: {'n_estimators': 365, 'max_depth': 7, 'learning_rate': 0.012333390650531245, 'min_child_weight': 11, 'subsample': 0.9473087156819979, 'colsample_bytree': 0.5234839628936083, 'reg_lambda': 7.738220881131911, 'reg_alpha': 0.001032546673184346, 'gamma': 0.0010061785866700807}
+[tune] trial 214 done: Sharpe=+0.2074  cost=158.3s  best=+0.2326 
+
+[tune] trial 215/100000: {'n_estimators': 486, 'max_depth': 3, 'learning_rate': 0.028917795773893654, 'min_child_weight': 18, 'subsample': 0.9365979183708381, 'colsample_bytree': 0.9909658704027011, 'reg_lambda': 20.591733989454447, 'reg_alpha': 0.0010869033289828004, 'gamma': 0.003643543778904256}
+[tune] trial 215 done: Sharpe=+0.2194  cost=157.0s  best=+0.2326 
+
+[tune] trial 216/100000: {'n_estimators': 225, 'max_depth': 8, 'learning_rate': 0.19663253607344383, 'min_child_weight': 23, 'subsample': 0.9961126684632742, 'colsample_bytree': 0.5604289226386789, 'reg_lambda': 0.3888521090290448, 'reg_alpha': 0.002347840179056569, 'gamma': 0.0058625555273164555}
+[tune] trial 216 done: Sharpe=+0.1631  cost=101.6s  best=+0.2326 
+
+[tune] trial 217/100000: {'n_estimators': 195, 'max_depth': 8, 'learning_rate': 0.012241689650429075, 'min_child_weight': 6, 'subsample': 0.8421214632166707, 'colsample_bytree': 0.5940068305695355, 'reg_lambda': 0.010339237372271534, 'reg_alpha': 0.0012018215857020112, 'gamma': 0.0010470989246116487}
+[tune] trial 217 done: Sharpe=+0.2224  cost=124.6s  best=+0.2326 
+
+[tune] trial 218/100000: {'n_estimators': 492, 'max_depth': 3, 'learning_rate': 0.01838729966146058, 'min_child_weight': 23, 'subsample': 0.9407211538393616, 'colsample_bytree': 0.6988203860027511, 'reg_lambda': 39.56405099386033, 'reg_alpha': 0.03239757497255156, 'gamma': 0.0042272613077075655}
+[tune] trial 218 done: Sharpe=+0.2085  cost=153.6s  best=+0.2326 
+
+[tune] trial 219/100000: {'n_estimators': 115, 'max_depth': 3, 'learning_rate': 0.09942260334636016, 'min_child_weight': 1, 'subsample': 0.8254187137898817, 'colsample_bytree': 0.9193573268692767, 'reg_lambda': 0.0112710496725325, 'reg_alpha': 0.06340226758789369, 'gamma': 0.0010407861939851185}
+[tune] trial 219 done: Sharpe=+0.2087  cost=88.7s  best=+0.2326 
+
+[tune] trial 220/100000: {'n_estimators': 486, 'max_depth': 3, 'learning_rate': 0.0886784656128131, 'min_child_weight': 22, 'subsample': 0.8830314652258062, 'colsample_bytree': 0.442031856687072, 'reg_lambda': 0.8612627061679721, 'reg_alpha': 0.0014300643252743693, 'gamma': 0.0010241834989285392}
+[tune] trial 220 done: Sharpe=+0.2211  cost=148.4s  best=+0.2326 
+
+[tune] trial 221/100000: {'n_estimators': 454, 'max_depth': 3, 'learning_rate': 0.020377552463910726, 'min_child_weight': 23, 'subsample': 0.987545154239492, 'colsample_bytree': 0.7731042537632303, 'reg_lambda': 15.699131180589022, 'reg_alpha': 0.0027138654190785026, 'gamma': 0.001041141443910578}
+[tune] trial 221 done: Sharpe=+0.2140  cost=139.6s  best=+0.2326 
+
+[tune] trial 222/100000: {'n_estimators': 355, 'max_depth': 3, 'learning_rate': 0.042218026287309605, 'min_child_weight': 28, 'subsample': 0.9655551449364193, 'colsample_bytree': 0.9658726510304643, 'reg_lambda': 0.4409262442445454, 'reg_alpha': 0.0011541434782097112, 'gamma': 0.0010471826021709772}
+[tune] trial 222 done: Sharpe=+0.2130  cost=133.7s  best=+0.2326 
+
+[tune] trial 223/100000: {'n_estimators': 435, 'max_depth': 6, 'learning_rate': 0.015847666848863542, 'min_child_weight': 13, 'subsample': 0.9988903152319671, 'colsample_bytree': 0.8838531612563896, 'reg_lambda': 0.9662561809261173, 'reg_alpha': 0.0010583237743623701, 'gamma': 0.0010102419813860398}
+[tune] trial 223 done: Sharpe=+0.2047  cost=169.4s  best=+0.2326 
+
+[tune] trial 224/100000: {'n_estimators': 188, 'max_depth': 3, 'learning_rate': 0.1283789526581909, 'min_child_weight': 24, 'subsample': 0.9766999133850915, 'colsample_bytree': 0.5939444220536598, 'reg_lambda': 0.01071904459555352, 'reg_alpha': 0.12473837864588662, 'gamma': 0.0013857907524811722}
+[tune] trial 224 done: Sharpe=+0.1879  cost=85.0s  best=+0.2326 
+
+[tune] trial 225/100000: {'n_estimators': 445, 'max_depth': 3, 'learning_rate': 0.01401206974986976, 'min_child_weight': 25, 'subsample': 0.9691177415307368, 'colsample_bytree': 0.6253465810685346, 'reg_lambda': 0.19846698755641598, 'reg_alpha': 0.046685227157249834, 'gamma': 0.001525869789717916}
+[tune] trial 225 done: Sharpe=+0.2000  cost=149.9s  best=+0.2326 
+
+[tune] trial 226/100000: {'n_estimators': 133, 'max_depth': 3, 'learning_rate': 0.1992128576299733, 'min_child_weight': 3, 'subsample': 0.7661766148844757, 'colsample_bytree': 0.6479164005283716, 'reg_lambda': 3.8726162572902614, 'reg_alpha': 0.11315601306994533, 'gamma': 0.0036450220644693486}
+[tune] trial 226 done: Sharpe=+0.2018  cost=90.7s  best=+0.2326 
+
+[tune] trial 227/100000: {'n_estimators': 489, 'max_depth': 3, 'learning_rate': 0.019448463823479034, 'min_child_weight': 18, 'subsample': 0.7184751936391278, 'colsample_bytree': 0.5574131064678427, 'reg_lambda': 0.06546247706895379, 'reg_alpha': 0.0011264826568116088, 'gamma': 0.0034822282679877062}
+[tune] trial 227 done: Sharpe=+0.2273  cost=153.2s  best=+0.2326 
+
+[tune] trial 228/100000: {'n_estimators': 309, 'max_depth': 3, 'learning_rate': 0.021999487600564388, 'min_child_weight': 22, 'subsample': 0.9773388450084768, 'colsample_bytree': 0.8657142277777761, 'reg_lambda': 0.01147551861040042, 'reg_alpha': 0.0010848638138885075, 'gamma': 0.0015066417388767297}
+[tune] trial 228 done: Sharpe=+0.2066  cost=124.1s  best=+0.2326 
+
+[tune] trial 229/100000: {'n_estimators': 82, 'max_depth': 5, 'learning_rate': 0.17495376521688183, 'min_child_weight': 3, 'subsample': 0.5065267967205965, 'colsample_bytree': 0.9620888398202134, 'reg_lambda': 0.09130372524088587, 'reg_alpha': 0.18461902036720254, 'gamma': 0.0017186502372817194}
+[tune] trial 229 done: Sharpe=+0.1775  cost=83.3s  best=+0.2326 
+
+[tune] trial 230/100000: {'n_estimators': 448, 'max_depth': 3, 'learning_rate': 0.010924648495744376, 'min_child_weight': 25, 'subsample': 0.9528834550329572, 'colsample_bytree': 0.5338555805214924, 'reg_lambda': 1.7005271635402375, 'reg_alpha': 0.0014240228714238188, 'gamma': 0.0010473283606600434}
+[tune] trial 230 done: Sharpe=+0.2064  cost=127.4s  best=+0.2326 
+
+[tune] trial 231/100000: {'n_estimators': 487, 'max_depth': 3, 'learning_rate': 0.02415044701324221, 'min_child_weight': 23, 'subsample': 0.5587583670192892, 'colsample_bytree': 0.4793226879953881, 'reg_lambda': 7.740673112591677, 'reg_alpha': 0.002698477808941294, 'gamma': 0.003789754909855909}
+[tune] trial 231 done: Sharpe=+0.1954  cost=139.9s  best=+0.2326 
+
+[tune] trial 232/100000: {'n_estimators': 492, 'max_depth': 3, 'learning_rate': 0.16202576342897332, 'min_child_weight': 13, 'subsample': 0.9292754818403026, 'colsample_bytree': 0.9358214063340493, 'reg_lambda': 18.32059828915004, 'reg_alpha': 0.0012260129233223525, 'gamma': 0.003265882292802905}
+[tune] trial 232 done: Sharpe=+0.2175  cost=140.1s  best=+0.2326 
+
+[tune] trial 233/100000: {'n_estimators': 452, 'max_depth': 3, 'learning_rate': 0.016519794027196225, 'min_child_weight': 43, 'subsample': 0.9582050396660011, 'colsample_bytree': 0.8635932567670441, 'reg_lambda': 27.28648018225279, 'reg_alpha': 0.5761932829865735, 'gamma': 0.947878905171934}
+[tune] trial 233 done: Sharpe=-0.0124  cost=127.7s  best=+0.2326 
+
+[tune] trial 234/100000: {'n_estimators': 86, 'max_depth': 3, 'learning_rate': 0.1777072109390927, 'min_child_weight': 14, 'subsample': 0.628950127277671, 'colsample_bytree': 0.9500091213818593, 'reg_lambda': 29.237504945542824, 'reg_alpha': 0.04868867503256618, 'gamma': 0.001081161138461758}
+[tune] trial 234 done: Sharpe=+0.1976  cost=79.6s  best=+0.2326 
+
+[tune] trial 235/100000: {'n_estimators': 220, 'max_depth': 8, 'learning_rate': 0.08742791375714644, 'min_child_weight': 7, 'subsample': 0.9818325731547969, 'colsample_bytree': 0.9618750476668618, 'reg_lambda': 0.010672350649902004, 'reg_alpha': 0.0015497994519529275, 'gamma': 0.0010992305668323745}
+[tune] trial 235 done: Sharpe=+0.2107  cost=109.4s  best=+0.2326 
+
+[tune] trial 236/100000: {'n_estimators': 495, 'max_depth': 3, 'learning_rate': 0.016673542496343768, 'min_child_weight': 37, 'subsample': 0.9299686220324179, 'colsample_bytree': 0.3561692916162169, 'reg_lambda': 46.199829025816705, 'reg_alpha': 0.047265624084672685, 'gamma': 0.001104265697925206}
+[tune] trial 236 done: Sharpe=+0.1861  cost=170.0s  best=+0.2326 
+
+[tune] trial 237/100000: {'n_estimators': 452, 'max_depth': 3, 'learning_rate': 0.011984612056897591, 'min_child_weight': 4, 'subsample': 0.9567196949906379, 'colsample_bytree': 0.797585644209136, 'reg_lambda': 0.19954423656801168, 'reg_alpha': 0.08975938643709779, 'gamma': 0.001124960691513425}
+[tune] trial 237 done: Sharpe=+0.2078  cost=150.3s  best=+0.2326 
+
+[tune] trial 238/100000: {'n_estimators': 417, 'max_depth': 6, 'learning_rate': 0.04602424693048018, 'min_child_weight': 14, 'subsample': 0.9782342293517854, 'colsample_bytree': 0.8339056961564213, 'reg_lambda': 0.014675549010555256, 'reg_alpha': 0.0011815496089891643, 'gamma': 0.0011703394358451732}
+[tune] trial 238 done: Sharpe=+0.2173  cost=134.7s  best=+0.2326 
+
+[tune] trial 239/100000: {'n_estimators': 452, 'max_depth': 3, 'learning_rate': 0.07790695292200962, 'min_child_weight': 11, 'subsample': 0.975324155671738, 'colsample_bytree': 0.6891439443107936, 'reg_lambda': 41.04847659524602, 'reg_alpha': 0.0020501602271062397, 'gamma': 0.0010384505448741612}
+[tune] trial 239 done: Sharpe=+0.2181  cost=139.3s  best=+0.2326 
+
+[tune] trial 240/100000: {'n_estimators': 51, 'max_depth': 3, 'learning_rate': 0.1972480448142185, 'min_child_weight': 26, 'subsample': 0.9515366713041342, 'colsample_bytree': 0.6047104535070085, 'reg_lambda': 9.794080431167568, 'reg_alpha': 0.0013424375947634387, 'gamma': 0.003263733391048766}
+[tune] trial 240 done: Sharpe=+0.2150  cost=78.9s  best=+0.2326 
+
+[tune] trial 241/100000: {'n_estimators': 489, 'max_depth': 3, 'learning_rate': 0.17706499424051927, 'min_child_weight': 37, 'subsample': 0.8876479035328801, 'colsample_bytree': 0.8722522200615204, 'reg_lambda': 44.088301222372195, 'reg_alpha': 0.001500504897718506, 'gamma': 0.007365135794843028}
+[tune] trial 241 done: Sharpe=+0.1885  cost=143.0s  best=+0.2326 
+
+[tune] trial 242/100000: {'n_estimators': 466, 'max_depth': 3, 'learning_rate': 0.016560779354766672, 'min_child_weight': 7, 'subsample': 0.5014047250479645, 'colsample_bytree': 0.47434908209053916, 'reg_lambda': 2.825044693990749, 'reg_alpha': 0.0023711084979369836, 'gamma': 0.005829777818750269}
+[tune] trial 242 done: Sharpe=+0.2176  cost=148.6s  best=+0.2326 
+
+[tune] trial 243/100000: {'n_estimators': 53, 'max_depth': 3, 'learning_rate': 0.1725477446691044, 'min_child_weight': 11, 'subsample': 0.6587001549355591, 'colsample_bytree': 0.6992088067787373, 'reg_lambda': 0.7243692010843581, 'reg_alpha': 0.3386601878525939, 'gamma': 0.0010479649005586376}
+[tune] trial 243 done: Sharpe=+0.1791  cost=76.8s  best=+0.2326 
+
+[tune] trial 244/100000: {'n_estimators': 389, 'max_depth': 3, 'learning_rate': 0.017185918580038536, 'min_child_weight': 26, 'subsample': 0.9580964926125539, 'colsample_bytree': 0.43533867769963897, 'reg_lambda': 1.3470987833246497, 'reg_alpha': 0.0010370258406693408, 'gamma': 0.0029185298821983344}
+[tune] trial 244 done: Sharpe=+0.2021  cost=139.3s  best=+0.2326 
+
+[tune] trial 245/100000: {'n_estimators': 489, 'max_depth': 3, 'learning_rate': 0.01693787206433575, 'min_child_weight': 3, 'subsample': 0.9810202871732927, 'colsample_bytree': 0.9701743667514691, 'reg_lambda': 15.312360095094318, 'reg_alpha': 0.0017045209229377832, 'gamma': 0.009400873285660567}
+[tune] trial 245 done: Sharpe=+0.1811  cost=133.7s  best=+0.2326 
+
+[tune] trial 246/100000: {'n_estimators': 484, 'max_depth': 5, 'learning_rate': 0.03064838885456657, 'min_child_weight': 9, 'subsample': 0.9903271119054193, 'colsample_bytree': 0.6479150757212433, 'reg_lambda': 1.1306788366359874, 'reg_alpha': 0.001259826853799818, 'gamma': 0.0010045868473882405}
+[tune] trial 246 done: Sharpe=+0.2062  cost=161.7s  best=+0.2326 
+
+[tune] trial 247/100000: {'n_estimators': 298, 'max_depth': 4, 'learning_rate': 0.19443418857808933, 'min_child_weight': 19, 'subsample': 0.9573266954753235, 'colsample_bytree': 0.9709526314331023, 'reg_lambda': 0.037646310996314665, 'reg_alpha': 0.0010019362461866073, 'gamma': 0.0018572634321261136}
+[tune] trial 247 done: Sharpe=+0.2179  cost=105.7s  best=+0.2326 
+
+[tune] trial 248/100000: {'n_estimators': 443, 'max_depth': 3, 'learning_rate': 0.08362146083539186, 'min_child_weight': 21, 'subsample': 0.9790114750420985, 'colsample_bytree': 0.7750812103677589, 'reg_lambda': 0.038751561462272044, 'reg_alpha': 0.001447121988251662, 'gamma': 0.0010104488518668218}
+[tune] trial 248 done: Sharpe=+0.2248  cost=139.0s  best=+0.2326 
+
+[tune] trial 249/100000: {'n_estimators': 434, 'max_depth': 4, 'learning_rate': 0.03270275107942384, 'min_child_weight': 11, 'subsample': 0.6980811996961487, 'colsample_bytree': 0.7293086399901254, 'reg_lambda': 0.011009491936541022, 'reg_alpha': 0.0010219113894181864, 'gamma': 0.0010062569823629654}
+[tune] trial 249 done: Sharpe=+0.2197  cost=154.4s  best=+0.2326 
+
+[tune] trial 250/100000: {'n_estimators': 275, 'max_depth': 8, 'learning_rate': 0.010214379742498999, 'min_child_weight': 1, 'subsample': 0.7499300694786297, 'colsample_bytree': 0.4059176041038574, 'reg_lambda': 0.02607984707143888, 'reg_alpha': 0.00596689247678543, 'gamma': 0.001055102558677424}
+[tune] trial 250 done: Sharpe=+0.1914  cost=148.1s  best=+0.2326 
+
+[tune] trial 251/100000: {'n_estimators': 489, 'max_depth': 3, 'learning_rate': 0.010082541727589373, 'min_child_weight': 42, 'subsample': 0.611953510480098, 'colsample_bytree': 0.8098090831108704, 'reg_lambda': 9.275175891989232, 'reg_alpha': 0.0010036898569227598, 'gamma': 0.005473710950601831}
+[tune] trial 251 done: Sharpe=+0.1556  cost=149.9s  best=+0.2326 
+
+[tune] trial 252/100000: {'n_estimators': 54, 'max_depth': 4, 'learning_rate': 0.03891737896115268, 'min_child_weight': 24, 'subsample': 0.9689272107914542, 'colsample_bytree': 0.6463022702982715, 'reg_lambda': 0.06874468548953133, 'reg_alpha': 0.0011965564166057081, 'gamma': 0.0010052096163609854}
+[tune] trial 252 done: Sharpe=+0.1958  cost=82.9s  best=+0.2326 
+
+[tune] trial 253/100000: {'n_estimators': 470, 'max_depth': 3, 'learning_rate': 0.19055951712141236, 'min_child_weight': 45, 'subsample': 0.9532939053794824, 'colsample_bytree': 0.8107841403196918, 'reg_lambda': 34.33456184261051, 'reg_alpha': 1.0650743965673917, 'gamma': 0.0018505009607298615}
+[tune] trial 253 done: Sharpe=+0.1320  cost=136.8s  best=+0.2326 
+
+[tune] trial 254/100000: {'n_estimators': 496, 'max_depth': 4, 'learning_rate': 0.013445860449959818, 'min_child_weight': 13, 'subsample': 0.9947445870443199, 'colsample_bytree': 0.7160545773333631, 'reg_lambda': 41.783962622517635, 'reg_alpha': 0.1216317825565769, 'gamma': 0.002042367888234529}
+[tune] trial 254 done: Sharpe=+0.2055  cost=158.4s  best=+0.2326 
+
+[tune] trial 255/100000: {'n_estimators': 354, 'max_depth': 3, 'learning_rate': 0.1864073724070684, 'min_child_weight': 21, 'subsample': 0.8203847994271636, 'colsample_bytree': 0.5712939706415638, 'reg_lambda': 33.44373871491608, 'reg_alpha': 0.0011780337895358254, 'gamma': 0.0010971034810206399}
+[tune] trial 255 done: Sharpe=+0.2022  cost=129.3s  best=+0.2326 
+
+[tune] trial 256/100000: {'n_estimators': 486, 'max_depth': 8, 'learning_rate': 0.029056065095567286, 'min_child_weight': 15, 'subsample': 0.997899865041757, 'colsample_bytree': 0.712857839580386, 'reg_lambda': 0.17619851211429757, 'reg_alpha': 0.001027669926696814, 'gamma': 0.001023380963876577}
+[tune] trial 256 done: Sharpe=+0.2129  cost=153.6s  best=+0.2326 
+
+[tune] trial 257/100000: {'n_estimators': 497, 'max_depth': 8, 'learning_rate': 0.011792873922921278, 'min_child_weight': 14, 'subsample': 0.6447913610768573, 'colsample_bytree': 0.7202750454882475, 'reg_lambda': 0.016981990045668794, 'reg_alpha': 0.05209000386415958, 'gamma': 0.0010475658802758803}
+[tune] trial 257 done: Sharpe=+0.2064  cost=194.8s  best=+0.2326 
+
+[tune] trial 258/100000: {'n_estimators': 60, 'max_depth': 8, 'learning_rate': 0.011674930127319023, 'min_child_weight': 19, 'subsample': 0.9113036265782509, 'colsample_bytree': 0.8552537947557504, 'reg_lambda': 0.1742393805488299, 'reg_alpha': 0.002518564182357651, 'gamma': 0.00297834002088578}
+[tune] trial 258 done: Sharpe=+0.2024  cost=83.8s  best=+0.2326 
+
+[tune] trial 259/100000: {'n_estimators': 90, 'max_depth': 8, 'learning_rate': 0.044940588388762165, 'min_child_weight': 22, 'subsample': 0.9806265722369768, 'colsample_bytree': 0.3161372125778399, 'reg_lambda': 23.684149827343237, 'reg_alpha': 0.0012480990954621108, 'gamma': 0.005032527671987197}
+[tune] trial 259 done: Sharpe=+0.1865  cost=83.1s  best=+0.2326 
+
+[tune] trial 260/100000: {'n_estimators': 109, 'max_depth': 3, 'learning_rate': 0.010760971461587006, 'min_child_weight': 23, 'subsample': 0.9886817142018829, 'colsample_bytree': 0.5247293445071401, 'reg_lambda': 0.012885764237845602, 'reg_alpha': 0.12715049743190443, 'gamma': 0.0010349058518288826}
+[tune] trial 260 done: Sharpe=+0.1467  cost=88.0s  best=+0.2326 
+
+[tune] trial 261/100000: {'n_estimators': 124, 'max_depth': 3, 'learning_rate': 0.1805049302470043, 'min_child_weight': 17, 'subsample': 0.9691051469273233, 'colsample_bytree': 0.41295180450085156, 'reg_lambda': 48.18079265732608, 'reg_alpha': 0.0011285773149415, 'gamma': 0.005591767494272308}
+[tune] trial 261 done: Sharpe=+0.2000  cost=82.9s  best=+0.2326 
+
+[tune] trial 262/100000: {'n_estimators': 476, 'max_depth': 3, 'learning_rate': 0.04145636960583318, 'min_child_weight': 10, 'subsample': 0.9919744274911404, 'colsample_bytree': 0.3113594455081025, 'reg_lambda': 0.05825352364340571, 'reg_alpha': 0.0011676011502018643, 'gamma': 0.0016869553923413785}
+[tune] trial 262 done: Sharpe=+0.2066  cost=143.4s  best=+0.2326 
+
+[tune] trial 263/100000: {'n_estimators': 481, 'max_depth': 7, 'learning_rate': 0.011283444005535027, 'min_child_weight': 21, 'subsample': 0.8440291090429343, 'colsample_bytree': 0.7482074390514191, 'reg_lambda': 0.011493394025259245, 'reg_alpha': 0.008453872838046597, 'gamma': 0.0011876475437116866}
+[tune] trial 263 done: Sharpe=+0.2133  cost=178.5s  best=+0.2326 
+
+[tune] trial 264/100000: {'n_estimators': 54, 'max_depth': 4, 'learning_rate': 0.1772688766099786, 'min_child_weight': 33, 'subsample': 0.961393725395429, 'colsample_bytree': 0.909757050383921, 'reg_lambda': 0.20376138692399573, 'reg_alpha': 0.013220260005235206, 'gamma': 0.003173798744614108}
+[tune] trial 264 done: Sharpe=+0.1899  cost=76.7s  best=+0.2326 
+
+[tune] trial 265/100000: {'n_estimators': 67, 'max_depth': 8, 'learning_rate': 0.18519454344794645, 'min_child_weight': 1, 'subsample': 0.6197078960792745, 'colsample_bytree': 0.45545773183634086, 'reg_lambda': 1.0601413094563097, 'reg_alpha': 0.03385877271199811, 'gamma': 0.00472337617687567}
+[tune] trial 265 done: Sharpe=+0.1900  cost=79.5s  best=+0.2326 
+
+[tune] trial 266/100000: {'n_estimators': 481, 'max_depth': 3, 'learning_rate': 0.014868540778207952, 'min_child_weight': 1, 'subsample': 0.5009067967150821, 'colsample_bytree': 0.9926709525394821, 'reg_lambda': 33.97141075693931, 'reg_alpha': 0.00174406783728863, 'gamma': 0.0030195991068028578}
+[tune] trial 266 done: Sharpe=+0.2120  cost=150.6s  best=+0.2326 
+
+[tune] trial 267/100000: {'n_estimators': 188, 'max_depth': 5, 'learning_rate': 0.15054462781641287, 'min_child_weight': 20, 'subsample': 0.9739943388820536, 'colsample_bytree': 0.3106706778130236, 'reg_lambda': 0.01402091245745639, 'reg_alpha': 0.0010567256295149305, 'gamma': 0.0019268433679176058}
+[tune] trial 267 done: Sharpe=+0.1975  cost=99.1s  best=+0.2326 
+
+[tune] trial 268/100000: {'n_estimators': 484, 'max_depth': 3, 'learning_rate': 0.1041333941580174, 'min_child_weight': 24, 'subsample': 0.9800780784946641, 'colsample_bytree': 0.7872536891767165, 'reg_lambda': 4.181750419741024, 'reg_alpha': 0.04982612408498565, 'gamma': 0.0020213401561320946}
+[tune] trial 268 done: Sharpe=+0.2036  cost=133.5s  best=+0.2326 
+
+[tune] trial 269/100000: {'n_estimators': 219, 'max_depth': 3, 'learning_rate': 0.05941231398441242, 'min_child_weight': 15, 'subsample': 0.9664367052144465, 'colsample_bytree': 0.995602805177416, 'reg_lambda': 0.5436230604243154, 'reg_alpha': 0.0011287033680007707, 'gamma': 0.0038705821891775126}
+[tune] trial 269 done: Sharpe=+0.2133  cost=100.1s  best=+0.2326 
+
+[tune] trial 270/100000: {'n_estimators': 477, 'max_depth': 3, 'learning_rate': 0.07733806236618496, 'min_child_weight': 1, 'subsample': 0.5975953772117947, 'colsample_bytree': 0.47990151837058836, 'reg_lambda': 0.5666298195935286, 'reg_alpha': 0.1161348349917633, 'gamma': 0.0010549915725774643}
+[tune] trial 270 done: Sharpe=+0.2065  cost=142.8s  best=+0.2326 
+
+[tune] trial 271/100000: {'n_estimators': 465, 'max_depth': 3, 'learning_rate': 0.03851220614914302, 'min_child_weight': 14, 'subsample': 0.6791418351096138, 'colsample_bytree': 0.5935431713566252, 'reg_lambda': 0.016695738734219187, 'reg_alpha': 0.04048825523888432, 'gamma': 0.0011336494674284347}
+[tune] trial 271 done: Sharpe=+0.2207  cost=145.1s  best=+0.2326 
+
+[tune] trial 272/100000: {'n_estimators': 143, 'max_depth': 8, 'learning_rate': 0.011367529139547075, 'min_child_weight': 21, 'subsample': 0.9788575392645665, 'colsample_bytree': 0.8254809848676308, 'reg_lambda': 0.06459621252726963, 'reg_alpha': 0.0013283181779101753, 'gamma': 0.0018226199866218928}
+[tune] trial 272 done: Sharpe=+0.2164  cost=107.4s  best=+0.2326 
+
+[tune] trial 273/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.020990021681015558, 'min_child_weight': 4, 'subsample': 0.7491108322328948, 'colsample_bytree': 0.750612549536736, 'reg_lambda': 8.59353147034502, 'reg_alpha': 0.1465561412707403, 'gamma': 0.002704712128339573}
+[tune] trial 273 done: Sharpe=+0.2047  cost=154.0s  best=+0.2326 
+
+[tune] trial 274/100000: {'n_estimators': 63, 'max_depth': 3, 'learning_rate': 0.03913700992517115, 'min_child_weight': 2, 'subsample': 0.5170656065637244, 'colsample_bytree': 0.7209018940552054, 'reg_lambda': 0.012740929083090678, 'reg_alpha': 0.0016704172177794388, 'gamma': 0.009365371114679751}
+[tune] trial 274 done: Sharpe=+0.1624  cost=76.7s  best=+0.2326 
+
+[tune] trial 275/100000: {'n_estimators': 470, 'max_depth': 7, 'learning_rate': 0.13780147852187935, 'min_child_weight': 1, 'subsample': 0.9306022486657761, 'colsample_bytree': 0.6220424721957318, 'reg_lambda': 0.012824257096145257, 'reg_alpha': 3.950557512227329, 'gamma': 0.9990994509078198}
+[tune] trial 275 done: Sharpe=-0.0129  cost=134.8s  best=+0.2326 
+
+[tune] trial 276/100000: {'n_estimators': 96, 'max_depth': 3, 'learning_rate': 0.1406698667998978, 'min_child_weight': 15, 'subsample': 0.8347918370547646, 'colsample_bytree': 0.9821577470271403, 'reg_lambda': 0.02016099235433016, 'reg_alpha': 0.011498542979231629, 'gamma': 0.0010066131321111841}
+[tune] trial 276 done: Sharpe=+0.2246  cost=79.9s  best=+0.2326 
+
+[tune] trial 277/100000: {'n_estimators': 399, 'max_depth': 8, 'learning_rate': 0.010321332136909408, 'min_child_weight': 24, 'subsample': 0.9048333315732819, 'colsample_bytree': 0.5701945541210097, 'reg_lambda': 0.011916453147927292, 'reg_alpha': 0.003149870180625028, 'gamma': 0.001115031440828049}
+[tune] trial 277 done: Sharpe=+0.2032  cost=179.3s  best=+0.2326 
+
+[tune] trial 278/100000: {'n_estimators': 288, 'max_depth': 3, 'learning_rate': 0.16139815178996716, 'min_child_weight': 18, 'subsample': 0.9934322214091384, 'colsample_bytree': 0.7061843312969438, 'reg_lambda': 25.24115221479348, 'reg_alpha': 0.0015340002779916913, 'gamma': 0.0020681447046292487}
+[tune] trial 278 done: Sharpe=+0.2025  cost=111.1s  best=+0.2326 
+
+[tune] trial 279/100000: {'n_estimators': 235, 'max_depth': 8, 'learning_rate': 0.014436348798414144, 'min_child_weight': 17, 'subsample': 0.9427524803474312, 'colsample_bytree': 0.8668216957097727, 'reg_lambda': 38.43229465867512, 'reg_alpha': 0.001043629330264072, 'gamma': 0.0016497835745512839}
+[tune] trial 279 done: Sharpe=+0.2027  cost=124.0s  best=+0.2326 
+
+[tune] trial 280/100000: {'n_estimators': 478, 'max_depth': 3, 'learning_rate': 0.020496309089382946, 'min_child_weight': 19, 'subsample': 0.958870812597685, 'colsample_bytree': 0.5238842363524556, 'reg_lambda': 48.094343161607156, 'reg_alpha': 0.03667642184690954, 'gamma': 0.0010908615667937806}
+[tune] trial 280 done: Sharpe=+0.2187  cost=178.4s  best=+0.2326 
+
+[tune] trial 281/100000: {'n_estimators': 472, 'max_depth': 3, 'learning_rate': 0.10877811750066647, 'min_child_weight': 15, 'subsample': 0.9404547283672009, 'colsample_bytree': 0.8314743306202104, 'reg_lambda': 0.068555013426322, 'reg_alpha': 0.0016574411574212555, 'gamma': 0.0010420491828348958}
+[tune] trial 281 done: Sharpe=+0.2259  cost=149.1s  best=+0.2326 
+
+[tune] trial 282/100000: {'n_estimators': 484, 'max_depth': 3, 'learning_rate': 0.09599284821094475, 'min_child_weight': 18, 'subsample': 0.867878935989258, 'colsample_bytree': 0.9020468319440631, 'reg_lambda': 23.33297405823757, 'reg_alpha': 0.004319096849191296, 'gamma': 0.004635997448645186}
+[tune] trial 282 done: Sharpe=+0.2248  cost=162.4s  best=+0.2326 
+
+[tune] trial 283/100000: {'n_estimators': 373, 'max_depth': 3, 'learning_rate': 0.07921335246828014, 'min_child_weight': 17, 'subsample': 0.8361196836799131, 'colsample_bytree': 0.9162077051441675, 'reg_lambda': 49.39680446358847, 'reg_alpha': 0.0017674502692523954, 'gamma': 0.004760927819180264}
+[tune] trial 283 done: Sharpe=+0.2039  cost=134.3s  best=+0.2326 
+
+[tune] trial 284/100000: {'n_estimators': 450, 'max_depth': 3, 'learning_rate': 0.0672532582264222, 'min_child_weight': 8, 'subsample': 0.6578921247532031, 'colsample_bytree': 0.9797906062448811, 'reg_lambda': 37.42371995328392, 'reg_alpha': 0.0322276506264458, 'gamma': 0.004383887565338}
+[tune] trial 284 done: Sharpe=+0.1923  cost=155.6s  best=+0.2326 
+
+[tune] trial 285/100000: {'n_estimators': 444, 'max_depth': 8, 'learning_rate': 0.012395330332007208, 'min_child_weight': 4, 'subsample': 0.629566324983232, 'colsample_bytree': 0.988975234892423, 'reg_lambda': 0.04031223704561742, 'reg_alpha': 0.001037428709689565, 'gamma': 0.0012267056340416038}
+[tune] trial 285 done: Sharpe=+0.2158  cost=183.0s  best=+0.2326 
+
+[tune] trial 286/100000: {'n_estimators': 386, 'max_depth': 8, 'learning_rate': 0.015050207063284153, 'min_child_weight': 13, 'subsample': 0.8831231935495324, 'colsample_bytree': 0.4429428977283557, 'reg_lambda': 0.011797273871894264, 'reg_alpha': 0.0010190435053889669, 'gamma': 0.0016012798324072618}
+[tune] trial 286 done: Sharpe=+0.2149  cost=161.9s  best=+0.2326 
+
+[tune] trial 287/100000: {'n_estimators': 423, 'max_depth': 3, 'learning_rate': 0.10767666687587545, 'min_child_weight': 34, 'subsample': 0.9483974357519691, 'colsample_bytree': 0.9791036805758477, 'reg_lambda': 0.06917080600781177, 'reg_alpha': 0.003840906907842486, 'gamma': 0.0010104241363594803}
+[tune] trial 287 done: Sharpe=+0.2050  cost=158.8s  best=+0.2326 
+
+[tune] trial 288/100000: {'n_estimators': 219, 'max_depth': 3, 'learning_rate': 0.19651397585541402, 'min_child_weight': 1, 'subsample': 0.6181983818481784, 'colsample_bytree': 0.4048588695652161, 'reg_lambda': 39.87892847800771, 'reg_alpha': 0.005353392594660412, 'gamma': 0.011232488679890386}
+[tune] trial 288 done: Sharpe=+0.1715  cost=98.1s  best=+0.2326 
+
+[tune] trial 289/100000: {'n_estimators': 475, 'max_depth': 3, 'learning_rate': 0.16685262221067584, 'min_child_weight': 18, 'subsample': 0.9684629824946016, 'colsample_bytree': 0.9013912236784027, 'reg_lambda': 0.49226805032494664, 'reg_alpha': 0.0010970301559581216, 'gamma': 0.0014075147204615603}
+[tune] trial 289 done: Sharpe=+0.2347  cost=152.2s  best=+0.2347 NEW BEST
+
+[tune] trial 290/100000: {'n_estimators': 487, 'max_depth': 4, 'learning_rate': 0.011585339672347653, 'min_child_weight': 2, 'subsample': 0.8164687830069584, 'colsample_bytree': 0.8475197828907357, 'reg_lambda': 0.07300170883833952, 'reg_alpha': 0.18874471467447007, 'gamma': 0.001013738992121626}
+[tune] trial 290 done: Sharpe=+0.1943  cost=173.4s  best=+0.2347 
+
+[tune] trial 291/100000: {'n_estimators': 432, 'max_depth': 3, 'learning_rate': 0.040626423193990596, 'min_child_weight': 15, 'subsample': 0.9686148921594713, 'colsample_bytree': 0.38950945540823634, 'reg_lambda': 41.77625324695256, 'reg_alpha': 0.009208767506597828, 'gamma': 0.003765932793985185}
+[tune] trial 291 done: Sharpe=+0.2150  cost=144.7s  best=+0.2347 
+
+[tune] trial 292/100000: {'n_estimators': 458, 'max_depth': 3, 'learning_rate': 0.021730812157487945, 'min_child_weight': 8, 'subsample': 0.5200756924573791, 'colsample_bytree': 0.8252892600478923, 'reg_lambda': 35.59355382531507, 'reg_alpha': 4.6009068447408135, 'gamma': 0.001017284228814664}
+[tune] trial 292 done: Sharpe=-0.0135  cost=149.5s  best=+0.2347 
+
+[tune] trial 293/100000: {'n_estimators': 80, 'max_depth': 4, 'learning_rate': 0.1764612301700572, 'min_child_weight': 8, 'subsample': 0.5465118920950406, 'colsample_bytree': 0.4343050381805611, 'reg_lambda': 0.015024392411052473, 'reg_alpha': 0.04127585131410805, 'gamma': 0.0010651918788366723}
+[tune] trial 293 done: Sharpe=+0.2014  cost=78.7s  best=+0.2347 
+
+[tune] trial 294/100000: {'n_estimators': 498, 'max_depth': 3, 'learning_rate': 0.01674080713184687, 'min_child_weight': 5, 'subsample': 0.6455947920362078, 'colsample_bytree': 0.8763561727961271, 'reg_lambda': 0.01872153654116775, 'reg_alpha': 0.024477939172271992, 'gamma': 0.001186409488031341}
+[tune] trial 294 done: Sharpe=+0.2213  cost=161.8s  best=+0.2347 
+
+[tune] trial 295/100000: {'n_estimators': 442, 'max_depth': 8, 'learning_rate': 0.12997381043328302, 'min_child_weight': 43, 'subsample': 0.9904918719905044, 'colsample_bytree': 0.7909027346078517, 'reg_lambda': 16.95058317055274, 'reg_alpha': 9.405982618795578, 'gamma': 0.021882444007756376}
+[tune] trial 295 done: Sharpe=-0.0129  cost=142.8s  best=+0.2347 
+
+[tune] trial 296/100000: {'n_estimators': 490, 'max_depth': 3, 'learning_rate': 0.15268771611405538, 'min_child_weight': 25, 'subsample': 0.9440270877215893, 'colsample_bytree': 0.8608254291312263, 'reg_lambda': 40.997373111133136, 'reg_alpha': 0.022692188894991458, 'gamma': 0.0013357308837438628}
+[tune] trial 296 done: Sharpe=+0.1980  cost=137.2s  best=+0.2347 
+
+[tune] trial 297/100000: {'n_estimators': 479, 'max_depth': 3, 'learning_rate': 0.013450642219230842, 'min_child_weight': 7, 'subsample': 0.5811353348714363, 'colsample_bytree': 0.8255516830875889, 'reg_lambda': 0.03705807996232503, 'reg_alpha': 0.00704148224939426, 'gamma': 0.006397158832234323}
+[tune] trial 297 done: Sharpe=+0.2046  cost=144.8s  best=+0.2347 
+
+[tune] trial 298/100000: {'n_estimators': 475, 'max_depth': 4, 'learning_rate': 0.011798695798389089, 'min_child_weight': 50, 'subsample': 0.9519504590193497, 'colsample_bytree': 0.5810353868776494, 'reg_lambda': 0.01224902585351721, 'reg_alpha': 0.001241865199628063, 'gamma': 0.0010344251127194985}
+[tune] trial 298 done: Sharpe=+0.1755  cost=171.0s  best=+0.2347 
+
+[tune] trial 299/100000: {'n_estimators': 499, 'max_depth': 4, 'learning_rate': 0.04767826804719564, 'min_child_weight': 16, 'subsample': 0.8875256683818996, 'colsample_bytree': 0.8938473788061101, 'reg_lambda': 0.015383991967493077, 'reg_alpha': 0.0010554284766474563, 'gamma': 0.0017473078150219913}
+[tune] trial 299 done: Sharpe=+0.2281  cost=148.5s  best=+0.2347 
+
+[tune] trial 300/100000: {'n_estimators': 302, 'max_depth': 3, 'learning_rate': 0.01714077158051767, 'min_child_weight': 2, 'subsample': 0.5112815818969705, 'colsample_bytree': 0.9813915910455686, 'reg_lambda': 0.01432593568355774, 'reg_alpha': 0.008083669172680783, 'gamma': 0.0010491037238841024}
+[tune] trial 300 done: Sharpe=+0.2027  cost=127.8s  best=+0.2347 
+
+[tune] trial 301/100000: {'n_estimators': 85, 'max_depth': 8, 'learning_rate': 0.04177339148866835, 'min_child_weight': 17, 'subsample': 0.7344681473041479, 'colsample_bytree': 0.32329758994726865, 'reg_lambda': 0.03943990430180688, 'reg_alpha': 0.009437388106281785, 'gamma': 0.0038347944267456916}
+[tune] trial 301 done: Sharpe=+0.2010  cost=81.1s  best=+0.2347 
+
+[tune] trial 302/100000: {'n_estimators': 475, 'max_depth': 3, 'learning_rate': 0.012003305164125625, 'min_child_weight': 2, 'subsample': 0.5642899087706184, 'colsample_bytree': 0.9267651187824504, 'reg_lambda': 0.29442791069373, 'reg_alpha': 0.0010773633110943734, 'gamma': 0.001239266625258347}
+[tune] trial 302 done: Sharpe=+0.2207  cost=137.4s  best=+0.2347 
+
+[tune] trial 303/100000: {'n_estimators': 485, 'max_depth': 4, 'learning_rate': 0.03760001353803011, 'min_child_weight': 6, 'subsample': 0.5822340765063669, 'colsample_bytree': 0.7216391867095822, 'reg_lambda': 0.011671471504509957, 'reg_alpha': 0.0014245077507644207, 'gamma': 0.0011398937686554367}
+[tune] trial 303 done: Sharpe=+0.2098  cost=190.9s  best=+0.2347 
+
+[tune] trial 304/100000: {'n_estimators': 83, 'max_depth': 3, 'learning_rate': 0.19646915948056004, 'min_child_weight': 17, 'subsample': 0.8414461372254134, 'colsample_bytree': 0.3728108186552794, 'reg_lambda': 0.1711753611830715, 'reg_alpha': 0.09978034143558684, 'gamma': 0.0011117840069409042}
+[tune] trial 304 done: Sharpe=+0.1967  cost=78.5s  best=+0.2347 
+
+[tune] trial 305/100000: {'n_estimators': 51, 'max_depth': 8, 'learning_rate': 0.01684587052135934, 'min_child_weight': 29, 'subsample': 0.9992020536072748, 'colsample_bytree': 0.4017053689704783, 'reg_lambda': 33.19297711675671, 'reg_alpha': 0.053433811096112144, 'gamma': 0.005840280025297619}
+[tune] trial 305 done: Sharpe=+0.1311  cost=78.5s  best=+0.2347 
+
+[tune] trial 306/100000: {'n_estimators': 342, 'max_depth': 8, 'learning_rate': 0.05128701751599649, 'min_child_weight': 23, 'subsample': 0.7626257720244535, 'colsample_bytree': 0.9907782778347536, 'reg_lambda': 0.023043261332211278, 'reg_alpha': 0.0013541822694693294, 'gamma': 0.0010821673961887567}
+[tune] trial 306 done: Sharpe=+0.1750  cost=136.5s  best=+0.2347 
+
+[tune] trial 307/100000: {'n_estimators': 497, 'max_depth': 8, 'learning_rate': 0.020156414885601673, 'min_child_weight': 29, 'subsample': 0.9617809173846501, 'colsample_bytree': 0.8437653698564285, 'reg_lambda': 0.01320445154642206, 'reg_alpha': 0.13818575285268064, 'gamma': 0.001034023234871002}
+[tune] trial 307 done: Sharpe=+0.1853  cost=174.3s  best=+0.2347 
+
+[tune] trial 308/100000: {'n_estimators': 453, 'max_depth': 3, 'learning_rate': 0.08215394646135946, 'min_child_weight': 36, 'subsample': 0.9986063566924248, 'colsample_bytree': 0.5426059781696493, 'reg_lambda': 20.638443048998344, 'reg_alpha': 0.001027221520783689, 'gamma': 0.00133137352138206}
+[tune] trial 308 done: Sharpe=+0.2055  cost=144.9s  best=+0.2347 
+
+[tune] trial 309/100000: {'n_estimators': 483, 'max_depth': 3, 'learning_rate': 0.01279300777720664, 'min_child_weight': 14, 'subsample': 0.5013987049355664, 'colsample_bytree': 0.304811638278698, 'reg_lambda': 0.014253317439941288, 'reg_alpha': 0.05985848293935357, 'gamma': 0.0011913505387597006}
+[tune] trial 309 done: Sharpe=+0.1963  cost=178.5s  best=+0.2347 
+
+[tune] trial 310/100000: {'n_estimators': 52, 'max_depth': 4, 'learning_rate': 0.16256667898148383, 'min_child_weight': 40, 'subsample': 0.9924586032664519, 'colsample_bytree': 0.3996060580629617, 'reg_lambda': 0.017171071219933495, 'reg_alpha': 0.07963100635167471, 'gamma': 0.0010339320471113073}
+[tune] trial 310 done: Sharpe=+0.1914  cost=74.7s  best=+0.2347 
+
+[tune] trial 311/100000: {'n_estimators': 445, 'max_depth': 3, 'learning_rate': 0.14516294517734205, 'min_child_weight': 27, 'subsample': 0.5335949769061957, 'colsample_bytree': 0.9583992869690761, 'reg_lambda': 14.45327941954109, 'reg_alpha': 0.0011030307183531288, 'gamma': 0.005452852191891646}
+[tune] trial 311 done: Sharpe=+0.1870  cost=149.9s  best=+0.2347 
+
+[tune] trial 312/100000: {'n_estimators': 417, 'max_depth': 3, 'learning_rate': 0.08469007676853471, 'min_child_weight': 4, 'subsample': 0.6648105358683221, 'colsample_bytree': 0.9478097386810886, 'reg_lambda': 0.012098983550498887, 'reg_alpha': 0.0030815788845406505, 'gamma': 0.001022622498660788}
+[tune] trial 312 done: Sharpe=+0.2178  cost=158.1s  best=+0.2347 
+
+[tune] trial 313/100000: {'n_estimators': 485, 'max_depth': 3, 'learning_rate': 0.03776286318440516, 'min_child_weight': 6, 'subsample': 0.9779636937153475, 'colsample_bytree': 0.5661445161678881, 'reg_lambda': 14.163662313115594, 'reg_alpha': 0.0011099380020280502, 'gamma': 0.001767167615030089}
+[tune] trial 313 done: Sharpe=+0.2151  cost=144.5s  best=+0.2347 
+
+[tune] trial 314/100000: {'n_estimators': 53, 'max_depth': 8, 'learning_rate': 0.010030625482199516, 'min_child_weight': 14, 'subsample': 0.9537716277465009, 'colsample_bytree': 0.6858067511284358, 'reg_lambda': 4.772026524679323, 'reg_alpha': 3.551572082644795, 'gamma': 0.7163590870364751}
+[tune] trial 314 done: Sharpe=-0.0129  cost=71.4s  best=+0.2347 
+
+[tune] trial 315/100000: {'n_estimators': 52, 'max_depth': 3, 'learning_rate': 0.13121805909995504, 'min_child_weight': 35, 'subsample': 0.8788766608381451, 'colsample_bytree': 0.7627571632737397, 'reg_lambda': 46.91386513769221, 'reg_alpha': 0.0012230172140584397, 'gamma': 0.0010045226281824207}
+[tune] trial 315 done: Sharpe=+0.1917  cost=74.7s  best=+0.2347 
+
+[tune] trial 316/100000: {'n_estimators': 358, 'max_depth': 3, 'learning_rate': 0.11619904154507482, 'min_child_weight': 7, 'subsample': 0.8838379307405937, 'colsample_bytree': 0.9087476382467237, 'reg_lambda': 0.32434882007038146, 'reg_alpha': 0.00118417452709233, 'gamma': 0.001044813995056565}
+[tune] trial 316 done: Sharpe=+0.2078  cost=122.9s  best=+0.2347 
+
+[tune] trial 317/100000: {'n_estimators': 74, 'max_depth': 8, 'learning_rate': 0.03215581123138769, 'min_child_weight': 16, 'subsample': 0.5967472833841732, 'colsample_bytree': 0.4393831349780647, 'reg_lambda': 0.019478789859174648, 'reg_alpha': 0.1020639140907211, 'gamma': 0.0010091550527775582}
+[tune] trial 317 done: Sharpe=+0.2020  cost=84.0s  best=+0.2347 
+
+[tune] trial 318/100000: {'n_estimators': 485, 'max_depth': 8, 'learning_rate': 0.010826319116125705, 'min_child_weight': 3, 'subsample': 0.9546772733584321, 'colsample_bytree': 0.7324005235749438, 'reg_lambda': 0.714138002137877, 'reg_alpha': 0.0015652406356305012, 'gamma': 0.17232078027986725}
+[tune] trial 318 done: Sharpe=-0.0139  cost=137.1s  best=+0.2347 
+
+[tune] trial 319/100000: {'n_estimators': 76, 'max_depth': 8, 'learning_rate': 0.028871225287579846, 'min_child_weight': 6, 'subsample': 0.5167200946801336, 'colsample_bytree': 0.4697601733472434, 'reg_lambda': 0.04194444851803874, 'reg_alpha': 0.023882719924262698, 'gamma': 0.0020338403224087476}
+[tune] trial 319 done: Sharpe=+0.1966  cost=86.9s  best=+0.2347 
+
+[tune] trial 320/100000: {'n_estimators': 482, 'max_depth': 3, 'learning_rate': 0.056086332118047186, 'min_child_weight': 3, 'subsample': 0.6690979153224842, 'colsample_bytree': 0.5850182272488127, 'reg_lambda': 48.39890762195287, 'reg_alpha': 0.00506396736426182, 'gamma': 0.005165022777480697}
+[tune] trial 320 done: Sharpe=+0.1980  cost=148.7s  best=+0.2347 
+
+[tune] trial 321/100000: {'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.16972119837180197, 'min_child_weight': 6, 'subsample': 0.995750857429132, 'colsample_bytree': 0.5124878162244293, 'reg_lambda': 7.514926302429872, 'reg_alpha': 0.0010928164870922803, 'gamma': 0.0033900881660639745}
+[tune] trial 321 done: Sharpe=+0.2033  cost=114.2s  best=+0.2347 
+
+[tune] trial 322/100000: {'n_estimators': 63, 'max_depth': 8, 'learning_rate': 0.1486278786477774, 'min_child_weight': 8, 'subsample': 0.8882437653349864, 'colsample_bytree': 0.9241983913255676, 'reg_lambda': 0.012548679071134125, 'reg_alpha': 0.13185993596400086, 'gamma': 0.0010015643361974936}
+[tune] trial 322 done: Sharpe=+0.1744  cost=77.6s  best=+0.2347 
+
+[tune] trial 323/100000: {'n_estimators': 64, 'max_depth': 8, 'learning_rate': 0.13945881126944085, 'min_child_weight': 2, 'subsample': 0.5040820107661078, 'colsample_bytree': 0.8733829029657247, 'reg_lambda': 26.18977643453137, 'reg_alpha': 0.11110352313987944, 'gamma': 0.004321126348813704}
+[tune] trial 323 done: Sharpe=+0.1991  cost=75.7s  best=+0.2347 
+
+[tune] trial 324/100000: {'n_estimators': 495, 'max_depth': 8, 'learning_rate': 0.13191541077184832, 'min_child_weight': 32, 'subsample': 0.9820549358104149, 'colsample_bytree': 0.50368024796309, 'reg_lambda': 7.534983134837761, 'reg_alpha': 0.07813555178864727, 'gamma': 0.00371361314420589}
+[tune] trial 324 done: Sharpe=+0.1847  cost=146.2s  best=+0.2347 
+
+[tune] trial 325/100000: {'n_estimators': 496, 'max_depth': 4, 'learning_rate': 0.04235566883674806, 'min_child_weight': 22, 'subsample': 0.9642163801078465, 'colsample_bytree': 0.7350598711236374, 'reg_lambda': 23.181691970554713, 'reg_alpha': 0.025037975537415987, 'gamma': 0.00711444901964949}
+[tune] trial 325 done: Sharpe=+0.2001  cost=132.2s  best=+0.2347 
+
+[tune] trial 326/100000: {'n_estimators': 437, 'max_depth': 8, 'learning_rate': 0.07808890298081896, 'min_child_weight': 1, 'subsample': 0.9919261572946813, 'colsample_bytree': 0.7124484529958386, 'reg_lambda': 36.71173953279355, 'reg_alpha': 0.0012386120922862427, 'gamma': 0.0010560442190495254}
+[tune] trial 326 done: Sharpe=+0.1992  cost=141.5s  best=+0.2347 
+
+[tune] trial 327/100000: {'n_estimators': 480, 'max_depth': 3, 'learning_rate': 0.046927668011783844, 'min_child_weight': 28, 'subsample': 0.9943635574445572, 'colsample_bytree': 0.8305043294530075, 'reg_lambda': 5.668823466048382, 'reg_alpha': 0.22686423881506293, 'gamma': 0.0022558545388901246}
+[tune] trial 327 done: Sharpe=+0.1981  cost=144.6s  best=+0.2347 
+
+[tune] trial 328/100000: {'n_estimators': 60, 'max_depth': 6, 'learning_rate': 0.12458480985256304, 'min_child_weight': 1, 'subsample': 0.5157149475084807, 'colsample_bytree': 0.932241916290582, 'reg_lambda': 0.14328013041296495, 'reg_alpha': 0.053334775511736376, 'gamma': 0.0010264598410008993}
+[tune] trial 328 done: Sharpe=+0.1797  cost=74.1s  best=+0.2347 
+
+[tune] trial 329/100000: {'n_estimators': 497, 'max_depth': 5, 'learning_rate': 0.01020720685772129, 'min_child_weight': 27, 'subsample': 0.983598529775525, 'colsample_bytree': 0.6525296346434077, 'reg_lambda': 20.205005826154675, 'reg_alpha': 0.0010158486863656726, 'gamma': 0.004703551901961853}
+[tune] trial 329 done: Sharpe=+0.1850  cost=175.5s  best=+0.2347 
+
+[tune] trial 330/100000: {'n_estimators': 491, 'max_depth': 3, 'learning_rate': 0.018741569994145585, 'min_child_weight': 3, 'subsample': 0.5454401525051007, 'colsample_bytree': 0.9907856835626343, 'reg_lambda': 0.030122560143023214, 'reg_alpha': 0.001226753657294823, 'gamma': 0.001603407057024584}
+[tune] trial 330 done: Sharpe=+0.2303  cost=170.3s  best=+0.2347 
+
+[tune] trial 331/100000: {'n_estimators': 489, 'max_depth': 8, 'learning_rate': 0.013384397779631447, 'min_child_weight': 18, 'subsample': 0.5226522128225306, 'colsample_bytree': 0.9659977523046661, 'reg_lambda': 0.06966847445437094, 'reg_alpha': 0.0012470227801571916, 'gamma': 0.00525589357552434}
+[tune] trial 331 done: Sharpe=+0.1976  cost=175.5s  best=+0.2347 
+
+[tune] trial 332/100000: {'n_estimators': 116, 'max_depth': 8, 'learning_rate': 0.1831337571707285, 'min_child_weight': 19, 'subsample': 0.6080274749203458, 'colsample_bytree': 0.98493749188746, 'reg_lambda': 16.565771517298522, 'reg_alpha': 0.013584275339553047, 'gamma': 0.004576136640159559}
+[tune] trial 332 done: Sharpe=+0.1894  cost=86.1s  best=+0.2347 
+
+[tune] trial 333/100000: {'n_estimators': 465, 'max_depth': 3, 'learning_rate': 0.08539705161615337, 'min_child_weight': 8, 'subsample': 0.9333555404009328, 'colsample_bytree': 0.4104865034971121, 'reg_lambda': 26.417268683190528, 'reg_alpha': 0.17359317819704823, 'gamma': 0.0018341684073481974}
+[tune] trial 333 done: Sharpe=+0.2019  cost=154.1s  best=+0.2347 
+
+[tune] trial 334/100000: {'n_estimators': 56, 'max_depth': 7, 'learning_rate': 0.012634162320640862, 'min_child_weight': 41, 'subsample': 0.9945175358585263, 'colsample_bytree': 0.3019109164277912, 'reg_lambda': 0.0396675745021668, 'reg_alpha': 0.0013341390273873743, 'gamma': 0.0037998616010531208}
+[tune] trial 334 done: Sharpe=+0.1083  cost=79.9s  best=+0.2347 
+
+[tune] trial 335/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.010003576546466414, 'min_child_weight': 16, 'subsample': 0.6897672099892761, 'colsample_bytree': 0.8982426579952152, 'reg_lambda': 0.4384806683910853, 'reg_alpha': 0.0012752417757030934, 'gamma': 0.004325156453697517}
+[tune] trial 335 done: Sharpe=+0.2240  cost=164.0s  best=+0.2347 
+
+[tune] trial 336/100000: {'n_estimators': 494, 'max_depth': 3, 'learning_rate': 0.02006182947882427, 'min_child_weight': 19, 'subsample': 0.8247088630609531, 'colsample_bytree': 0.3244686980898497, 'reg_lambda': 42.53074153973264, 'reg_alpha': 0.011754080518285054, 'gamma': 0.0010003138263596303}
+[tune] trial 336 done: Sharpe=+0.1980  cost=165.3s  best=+0.2347 
+
+[tune] trial 337/100000: {'n_estimators': 297, 'max_depth': 3, 'learning_rate': 0.15787220828807574, 'min_child_weight': 21, 'subsample': 0.9806549526663398, 'colsample_bytree': 0.6585656425673241, 'reg_lambda': 0.12255010255662634, 'reg_alpha': 0.0011145016647155978, 'gamma': 0.0010293878979341434}
+[tune] trial 337 done: Sharpe=+0.2248  cost=114.2s  best=+0.2347 
+
+[tune] trial 338/100000: {'n_estimators': 494, 'max_depth': 5, 'learning_rate': 0.010432715088412146, 'min_child_weight': 17, 'subsample': 0.5118569166070639, 'colsample_bytree': 0.8828740610851491, 'reg_lambda': 5.631639986013373, 'reg_alpha': 0.0047394745933876485, 'gamma': 0.005525208544165684}
+[tune] trial 338 done: Sharpe=+0.1928  cost=186.7s  best=+0.2347 
+
+[tune] trial 339/100000: {'n_estimators': 481, 'max_depth': 3, 'learning_rate': 0.19962312693730763, 'min_child_weight': 27, 'subsample': 0.8721723996546941, 'colsample_bytree': 0.9174997914781433, 'reg_lambda': 0.023095955241011244, 'reg_alpha': 0.007366071117369198, 'gamma': 0.0034477480291009526}
+[tune] trial 339 done: Sharpe=+0.1849  cost=135.1s  best=+0.2347 
+
+[tune] trial 340/100000: {'n_estimators': 497, 'max_depth': 3, 'learning_rate': 0.18215473012980127, 'min_child_weight': 5, 'subsample': 0.5007585061307234, 'colsample_bytree': 0.8952018089778246, 'reg_lambda': 2.876837136607293, 'reg_alpha': 0.08163810198757289, 'gamma': 0.0026641729495418603}
+[tune] trial 340 done: Sharpe=+0.2024  cost=144.4s  best=+0.2347 
+
+[tune] trial 341/100000: {'n_estimators': 57, 'max_depth': 3, 'learning_rate': 0.1966507899547253, 'min_child_weight': 9, 'subsample': 0.9969319173582999, 'colsample_bytree': 0.32937402992513887, 'reg_lambda': 3.166345414010661, 'reg_alpha': 0.18736582284764702, 'gamma': 0.006428307745463662}
+[tune] trial 341 done: Sharpe=+0.1780  cost=78.4s  best=+0.2347 
+
+[tune] trial 342/100000: {'n_estimators': 78, 'max_depth': 3, 'learning_rate': 0.1877726418969452, 'min_child_weight': 15, 'subsample': 0.9051396619256631, 'colsample_bytree': 0.7236434867444126, 'reg_lambda': 0.02002776197369863, 'reg_alpha': 0.0015425218141796944, 'gamma': 0.0028809238698722073}
+[tune] trial 342 done: Sharpe=+0.2220  cost=80.4s  best=+0.2347 
+
+[tune] trial 343/100000: {'n_estimators': 463, 'max_depth': 3, 'learning_rate': 0.1266882638812094, 'min_child_weight': 5, 'subsample': 0.6015336534032933, 'colsample_bytree': 0.8166536829906017, 'reg_lambda': 1.61002332823614, 'reg_alpha': 0.0013002314547323577, 'gamma': 0.001068471780932547}
+[tune] trial 343 done: Sharpe=+0.2114  cost=169.3s  best=+0.2347 
+
+[tune] trial 344/100000: {'n_estimators': 483, 'max_depth': 8, 'learning_rate': 0.011544912507077891, 'min_child_weight': 4, 'subsample': 0.7196919247584654, 'colsample_bytree': 0.35088547194854736, 'reg_lambda': 39.28424083200311, 'reg_alpha': 0.018084830826630868, 'gamma': 0.003360711195578538}
+[tune] trial 344 done: Sharpe=+0.1884  cost=202.9s  best=+0.2347 
+
+[tune] trial 345/100000: {'n_estimators': 393, 'max_depth': 8, 'learning_rate': 0.011495222823644234, 'min_child_weight': 19, 'subsample': 0.9342345995278483, 'colsample_bytree': 0.9742502444937737, 'reg_lambda': 0.011876471703733632, 'reg_alpha': 0.0010693975664594583, 'gamma': 0.0017476169129016074}
+[tune] trial 345 done: Sharpe=+0.2175  cost=173.2s  best=+0.2347 
+
+[tune] trial 346/100000: {'n_estimators': 62, 'max_depth': 8, 'learning_rate': 0.019507210459970475, 'min_child_weight': 4, 'subsample': 0.987484526534194, 'colsample_bytree': 0.9804161892013599, 'reg_lambda': 0.010622368491223983, 'reg_alpha': 0.0012197538930748097, 'gamma': 0.002290022405523742}
+[tune] trial 346 done: Sharpe=+0.1781  cost=83.3s  best=+0.2347 
+
+[tune] trial 347/100000: {'n_estimators': 499, 'max_depth': 6, 'learning_rate': 0.014078428417708101, 'min_child_weight': 10, 'subsample': 0.9939319770426626, 'colsample_bytree': 0.8066899588878744, 'reg_lambda': 0.01024613174206788, 'reg_alpha': 0.053398470343683536, 'gamma': 0.0024871690019162254}
+[tune] trial 347 done: Sharpe=+0.1935  cost=156.3s  best=+0.2347 
+
+[tune] trial 348/100000: {'n_estimators': 487, 'max_depth': 3, 'learning_rate': 0.023819908887663884, 'min_child_weight': 10, 'subsample': 0.5834865600248423, 'colsample_bytree': 0.5387504785500989, 'reg_lambda': 0.011796317973834956, 'reg_alpha': 0.0011142856084017864, 'gamma': 0.004247138491784847}
+[tune] trial 348 done: Sharpe=+0.2322  cost=169.8s  best=+0.2347 
+
+[tune] trial 349/100000: {'n_estimators': 497, 'max_depth': 3, 'learning_rate': 0.10636650037371018, 'min_child_weight': 16, 'subsample': 0.9060887915783824, 'colsample_bytree': 0.6996909243872453, 'reg_lambda': 0.0913588320929757, 'reg_alpha': 0.24990741994822965, 'gamma': 0.0010310521072846646}
+[tune] trial 349 done: Sharpe=+0.1986  cost=140.5s  best=+0.2347 
+
+[tune] trial 350/100000: {'n_estimators': 446, 'max_depth': 3, 'learning_rate': 0.17272761514595722, 'min_child_weight': 22, 'subsample': 0.8923203127103814, 'colsample_bytree': 0.45661441988940543, 'reg_lambda': 0.03905920232899221, 'reg_alpha': 0.0011677526930123602, 'gamma': 0.0011211744998537942}
+[tune] trial 350 done: Sharpe=+0.2348  cost=145.5s  best=+0.2348 NEW BEST
+
+[tune] trial 351/100000: {'n_estimators': 463, 'max_depth': 3, 'learning_rate': 0.19211826329487752, 'min_child_weight': 45, 'subsample': 0.9730188105037312, 'colsample_bytree': 0.338779520829372, 'reg_lambda': 1.2215861129475503, 'reg_alpha': 0.0891114281414041, 'gamma': 0.0017553862336302834}
+[tune] trial 351 done: Sharpe=+0.1754  cost=132.3s  best=+0.2348 
+
+[tune] trial 352/100000: {'n_estimators': 64, 'max_depth': 3, 'learning_rate': 0.18127959360069376, 'min_child_weight': 19, 'subsample': 0.8325497930430149, 'colsample_bytree': 0.31780778482454203, 'reg_lambda': 30.978733292620827, 'reg_alpha': 0.04914582255301374, 'gamma': 0.0021733509155684584}
+[tune] trial 352 done: Sharpe=+0.2003  cost=78.6s  best=+0.2348 
+
+[tune] trial 353/100000: {'n_estimators': 53, 'max_depth': 3, 'learning_rate': 0.19302247649993665, 'min_child_weight': 19, 'subsample': 0.6244784428134464, 'colsample_bytree': 0.32940915241148017, 'reg_lambda': 0.062279433624310994, 'reg_alpha': 0.0012620360300392194, 'gamma': 0.003651988497292021}
+[tune] trial 353 done: Sharpe=+0.2037  cost=78.3s  best=+0.2348 
+
+[tune] trial 354/100000: {'n_estimators': 496, 'max_depth': 3, 'learning_rate': 0.18602499011056398, 'min_child_weight': 50, 'subsample': 0.9407682688561492, 'colsample_bytree': 0.3332047760240174, 'reg_lambda': 0.09396019797115397, 'reg_alpha': 0.0018457308848860688, 'gamma': 0.5663759052504561}
+[tune] trial 354 done: Sharpe=-0.0123  cost=147.9s  best=+0.2348 
+
+[tune] trial 355/100000: {'n_estimators': 417, 'max_depth': 3, 'learning_rate': 0.1861497813853149, 'min_child_weight': 30, 'subsample': 0.5474677763854046, 'colsample_bytree': 0.4336479945323244, 'reg_lambda': 0.16539254736207956, 'reg_alpha': 0.0010707003899113683, 'gamma': 0.001109209036860938}
+[tune] trial 355 done: Sharpe=+0.1758  cost=152.2s  best=+0.2348 
+
+[tune] trial 356/100000: {'n_estimators': 491, 'max_depth': 7, 'learning_rate': 0.031117531154398602, 'min_child_weight': 2, 'subsample': 0.6718545743805804, 'colsample_bytree': 0.9944705512693226, 'reg_lambda': 0.015850367107642583, 'reg_alpha': 0.001242112061950509, 'gamma': 0.0010185225036422637}
+[tune] trial 356 done: Sharpe=+0.1973  cost=164.0s  best=+0.2348 
+
+[tune] trial 357/100000: {'n_estimators': 497, 'max_depth': 8, 'learning_rate': 0.010283896775382186, 'min_child_weight': 47, 'subsample': 0.8174997045202133, 'colsample_bytree': 0.8452964206202094, 'reg_lambda': 17.400407874314517, 'reg_alpha': 6.702960651915475, 'gamma': 0.9109195668628156}
+[tune] trial 357 done: Sharpe=-0.0129  cost=145.3s  best=+0.2348 
+
+[tune] trial 358/100000: {'n_estimators': 467, 'max_depth': 8, 'learning_rate': 0.14441524615236154, 'min_child_weight': 3, 'subsample': 0.5018527889851715, 'colsample_bytree': 0.5607564867205562, 'reg_lambda': 0.4284763575199817, 'reg_alpha': 0.2713094234002903, 'gamma': 0.005666360470872209}
+[tune] trial 358 done: Sharpe=+0.1809  cost=140.9s  best=+0.2348 
+
+[tune] trial 359/100000: {'n_estimators': 440, 'max_depth': 3, 'learning_rate': 0.01868939639327333, 'min_child_weight': 7, 'subsample': 0.9824911147241865, 'colsample_bytree': 0.7184977084004872, 'reg_lambda': 0.2957059470487752, 'reg_alpha': 0.029701908186223654, 'gamma': 0.0010128472194250503}
+[tune] trial 359 done: Sharpe=+0.2051  cost=153.1s  best=+0.2348 
+
+[tune] trial 360/100000: {'n_estimators': 303, 'max_depth': 3, 'learning_rate': 0.19518479396497346, 'min_child_weight': 15, 'subsample': 0.9440984454585355, 'colsample_bytree': 0.962962467069097, 'reg_lambda': 0.01565295187854576, 'reg_alpha': 0.010003272701809802, 'gamma': 0.0010118568332465048}
+[tune] trial 360 done: Sharpe=+0.2273  cost=118.7s  best=+0.2348 
+
+[tune] trial 361/100000: {'n_estimators': 486, 'max_depth': 6, 'learning_rate': 0.17097091131832387, 'min_child_weight': 49, 'subsample': 0.9928415236056796, 'colsample_bytree': 0.5461043215140816, 'reg_lambda': 31.13619096640016, 'reg_alpha': 0.004887153377858855, 'gamma': 0.013488616045076606}
+[tune] trial 361 done: Sharpe=+0.1277  cost=145.3s  best=+0.2348 
+
+[tune] trial 362/100000: {'n_estimators': 63, 'max_depth': 8, 'learning_rate': 0.1456698336913648, 'min_child_weight': 2, 'subsample': 0.5117443134257144, 'colsample_bytree': 0.5016294477926315, 'reg_lambda': 3.2507549394469812, 'reg_alpha': 0.13058629187046555, 'gamma': 0.014088186710450635}
+[tune] trial 362 done: Sharpe=+0.1230  cost=61.3s  best=+0.2348 
+
+[tune] trial 363/100000: {'n_estimators': 489, 'max_depth': 7, 'learning_rate': 0.04921846642394723, 'min_child_weight': 24, 'subsample': 0.5540970566303572, 'colsample_bytree': 0.8071751524701696, 'reg_lambda': 0.011000792839673904, 'reg_alpha': 0.17380192661800414, 'gamma': 0.0010410605494467}
+[tune] trial 363 done: Sharpe=+0.1783  cost=167.4s  best=+0.2348 
+
+[tune] trial 364/100000: {'n_estimators': 51, 'max_depth': 8, 'learning_rate': 0.02263088437872417, 'min_child_weight': 31, 'subsample': 0.9818757046465277, 'colsample_bytree': 0.572855692989987, 'reg_lambda': 0.3854874761485918, 'reg_alpha': 0.0010414398983684457, 'gamma': 0.001041649937958372}
+[tune] trial 364 done: Sharpe=+0.1668  cost=77.9s  best=+0.2348 
+
+[tune] trial 365/100000: {'n_estimators': 72, 'max_depth': 3, 'learning_rate': 0.18681348513144924, 'min_child_weight': 25, 'subsample': 0.9718317672652866, 'colsample_bytree': 0.8127200998390238, 'reg_lambda': 28.19850782915487, 'reg_alpha': 0.029633519469628434, 'gamma': 0.006427460572046729}
+[tune] trial 365 done: Sharpe=+0.2016  cost=76.9s  best=+0.2348 
+
+[tune] trial 366/100000: {'n_estimators': 484, 'max_depth': 3, 'learning_rate': 0.012954166032443752, 'min_child_weight': 21, 'subsample': 0.8447146294399506, 'colsample_bytree': 0.8874818629046417, 'reg_lambda': 0.020450813245845297, 'reg_alpha': 0.0023770214677948987, 'gamma': 0.001994913992720057}
+[tune] trial 366 done: Sharpe=+0.2312  cost=156.1s  best=+0.2348 
+
+[tune] trial 367/100000: {'n_estimators': 107, 'max_depth': 8, 'learning_rate': 0.08611633023271285, 'min_child_weight': 12, 'subsample': 0.5720131282254464, 'colsample_bytree': 0.36262126142169604, 'reg_lambda': 1.346927633497752, 'reg_alpha': 0.0010306374644003212, 'gamma': 0.0010095132139460274}
+[tune] trial 367 done: Sharpe=+0.2107  cost=88.9s  best=+0.2348 
+
+[tune] trial 368/100000: {'n_estimators': 482, 'max_depth': 3, 'learning_rate': 0.015890107452676664, 'min_child_weight': 18, 'subsample': 0.8695694845438313, 'colsample_bytree': 0.545448862197583, 'reg_lambda': 0.018665938574685955, 'reg_alpha': 0.0014869167380759344, 'gamma': 0.0020634424436596086}
+[tune] trial 368 done: Sharpe=+0.2324  cost=161.3s  best=+0.2348 
+
+[tune] trial 369/100000: {'n_estimators': 440, 'max_depth': 3, 'learning_rate': 0.19962266483000057, 'min_child_weight': 3, 'subsample': 0.8116185880823086, 'colsample_bytree': 0.3187187771424016, 'reg_lambda': 0.031677101957364756, 'reg_alpha': 0.0011813455740374962, 'gamma': 0.0010694600380180513}
+[tune] trial 369 done: Sharpe=+0.2034  cost=155.4s  best=+0.2348 
+
+[tune] trial 370/100000: {'n_estimators': 492, 'max_depth': 7, 'learning_rate': 0.011449688810498886, 'min_child_weight': 11, 'subsample': 0.8326487560021326, 'colsample_bytree': 0.8163543823229342, 'reg_lambda': 0.022806437522167183, 'reg_alpha': 0.0010831679772265984, 'gamma': 0.001102361423690538}
+[tune] trial 370 done: Sharpe=+0.2220  cost=216.3s  best=+0.2348 
+
+[tune] trial 371/100000: {'n_estimators': 378, 'max_depth': 3, 'learning_rate': 0.08396263743551209, 'min_child_weight': 18, 'subsample': 0.9378757368395128, 'colsample_bytree': 0.7896753686540047, 'reg_lambda': 0.1558999332023865, 'reg_alpha': 0.0010603612605324855, 'gamma': 0.0010249165649364963}
+[tune] trial 371 done: Sharpe=+0.2339  cost=137.6s  best=+0.2348 
+
+[tune] trial 372/100000: {'n_estimators': 483, 'max_depth': 8, 'learning_rate': 0.013127371975088821, 'min_child_weight': 17, 'subsample': 0.5487584452321732, 'colsample_bytree': 0.9432255873533535, 'reg_lambda': 0.39679501782097154, 'reg_alpha': 0.0049233894979417445, 'gamma': 0.001009707878502801}
+[tune] trial 372 done: Sharpe=+0.2028  cost=229.6s  best=+0.2348 
+
+[tune] trial 373/100000: {'n_estimators': 87, 'max_depth': 8, 'learning_rate': 0.16581549860603456, 'min_child_weight': 13, 'subsample': 0.8730087408284273, 'colsample_bytree': 0.8653163100244632, 'reg_lambda': 0.020795777262459257, 'reg_alpha': 0.00472918845325956, 'gamma': 0.0015353624350532668}
+[tune] trial 373 done: Sharpe=+0.1770  cost=80.5s  best=+0.2348 
+
+[tune] trial 374/100000: {'n_estimators': 491, 'max_depth': 8, 'learning_rate': 0.013170543022515644, 'min_child_weight': 11, 'subsample': 0.5159769094866237, 'colsample_bytree': 0.477405188010955, 'reg_lambda': 1.007806043034305, 'reg_alpha': 0.024166388081142565, 'gamma': 0.00815581118492395}
+[tune] trial 374 done: Sharpe=+0.2165  cost=174.7s  best=+0.2348 
+
+[tune] trial 375/100000: {'n_estimators': 481, 'max_depth': 8, 'learning_rate': 0.010732678495344344, 'min_child_weight': 50, 'subsample': 0.5737405853173287, 'colsample_bytree': 0.9740108680218509, 'reg_lambda': 0.020787326655820337, 'reg_alpha': 0.054108520367382465, 'gamma': 0.012522287359014554}
+[tune] trial 375 done: Sharpe=+0.1399  cost=142.8s  best=+0.2348 
+
+[tune] trial 376/100000: {'n_estimators': 498, 'max_depth': 3, 'learning_rate': 0.02592649844409114, 'min_child_weight': 6, 'subsample': 0.5934593883880387, 'colsample_bytree': 0.5045302132123315, 'reg_lambda': 0.026049286353156523, 'reg_alpha': 0.0011089793119539988, 'gamma': 0.006172383856193329}
+[tune] trial 376 done: Sharpe=+0.2089  cost=153.5s  best=+0.2348 
+
+[tune] trial 377/100000: {'n_estimators': 489, 'max_depth': 8, 'learning_rate': 0.014224237474991996, 'min_child_weight': 16, 'subsample': 0.9166856208416001, 'colsample_bytree': 0.9409673220922388, 'reg_lambda': 2.6538022361683242, 'reg_alpha': 0.030857624329200164, 'gamma': 0.00607460321158406}
+[tune] trial 377 done: Sharpe=+0.1937  cost=150.7s  best=+0.2348 
+
+[tune] trial 378/100000: {'n_estimators': 473, 'max_depth': 3, 'learning_rate': 0.14822569166310304, 'min_child_weight': 22, 'subsample': 0.9631053314087566, 'colsample_bytree': 0.5219974798728634, 'reg_lambda': 0.029848711541303634, 'reg_alpha': 0.0010750262435108482, 'gamma': 0.006643642209941518}
+[tune] trial 378 done: Sharpe=+0.2045  cost=145.4s  best=+0.2348 
+
+[tune] trial 379/100000: {'n_estimators': 57, 'max_depth': 3, 'learning_rate': 0.1990789644719385, 'min_child_weight': 9, 'subsample': 0.5286752503185634, 'colsample_bytree': 0.7666365314019286, 'reg_lambda': 1.2297508258386234, 'reg_alpha': 0.04260413392533619, 'gamma': 0.0047330406797521304}
+[tune] trial 379 done: Sharpe=+0.1935  cost=75.0s  best=+0.2348 
+
+[tune] trial 380/100000: {'n_estimators': 494, 'max_depth': 3, 'learning_rate': 0.18940301545584193, 'min_child_weight': 11, 'subsample': 0.9879645293626489, 'colsample_bytree': 0.527361242357477, 'reg_lambda': 15.44870136565062, 'reg_alpha': 0.004788530322090888, 'gamma': 0.0010300093412441496}
+[tune] trial 380 done: Sharpe=+0.2091  cost=147.2s  best=+0.2348 
+
+[tune] trial 381/100000: {'n_estimators': 495, 'max_depth': 7, 'learning_rate': 0.14235401736464726, 'min_child_weight': 21, 'subsample': 0.5053870656200026, 'colsample_bytree': 0.40493171278392914, 'reg_lambda': 7.865424119035942, 'reg_alpha': 0.08705750858202173, 'gamma': 0.006436865219560511}
+[tune] trial 381 done: Sharpe=+0.1975  cost=144.0s  best=+0.2348 
+
+[tune] trial 382/100000: {'n_estimators': 456, 'max_depth': 8, 'learning_rate': 0.024642390697034205, 'min_child_weight': 20, 'subsample': 0.5068429450555487, 'colsample_bytree': 0.874628754356078, 'reg_lambda': 0.07328349090992191, 'reg_alpha': 0.04687059011456585, 'gamma': 0.005525992059075539}
+[tune] trial 382 done: Sharpe=+0.1783  cost=151.2s  best=+0.2348 
+
+[tune] trial 383/100000: {'n_estimators': 458, 'max_depth': 8, 'learning_rate': 0.13247833322625896, 'min_child_weight': 13, 'subsample': 0.9525422041111422, 'colsample_bytree': 0.625027601416382, 'reg_lambda': 0.48680753029393603, 'reg_alpha': 0.2758340184364358, 'gamma': 0.007170475670018014}
+[tune] trial 383 done: Sharpe=+0.1916  cost=133.1s  best=+0.2348 
+
+[tune] trial 384/100000: {'n_estimators': 496, 'max_depth': 3, 'learning_rate': 0.05892510996603663, 'min_child_weight': 49, 'subsample': 0.8324682098468072, 'colsample_bytree': 0.4845110377474044, 'reg_lambda': 0.12108283655936408, 'reg_alpha': 0.025687299612070624, 'gamma': 0.001016318274133959}
+[tune] trial 384 done: Sharpe=+0.1709  cost=179.3s  best=+0.2348 
+
+[tune] trial 385/100000: {'n_estimators': 485, 'max_depth': 3, 'learning_rate': 0.04628496546227749, 'min_child_weight': 11, 'subsample': 0.9709658443048422, 'colsample_bytree': 0.537688887648542, 'reg_lambda': 0.010265923007992037, 'reg_alpha': 0.005436295974142819, 'gamma': 0.0023645353409102814}
+[tune] trial 385 done: Sharpe=+0.2214  cost=178.5s  best=+0.2348 
+
+[tune] trial 386/100000: {'n_estimators': 488, 'max_depth': 8, 'learning_rate': 0.010025752897686575, 'min_child_weight': 13, 'subsample': 0.7151762556957172, 'colsample_bytree': 0.8855856937464393, 'reg_lambda': 0.016492109430746624, 'reg_alpha': 0.0040512632295885646, 'gamma': 0.001871467572172929}
+[tune] trial 386 done: Sharpe=+0.2168  cost=253.3s  best=+0.2348 
+
+[tune] trial 387/100000: {'n_estimators': 499, 'max_depth': 3, 'learning_rate': 0.01443221313237186, 'min_child_weight': 13, 'subsample': 0.6793242659277569, 'colsample_bytree': 0.47758830886430603, 'reg_lambda': 0.029975867488556015, 'reg_alpha': 0.006086355448884812, 'gamma': 0.0022671766087148893}
+[tune] trial 387 done: Sharpe=+0.2274  cost=159.8s  best=+0.2348 
+
+[tune] trial 388/100000: {'n_estimators': 472, 'max_depth': 3, 'learning_rate': 0.019767257952688952, 'min_child_weight': 16, 'subsample': 0.7102444262292922, 'colsample_bytree': 0.4728672615418154, 'reg_lambda': 0.021917298085417047, 'reg_alpha': 0.0011309966098795668, 'gamma': 0.0012791316538532883}
+[tune] trial 388 done: Sharpe=+0.2246  cost=166.3s  best=+0.2348 
+
+[tune] trial 389/100000: {'n_estimators': 488, 'max_depth': 3, 'learning_rate': 0.010146500210361698, 'min_child_weight': 16, 'subsample': 0.5985960535741011, 'colsample_bytree': 0.7873450572208207, 'reg_lambda': 1.2986798843245133, 'reg_alpha': 0.028051088301237058, 'gamma': 0.005606080784290293}

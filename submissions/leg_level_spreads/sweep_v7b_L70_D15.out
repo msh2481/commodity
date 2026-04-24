@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 840
+[validate] queued fold 1 -> group cpu task 841
+[validate] queued fold 2 -> group cpu task 842
+[validate] queued fold 3 -> group cpu task 843
+[validate] waiting for tasks [840, 841, 842, 843]
+16:04:47 - Task 840 changed from Queued to Running
+16:04:49 - Task 841 changed from Queued to Running
+16:04:49 - Task 842 changed from Queued to Running
+16:04:49 - Task 843 changed from Queued to Running
+16:04:57 - Task 840 succeeded with 0
+16:04:59 - Task 841 succeeded with 0
+16:04:59 - Task 842 succeeded with 0
+16:04:59 - Task 843 succeeded with 0
+
+=== 20260421T160356Z_v7b-l70-d15 ===
+description:  v7b L70 D15
+overall:      Sharpe=+0.0894  mean_rho=+0.02219  std_rho=0.24828  n=1961
+fold 0:       Sharpe=+0.0082  mean_rho=+0.00194  std_rho=0.23763  n=491  runtime=  10.8s
+fold 1:       Sharpe=+0.0782  mean_rho=+0.01893  std_rho=0.24188  n=491  runtime=  10.1s
+fold 2:       Sharpe=+0.0929  mean_rho=+0.02402  std_rho=0.25861  n=491  runtime=  10.1s
+fold 3:       Sharpe=+0.1737  mean_rho=+0.04402  std_rho=0.25342  n=488  runtime=   9.5s
+last-fold-delta (fold3 - mean(others)):  +0.1139
+eval time:    compute=40.5s  wallclock=10.8s
+cached preds: /root/commodity/validation/predictions_cache/20260421T160356Z_v7b-l70-d15.csv
+log:          /root/commodity/validation/log.csv

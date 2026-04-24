@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1064
+[validate] queued fold 1 -> group gpu1 task 1065
+[validate] queued fold 2 -> group gpu2 task 1066
+[validate] queued fold 3 -> group gpu3 task 1067
+[validate] waiting for tasks [1064, 1065, 1066, 1067]
+18:02:31 - Found active Task 1064 with status Running
+18:02:31 - Found active Task 1065 with status Running
+18:02:31 - Found active Task 1066 with status Running
+18:02:33 - Task 1067 changed from Queued to Running
+18:14:24 - Task 1066 succeeded with 0
+18:14:27 - Task 1065 succeeded with 0
+18:14:54 - Task 1064 succeeded with 0
+18:14:59 - Task 1067 succeeded with 0
+
+=== 20260421T180230Z_v30-8-way-volume-features ===
+description:  v30 8-way + volume features
+overall:      Sharpe=+0.1213  mean_rho=+0.03111  std_rho=0.25643  n=1961
+fold 0:       Sharpe=+0.0186  mean_rho=+0.00481  std_rho=0.25937  n=491  runtime= 742.7s
+fold 1:       Sharpe=+0.1085  mean_rho=+0.02719  std_rho=0.25057  n=491  runtime= 715.4s
+fold 2:       Sharpe=+0.1452  mean_rho=+0.03646  std_rho=0.25102  n=491  runtime= 713.2s
+fold 3:       Sharpe=+0.2136  mean_rho=+0.05613  std_rho=0.26273  n=488  runtime= 745.7s
+last-fold-delta (fold3 - mean(others)):  +0.1229
+eval time:    compute=2917.0s  wallclock=745.7s
+cached preds: /root/commodity/validation/predictions_cache/20260421T180230Z_v30-8-way-volume-features.csv
+log:          /root/commodity/validation/log.csv

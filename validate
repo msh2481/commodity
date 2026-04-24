@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# Remember where the user called us from, so validate.py can resolve
+# relative model paths correctly.
+export VALIDATE_ORIG_PWD="$PWD"
+cd "$(dirname "$0")"
+# Ensure cargo-installed tools (pueue, pueued) are on PATH
+if [ -f "$HOME/.cargo/env" ]; then
+    . "$HOME/.cargo/env"
+fi
+exec python3 validate.py "$@"

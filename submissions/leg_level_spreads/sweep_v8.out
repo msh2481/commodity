@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 560
+[validate] queued fold 1 -> group cpu task 561
+[validate] queued fold 2 -> group cpu task 562
+[validate] queued fold 3 -> group cpu task 563
+[validate] waiting for tasks [560, 561, 562, 563]
+15:30:30 - Task 560 changed from Queued to Running
+15:30:30 - Task 561 changed from Queued to Running
+15:30:30 - Task 562 changed from Queued to Running
+15:30:30 - Task 563 changed from Queued to Running
+15:30:42 - Task 560 succeeded with 0
+15:30:42 - Task 561 succeeded with 0
+15:30:42 - Task 562 succeeded with 0
+15:30:42 - Task 563 succeeded with 0
+
+=== 20260421T153028Z_v8-per-date-rank-ensemble-leg-direct-alp ===
+description:  v8 per-date rank ensemble leg+direct (alpha_leg=30 alpha_dir=10 w=0.5)
+overall:      Sharpe=+0.0642  mean_rho=+0.01589  std_rho=0.24726  n=1961
+fold 0:       Sharpe=-0.0241  mean_rho=-0.00587  std_rho=0.24353  n=491  runtime=  12.8s
+fold 1:       Sharpe=+0.0501  mean_rho=+0.01221  std_rho=0.24354  n=491  runtime=  12.8s
+fold 2:       Sharpe=+0.0857  mean_rho=+0.02159  std_rho=0.25187  n=491  runtime=  12.8s
+fold 3:       Sharpe=+0.1436  mean_rho=+0.03574  std_rho=0.24891  n=488  runtime=  13.1s
+last-fold-delta (fold3 - mean(others)):  +0.1064
+eval time:    compute=51.5s  wallclock=13.1s
+cached preds: /root/commodity/validation/predictions_cache/20260421T153028Z_v8-per-date-rank-ensemble-leg-direct-alp.csv
+log:          /root/commodity/validation/log.csv

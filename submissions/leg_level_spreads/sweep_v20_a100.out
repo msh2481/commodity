@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 889
+[validate] queued fold 1 -> group cpu task 892
+[validate] queued fold 2 -> group cpu task 896
+[validate] queued fold 3 -> group cpu task 899
+[validate] waiting for tasks [889, 892, 896, 899]
+16:20:11 - Task 889 changed from Queued to Running
+16:20:22 - Task 889 succeeded with 0
+16:20:22 - Task 892 changed from Queued to Running
+16:20:35 - Task 892 succeeded with 0
+16:20:35 - Task 896 changed from Queued to Running
+16:20:37 - Task 899 changed from Queued to Running
+16:20:48 - Task 896 succeeded with 0
+16:20:50 - Task 899 succeeded with 0
+
+=== 20260421T161942Z_v20-direct-ridge-alpha-100-wide ===
+description:  v20 direct ridge alpha=100 wide
+overall:      Sharpe=+0.0679  mean_rho=+0.01729  std_rho=0.25455  n=1961
+fold 0:       Sharpe=-0.0457  mean_rho=-0.01125  std_rho=0.24621  n=491  runtime=  12.7s
+fold 1:       Sharpe=+0.0892  mean_rho=+0.02250  std_rho=0.25217  n=491  runtime=  12.7s
+fold 2:       Sharpe=+0.0601  mean_rho=+0.01550  std_rho=0.25797  n=491  runtime=  12.6s
+fold 3:       Sharpe=+0.1640  mean_rho=+0.04258  std_rho=0.25954  n=488  runtime=  12.1s
+last-fold-delta (fold3 - mean(others)):  +0.1295
+eval time:    compute=50.1s  wallclock=12.7s
+cached preds: /root/commodity/validation/predictions_cache/20260421T161942Z_v20-direct-ridge-alpha-100-wide.csv
+log:          /root/commodity/validation/log.csv

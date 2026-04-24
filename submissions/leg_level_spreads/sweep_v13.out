@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 692
+[validate] queued fold 1 -> group cpu task 693
+[validate] queued fold 2 -> group cpu task 694
+[validate] queued fold 3 -> group cpu task 695
+[validate] waiting for tasks [692, 693, 694, 695]
+15:50:04 - Task 692 changed from Queued to Running
+15:50:23 - Task 692 succeeded with 0
+15:50:23 - Task 693 changed from Queued to Running
+15:50:27 - Task 694 changed from Queued to Running
+15:50:42 - Task 693 succeeded with 0
+15:50:42 - Task 695 changed from Queued to Running
+15:50:46 - Task 694 succeeded with 0
+15:50:59 - Task 695 succeeded with 0
+
+=== 20260421T155002Z_v13-bagged-ridge-5-bags-feat-frac-0-6-al ===
+description:  v13 bagged ridge (5 bags, feat_frac=0.6, alpha_leg=30 alpha_dir=10)
+overall:      Sharpe=+0.0817  mean_rho=+0.02079  std_rho=0.25432  n=1961
+fold 0:       Sharpe=-0.0049  mean_rho=-0.00121  std_rho=0.24427  n=491  runtime=  17.7s
+fold 1:       Sharpe=+0.0807  mean_rho=+0.01986  std_rho=0.24595  n=491  runtime=  19.8s
+fold 2:       Sharpe=+0.0836  mean_rho=+0.02203  std_rho=0.26340  n=491  runtime=  18.2s
+fold 3:       Sharpe=+0.1626  mean_rho=+0.04260  std_rho=0.26196  n=488  runtime=  15.9s
+last-fold-delta (fold3 - mean(others)):  +0.1095
+eval time:    compute=71.5s  wallclock=19.8s
+cached preds: /root/commodity/validation/predictions_cache/20260421T155002Z_v13-bagged-ridge-5-bags-feat-frac-0-6-al.csv
+log:          /root/commodity/validation/log.csv

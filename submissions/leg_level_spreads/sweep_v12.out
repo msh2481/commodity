@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 684
+[validate] queued fold 1 -> group cpu task 685
+[validate] queued fold 2 -> group cpu task 686
+[validate] queued fold 3 -> group cpu task 687
+[validate] waiting for tasks [684, 685, 686, 687]
+15:48:13 - Task 684 changed from Queued to Running
+15:48:30 - Task 684 succeeded with 0
+15:48:30 - Task 685 changed from Queued to Running
+15:48:46 - Task 685 succeeded with 0
+15:48:46 - Task 686 changed from Queued to Running
+15:49:01 - Task 686 succeeded with 0
+15:49:01 - Task 687 changed from Queued to Running
+15:49:13 - Task 687 succeeded with 0
+
+=== 20260421T154647Z_v12-per-lag-alpha-ridge-ensemble-alphas- ===
+description:  v12 per-lag alpha ridge ensemble (alphas 30/50/70/100, dir=10)
+overall:      Sharpe=+0.0890  mean_rho=+0.02191  std_rho=0.24624  n=1961
+fold 0:       Sharpe=+0.0102  mean_rho=+0.00240  std_rho=0.23595  n=491  runtime=  15.8s
+fold 1:       Sharpe=+0.0733  mean_rho=+0.01753  std_rho=0.23916  n=491  runtime=  15.8s
+fold 2:       Sharpe=+0.0981  mean_rho=+0.02525  std_rho=0.25750  n=491  runtime=  15.6s
+fold 3:       Sharpe=+0.1698  mean_rho=+0.04259  std_rho=0.25083  n=488  runtime=  13.3s
+last-fold-delta (fold3 - mean(others)):  +0.1093
+eval time:    compute=60.5s  wallclock=15.8s
+cached preds: /root/commodity/validation/predictions_cache/20260421T154647Z_v12-per-lag-alpha-ridge-ensemble-alphas-.csv
+log:          /root/commodity/validation/log.csv

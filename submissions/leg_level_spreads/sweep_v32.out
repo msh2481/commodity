@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1088
+[validate] queued fold 1 -> group gpu1 task 1089
+[validate] queued fold 2 -> group gpu2 task 1090
+[validate] queued fold 3 -> group gpu3 task 1091
+[validate] waiting for tasks [1088, 1089, 1090, 1091]
+18:48:48 - Task 1091 changed from Queued to Running
+18:48:50 - Task 1089 changed from Queued to Running
+18:48:56 - Task 1088 changed from Queued to Running
+18:49:03 - Task 1090 changed from Queued to Running
+19:00:44 - Task 1089 succeeded with 0
+19:00:57 - Task 1090 succeeded with 0
+19:00:57 - Task 1091 succeeded with 0
+19:01:23 - Task 1088 succeeded with 0
+
+=== 20260421T184656Z_v32-v30-leg-rank-ridge-9-way ===
+description:  v32 v30 + leg rank ridge (9-way)
+overall:      Sharpe=+0.1216  mean_rho=+0.03123  std_rho=0.25680  n=1961
+fold 0:       Sharpe=+0.0175  mean_rho=+0.00452  std_rho=0.25836  n=491  runtime= 746.6s
+fold 1:       Sharpe=+0.1140  mean_rho=+0.02852  std_rho=0.25018  n=491  runtime= 713.6s
+fold 2:       Sharpe=+0.1398  mean_rho=+0.03561  std_rho=0.25477  n=491  runtime= 713.0s
+fold 3:       Sharpe=+0.2154  mean_rho=+0.05640  std_rho=0.26186  n=488  runtime= 728.9s
+last-fold-delta (fold3 - mean(others)):  +0.1250
+eval time:    compute=2902.1s  wallclock=746.6s
+cached preds: /root/commodity/validation/predictions_cache/20260421T184656Z_v32-v30-leg-rank-ridge-9-way.csv
+log:          /root/commodity/validation/log.csv

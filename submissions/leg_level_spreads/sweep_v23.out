@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 964
+[validate] queued fold 1 -> group cpu task 965
+[validate] queued fold 2 -> group cpu task 966
+[validate] queued fold 3 -> group cpu task 967
+[validate] waiting for tasks [964, 965, 966, 967]
+16:31:42 - Task 964 changed from Queued to Running
+16:31:42 - Task 965 changed from Queued to Running
+16:31:42 - Task 966 changed from Queued to Running
+16:31:42 - Task 967 changed from Queued to Running
+16:32:05 - Task 965 succeeded with 0
+16:32:05 - Task 966 succeeded with 0
+16:32:05 - Task 967 succeeded with 0
+16:32:08 - Task 964 succeeded with 0
+
+=== 20260421T163140Z_v23-v22-expanded-pair-features-dret2-3-v ===
+description:  v23 v22 + expanded pair features (dret2,3 + vol20) alpha_L30_D100
+overall:      Sharpe=+0.0949  mean_rho=+0.02403  std_rho=0.25313  n=1961
+fold 0:       Sharpe=+0.0195  mean_rho=+0.00502  std_rho=0.25685  n=491  runtime=  25.6s
+fold 1:       Sharpe=+0.0863  mean_rho=+0.02085  std_rho=0.24149  n=491  runtime=  23.7s
+fold 2:       Sharpe=+0.0886  mean_rho=+0.02261  std_rho=0.25527  n=491  runtime=  23.1s
+fold 3:       Sharpe=+0.1855  mean_rho=+0.04778  std_rho=0.25754  n=488  runtime=  23.0s
+last-fold-delta (fold3 - mean(others)):  +0.1207
+eval time:    compute=95.5s  wallclock=25.6s
+cached preds: /root/commodity/validation/predictions_cache/20260421T163140Z_v23-v22-expanded-pair-features-dret2-3-v.csv
+log:          /root/commodity/validation/log.csv

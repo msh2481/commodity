@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1076
+[validate] queued fold 1 -> group gpu1 task 1077
+[validate] queued fold 2 -> group gpu2 task 1078
+[validate] queued fold 3 -> group gpu3 task 1079
+[validate] waiting for tasks [1076, 1077, 1078, 1079]
+18:17:28 - Task 1079 changed from Queued to Running
+18:17:36 - Task 1076 changed from Queued to Running
+18:17:41 - Task 1077 changed from Queued to Running
+18:17:41 - Task 1078 changed from Queued to Running
+18:30:17 - Task 1077 succeeded with 0
+18:30:19 - Task 1079 succeeded with 0
+18:30:21 - Task 1078 succeeded with 0
+18:30:31 - Task 1076 succeeded with 0
+
+=== 20260421T181645Z_v31-v30-pair-rank-features ===
+description:  v31 v30 + pair rank features
+overall:      Sharpe=+0.1208  mean_rho=+0.03116  std_rho=0.25791  n=1961
+fold 0:       Sharpe=+0.0121  mean_rho=+0.00316  std_rho=0.26190  n=491  runtime= 773.5s
+fold 1:       Sharpe=+0.1075  mean_rho=+0.02732  std_rho=0.25416  n=491  runtime= 755.6s
+fold 2:       Sharpe=+0.1481  mean_rho=+0.03710  std_rho=0.25040  n=491  runtime= 761.3s
+fold 3:       Sharpe=+0.2177  mean_rho=+0.05722  std_rho=0.26285  n=488  runtime= 770.0s
+last-fold-delta (fold3 - mean(others)):  +0.1285
+eval time:    compute=3060.4s  wallclock=773.5s
+cached preds: /root/commodity/validation/predictions_cache/20260421T181645Z_v31-v30-pair-rank-features.csv
+log:          /root/commodity/validation/log.csv

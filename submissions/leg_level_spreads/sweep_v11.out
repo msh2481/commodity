@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 644
+[validate] queued fold 1 -> group cpu task 645
+[validate] queued fold 2 -> group cpu task 646
+[validate] queued fold 3 -> group cpu task 647
+[validate] waiting for tasks [644, 645, 646, 647]
+15:41:05 - Task 644 changed from Queued to Running
+15:41:05 - Task 645 changed from Queued to Running
+15:41:07 - Task 646 changed from Queued to Running
+15:41:09 - Task 647 changed from Queued to Running
+15:41:22 - Task 644 succeeded with 0
+15:41:22 - Task 645 succeeded with 0
+15:41:22 - Task 646 succeeded with 0
+15:41:24 - Task 647 succeeded with 0
+
+=== 20260421T154029Z_v11-ensemble-with-wide-plus-features-alp ===
+description:  v11 ensemble with wide_plus features (alpha_leg=100 alpha_dir=30)
+overall:      Sharpe=+0.0682  mean_rho=+0.01691  std_rho=0.24800  n=1961
+fold 0:       Sharpe=-0.0116  mean_rho=-0.00280  std_rho=0.24054  n=491  runtime=  17.3s
+fold 1:       Sharpe=+0.1222  mean_rho=+0.03156  std_rho=0.25821  n=491  runtime=  17.3s
+fold 2:       Sharpe=+0.0686  mean_rho=+0.01717  std_rho=0.25034  n=491  runtime=  15.7s
+fold 3:       Sharpe=+0.0899  mean_rho=+0.02174  std_rho=0.24195  n=488  runtime=  16.0s
+last-fold-delta (fold3 - mean(others)):  +0.0301
+eval time:    compute=66.2s  wallclock=17.3s
+cached preds: /root/commodity/validation/predictions_cache/20260421T154029Z_v11-ensemble-with-wide-plus-features-alp.csv
+log:          /root/commodity/validation/log.csv

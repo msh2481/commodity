@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 587
+[validate] queued fold 1 -> group cpu task 589
+[validate] queued fold 2 -> group cpu task 590
+[validate] queued fold 3 -> group cpu task 591
+[validate] waiting for tasks [587, 589, 590, 591]
+15:32:51 - Task 587 changed from Queued to Running
+15:33:08 - Task 587 succeeded with 0
+15:33:08 - Task 589 changed from Queued to Running
+15:33:08 - Task 590 changed from Queued to Running
+15:33:08 - Task 591 changed from Queued to Running
+15:33:35 - Task 589 succeeded with 0
+15:33:39 - Task 590 succeeded with 0
+15:33:41 - Task 591 succeeded with 0
+
+=== 20260421T153136Z_v9-ensemble-weight-leg-0-2 ===
+description:  v9 ensemble weight_leg=0.2
+overall:      Sharpe=+0.0888  mean_rho=+0.02158  std_rho=0.24292  n=1961
+fold 0:       Sharpe=+0.0255  mean_rho=+0.00597  std_rho=0.23404  n=491  runtime=  16.3s
+fold 1:       Sharpe=+0.0636  mean_rho=+0.01476  std_rho=0.23206  n=491  runtime=  27.2s
+fold 2:       Sharpe=+0.1101  mean_rho=+0.02814  std_rho=0.25561  n=491  runtime=  31.0s
+fold 3:       Sharpe=+0.1510  mean_rho=+0.03755  std_rho=0.24874  n=488  runtime=  31.6s
+last-fold-delta (fold3 - mean(others)):  +0.0846
+eval time:    compute=106.1s  wallclock=31.6s
+cached preds: /root/commodity/validation/predictions_cache/20260421T153136Z_v9-ensemble-weight-leg-0-2.csv
+log:          /root/commodity/validation/log.csv

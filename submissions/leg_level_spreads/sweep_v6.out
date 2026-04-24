@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 388
+[validate] queued fold 1 -> group gpu1 task 389
+[validate] queued fold 2 -> group gpu2 task 390
+[validate] queued fold 3 -> group gpu3 task 391
+[validate] waiting for tasks [388, 389, 390, 391]
+15:50:04 - Task 390 changed from Queued to Running
+15:50:15 - Task 391 changed from Queued to Running
+15:51:56 - Task 390 succeeded with 0
+15:52:04 - Task 391 succeeded with 0
+15:53:22 - Task 389 changed from Queued to Running
+15:53:28 - Task 388 changed from Queued to Running
+15:55:24 - Task 389 succeeded with 0
+15:55:26 - Task 388 succeeded with 0
+
+=== 20260421T151308Z_v6-xgboost-leg-model-wide-feats-depth-4- ===
+description:  v6 xgboost leg model, wide feats, depth=4 eta=0.05 rounds=100
+overall:      Sharpe=+0.0498  mean_rho=+0.01049  std_rho=0.21053  n=1961
+fold 0:       Sharpe=-0.0230  mean_rho=-0.00477  std_rho=0.20789  n=491  runtime= 118.2s
+fold 1:       Sharpe=-0.0137  mean_rho=-0.00294  std_rho=0.21533  n=491  runtime= 120.3s
+fold 2:       Sharpe=+0.0456  mean_rho=+0.00967  std_rho=0.21184  n=491  runtime= 109.6s
+fold 3:       Sharpe=+0.1965  mean_rho=+0.04018  std_rho=0.20444  n=488  runtime= 110.2s
+last-fold-delta (fold3 - mean(others)):  +0.1935
+eval time:    compute=458.3s  wallclock=120.3s
+cached preds: /root/commodity/validation/predictions_cache/20260421T151308Z_v6-xgboost-leg-model-wide-feats-depth-4-.csv
+log:          /root/commodity/validation/log.csv

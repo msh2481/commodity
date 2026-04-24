@@ -1,0 +1,20 @@
+# Raw competition data
+data/
+*.zip
+
+# Validation outputs
+validation/predictions_cache/
+validation/models_cache/
+validation/runs/
+validation/log.csv
+validation/fold_assignments.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+*.swp
+*.swo
+
+*_cache

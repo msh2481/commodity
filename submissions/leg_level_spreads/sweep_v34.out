@@ -1,0 +1,23 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1148
+[validate] queued fold 1 -> group gpu1 task 1149
+[validate] queued fold 2 -> group gpu2 task 1150
+[validate] queued fold 3 -> group gpu3 task 1151
+[validate] waiting for tasks [1148, 1149, 1150, 1151]
+19:51:39 - Task 1148 changed from Queued to Running
+19:51:39 - Task 1149 changed from Queued to Running
+19:51:39 - Task 1150 changed from Queued to Running
+19:51:39 - Task 1151 changed from Queued to Running
+19:56:59 - Task 1148 has been killed
+19:56:59 - Task 1149 has been killed
+19:56:59 - Task 1150 has been killed
+19:56:59 - Task 1151 has been killed
+[validate] fold task 1148 failed:
+[fold 0] train=1470 test=491
+[validate] fold task 1149 failed:
+[fold 1] train=1470 test=491
+[validate] fold task 1150 failed:
+[fold 2] train=1470 test=491
+[validate] fold task 1151 failed:
+[fold 3] train=1473 test=488

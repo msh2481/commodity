@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 844
+[validate] queued fold 1 -> group cpu task 845
+[validate] queued fold 2 -> group cpu task 846
+[validate] queued fold 3 -> group cpu task 847
+[validate] waiting for tasks [844, 845, 846, 847]
+16:08:43 - Found active Task 844 with status Running
+16:08:43 - Found active Task 845 with status Running
+16:08:43 - Found active Task 846 with status Running
+16:08:45 - Task 847 changed from Queued to Running
+16:08:57 - Task 845 succeeded with 0
+16:08:59 - Task 844 succeeded with 0
+16:08:59 - Task 846 succeeded with 0
+16:08:59 - Task 847 succeeded with 0
+
+=== 20260421T160842Z_v16-v7-with-per-date-cross-sectional-dem ===
+description:  v16 v7 with per-date cross-sectional demean of leg labels
+overall:      Sharpe=+0.0896  mean_rho=+0.02196  std_rho=0.24511  n=1961
+fold 0:       Sharpe=+0.0212  mean_rho=+0.00502  std_rho=0.23610  n=491  runtime=  15.0s
+fold 1:       Sharpe=+0.0732  mean_rho=+0.01719  std_rho=0.23492  n=491  runtime=  14.3s
+fold 2:       Sharpe=+0.1031  mean_rho=+0.02641  std_rho=0.25623  n=491  runtime=  15.2s
+fold 3:       Sharpe=+0.1561  mean_rho=+0.03935  std_rho=0.25198  n=488  runtime=  14.9s
+last-fold-delta (fold3 - mean(others)):  +0.0903
+eval time:    compute=59.4s  wallclock=15.2s
+cached preds: /root/commodity/validation/predictions_cache/20260421T160842Z_v16-v7-with-per-date-cross-sectional-dem.csv
+log:          /root/commodity/validation/log.csv

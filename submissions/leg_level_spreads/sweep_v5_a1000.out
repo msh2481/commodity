@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 276
+[validate] queued fold 1 -> group cpu task 277
+[validate] queued fold 2 -> group cpu task 278
+[validate] queued fold 3 -> group cpu task 279
+[validate] waiting for tasks [276, 277, 278, 279]
+15:04:40 - Task 276 changed from Queued to Running
+15:04:40 - Task 277 changed from Queued to Running
+15:04:40 - Task 278 changed from Queued to Running
+15:04:40 - Task 279 changed from Queued to Running
+15:04:53 - Task 276 succeeded with 0
+15:04:55 - Task 277 succeeded with 0
+15:04:55 - Task 278 succeeded with 0
+15:04:55 - Task 279 succeeded with 0
+
+=== 20260421T150355Z_v5-wide-feats-alpha-1000 ===
+description:  v5 wide feats alpha=1000
+overall:      Sharpe=+0.0544  mean_rho=+0.01435  std_rho=0.26387  n=1961
+fold 0:       Sharpe=-0.0679  mean_rho=-0.01644  std_rho=0.24216  n=491  runtime=  13.4s
+fold 1:       Sharpe=+0.0843  mean_rho=+0.02306  std_rho=0.27355  n=491  runtime=  13.4s
+fold 2:       Sharpe=+0.0515  mean_rho=+0.01353  std_rho=0.26281  n=491  runtime=  13.1s
+fold 3:       Sharpe=+0.1366  mean_rho=+0.03739  std_rho=0.27364  n=488  runtime=  12.8s
+last-fold-delta (fold3 - mean(others)):  +0.1140
+eval time:    compute=52.6s  wallclock=13.4s
+cached preds: /root/commodity/validation/predictions_cache/20260421T150355Z_v5-wide-feats-alpha-1000.csv
+log:          /root/commodity/validation/log.csv

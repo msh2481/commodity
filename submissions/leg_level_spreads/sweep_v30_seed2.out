@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1080
+[validate] queued fold 1 -> group gpu1 task 1081
+[validate] queued fold 2 -> group gpu2 task 1082
+[validate] queued fold 3 -> group gpu3 task 1083
+[validate] waiting for tasks [1080, 1081, 1082, 1083]
+18:31:52 - Task 1080 changed from Queued to Running
+18:31:52 - Task 1081 changed from Queued to Running
+18:31:52 - Task 1082 changed from Queued to Running
+18:31:52 - Task 1083 changed from Queued to Running
+18:43:56 - Task 1081 succeeded with 0
+18:43:56 - Task 1082 succeeded with 0
+18:44:11 - Task 1080 succeeded with 0
+18:44:11 - Task 1083 succeeded with 0
+
+=== 20260421T183150Z_v30-alt-seeds-101-202 ===
+description:  v30 alt seeds 101/202
+overall:      Sharpe=+0.1215  mean_rho=+0.03119  std_rho=0.25673  n=1961
+fold 0:       Sharpe=+0.0160  mean_rho=+0.00413  std_rho=0.25839  n=491  runtime= 739.7s
+fold 1:       Sharpe=+0.1070  mean_rho=+0.02700  std_rho=0.25230  n=491  runtime= 724.4s
+fold 2:       Sharpe=+0.1390  mean_rho=+0.03510  std_rho=0.25263  n=491  runtime= 724.7s
+fold 3:       Sharpe=+0.2246  mean_rho=+0.05870  std_rho=0.26135  n=488  runtime= 739.1s
+last-fold-delta (fold3 - mean(others)):  +0.1373
+eval time:    compute=2927.9s  wallclock=739.7s
+cached preds: /root/commodity/validation/predictions_cache/20260421T183150Z_v30-alt-seeds-101-202.csv
+log:          /root/commodity/validation/log.csv

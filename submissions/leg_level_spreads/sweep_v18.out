@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 856
+[validate] queued fold 1 -> group gpu1 task 857
+[validate] queued fold 2 -> group gpu2 task 858
+[validate] queued fold 3 -> group gpu3 task 859
+[validate] waiting for tasks [856, 857, 858, 859]
+16:12:01 - Task 859 changed from Queued to Running
+16:12:03 - Task 856 changed from Queued to Running
+16:12:12 - Task 857 changed from Queued to Running
+16:12:16 - Task 858 changed from Queued to Running
+16:12:45 - Task 856 succeeded with 0
+16:12:45 - Task 859 succeeded with 0
+16:12:53 - Task 857 succeeded with 0
+16:12:58 - Task 858 succeeded with 0
+
+=== 20260421T161039Z_v18-v7-regularized-xgb-depth-3-lambda-10 ===
+description:  v18 v7 + regularized xgb (depth=3, lambda=100, 50 rounds, weight 0.2)
+overall:      Sharpe=+0.0847  mean_rho=+0.02090  std_rho=0.24683  n=1961
+fold 0:       Sharpe=+0.0009  mean_rho=+0.00022  std_rho=0.23528  n=491  runtime=  42.3s
+fold 1:       Sharpe=+0.0651  mean_rho=+0.01568  std_rho=0.24079  n=491  runtime=  43.5s
+fold 2:       Sharpe=+0.1030  mean_rho=+0.02665  std_rho=0.25867  n=491  runtime=  42.0s
+fold 3:       Sharpe=+0.1641  mean_rho=+0.04117  std_rho=0.25087  n=488  runtime=  42.6s
+last-fold-delta (fold3 - mean(others)):  +0.1077
+eval time:    compute=170.4s  wallclock=43.5s
+cached preds: /root/commodity/validation/predictions_cache/20260421T161039Z_v18-v7-regularized-xgb-depth-3-lambda-10.csv
+log:          /root/commodity/validation/log.csv

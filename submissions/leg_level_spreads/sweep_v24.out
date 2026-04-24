@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 996
+[validate] queued fold 1 -> group gpu1 task 997
+[validate] queued fold 2 -> group gpu2 task 998
+[validate] queued fold 3 -> group gpu3 task 999
+[validate] waiting for tasks [996, 997, 998, 999]
+16:38:08 - Task 998 changed from Queued to Running
+16:38:10 - Task 996 changed from Queued to Running
+16:38:10 - Task 999 changed from Queued to Running
+16:38:12 - Task 997 changed from Queued to Running
+16:39:26 - Task 998 succeeded with 0
+16:39:28 - Task 999 succeeded with 0
+16:39:30 - Task 996 succeeded with 0
+16:39:30 - Task 997 succeeded with 0
+
+=== 20260421T163746Z_v24-v22-xgboost-direct-depth-3-60-rounds ===
+description:  v24 v22 + XGBoost direct (depth=3, 60 rounds)
+overall:      Sharpe=+0.1014  mean_rho=+0.02577  std_rho=0.25410  n=1961
+fold 0:       Sharpe=+0.0152  mean_rho=+0.00389  std_rho=0.25604  n=491  runtime=  81.0s
+fold 1:       Sharpe=+0.0845  mean_rho=+0.02067  std_rho=0.24471  n=491  runtime=  78.4s
+fold 2:       Sharpe=+0.1057  mean_rho=+0.02696  std_rho=0.25499  n=491  runtime=  77.6s
+fold 3:       Sharpe=+0.1998  mean_rho=+0.05174  std_rho=0.25891  n=488  runtime=  78.5s
+last-fold-delta (fold3 - mean(others)):  +0.1314
+eval time:    compute=315.5s  wallclock=81.0s
+cached preds: /root/commodity/validation/predictions_cache/20260421T163746Z_v24-v22-xgboost-direct-depth-3-60-rounds.csv
+log:          /root/commodity/validation/log.csv

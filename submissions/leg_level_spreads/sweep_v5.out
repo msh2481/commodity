@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 260
+[validate] queued fold 1 -> group cpu task 261
+[validate] queued fold 2 -> group cpu task 262
+[validate] queued fold 3 -> group cpu task 263
+[validate] waiting for tasks [260, 261, 262, 263]
+15:03:11 - Task 260 changed from Queued to Running
+15:03:11 - Task 261 changed from Queued to Running
+15:03:13 - Task 262 changed from Queued to Running
+15:03:13 - Task 263 changed from Queued to Running
+15:03:23 - Task 260 succeeded with 0
+15:03:25 - Task 261 succeeded with 0
+15:03:25 - Task 262 succeeded with 0
+15:03:25 - Task 263 succeeded with 0
+
+=== 20260421T150220Z_v5-ridge-leg-model-wide-features-all-pri ===
+description:  v5 ridge leg model, wide features (all price cols, alpha=500)
+overall:      Sharpe=+0.0589  mean_rho=+0.01555  std_rho=0.26393  n=1961
+fold 0:       Sharpe=-0.0627  mean_rho=-0.01532  std_rho=0.24416  n=491  runtime=  13.1s
+fold 1:       Sharpe=+0.0880  mean_rho=+0.02386  std_rho=0.27116  n=491  runtime=  13.4s
+fold 2:       Sharpe=+0.0584  mean_rho=+0.01542  std_rho=0.26396  n=491  runtime=  13.3s
+fold 3:       Sharpe=+0.1404  mean_rho=+0.03839  std_rho=0.27338  n=488  runtime=  13.3s
+last-fold-delta (fold3 - mean(others)):  +0.1125
+eval time:    compute=53.1s  wallclock=13.4s
+cached preds: /root/commodity/validation/predictions_cache/20260421T150220Z_v5-ridge-leg-model-wide-features-all-pri.csv
+log:          /root/commodity/validation/log.csv

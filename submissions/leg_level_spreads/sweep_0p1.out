@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 208
+[validate] queued fold 1 -> group cpu task 209
+[validate] queued fold 2 -> group cpu task 210
+[validate] queued fold 3 -> group cpu task 211
+[validate] waiting for tasks [208, 209, 210, 211]
+14:58:55 - Task 208 changed from Queued to Running
+14:58:57 - Task 209 changed from Queued to Running
+14:58:57 - Task 210 changed from Queued to Running
+14:58:57 - Task 211 changed from Queued to Running
+14:59:08 - Task 208 succeeded with 0
+14:59:10 - Task 209 succeeded with 0
+14:59:10 - Task 210 succeeded with 0
+14:59:10 - Task 211 succeeded with 0
+
+=== 20260421T145831Z_sweep-alpha-0-1-leg-ridge-extended-feats ===
+description:  sweep alpha=0.1 (leg ridge, extended feats)
+overall:      Sharpe=-0.0164  mean_rho=-0.00386  std_rho=0.23586  n=1961
+fold 0:       Sharpe=-0.0409  mean_rho=-0.01061  std_rho=0.25934  n=491  runtime=  12.1s
+fold 1:       Sharpe=+0.0109  mean_rho=+0.00261  std_rho=0.24001  n=491  runtime=  12.4s
+fold 2:       Sharpe=-0.0675  mean_rho=-0.01490  std_rho=0.22076  n=491  runtime=  12.7s
+fold 3:       Sharpe=+0.0340  mean_rho=+0.00751  std_rho=0.22109  n=488  runtime=  12.4s
+last-fold-delta (fold3 - mean(others)):  +0.0665
+eval time:    compute=49.7s  wallclock=12.7s
+cached preds: /root/commodity/validation/predictions_cache/20260421T145831Z_sweep-alpha-0-1-leg-ridge-extended-feats.csv
+log:          /root/commodity/validation/log.csv

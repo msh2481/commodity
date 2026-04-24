@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1060
+[validate] queued fold 1 -> group gpu1 task 1061
+[validate] queued fold 2 -> group gpu2 task 1062
+[validate] queued fold 3 -> group gpu3 task 1063
+[validate] waiting for tasks [1060, 1061, 1062, 1063]
+17:40:05 - Found active Task 1060 with status Running
+17:40:05 - Found active Task 1061 with status Running
+17:40:05 - Found active Task 1062 with status Running
+17:40:05 - Found active Task 1063 with status Running
+17:57:47 - Task 1061 succeeded with 0
+17:58:00 - Task 1062 succeeded with 0
+17:58:12 - Task 1063 succeeded with 0
+17:58:38 - Task 1060 succeeded with 0
+
+=== 20260421T174004Z_v29-v28-with-more-xgb-rounds-direct-120- ===
+description:  v29 v28 with more XGB rounds (direct 120, leg 150)
+overall:      Sharpe=+0.1146  mean_rho=+0.02947  std_rho=0.25728  n=1961
+fold 0:       Sharpe=+0.0061  mean_rho=+0.00157  std_rho=0.25862  n=491  runtime=1112.1s
+fold 1:       Sharpe=+0.1011  mean_rho=+0.02546  std_rho=0.25174  n=491  runtime=1061.3s
+fold 2:       Sharpe=+0.1368  mean_rho=+0.03494  std_rho=0.25542  n=491  runtime=1074.3s
+fold 3:       Sharpe=+0.2148  mean_rho=+0.05609  std_rho=0.26108  n=488  runtime=1086.9s
+last-fold-delta (fold3 - mean(others)):  +0.1335
+eval time:    compute=4334.6s  wallclock=1112.1s
+cached preds: /root/commodity/validation/predictions_cache/20260421T174004Z_v29-v28-with-more-xgb-rounds-direct-120-.csv
+log:          /root/commodity/validation/log.csv

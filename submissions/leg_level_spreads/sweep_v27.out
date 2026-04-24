@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1048
+[validate] queued fold 1 -> group gpu1 task 1049
+[validate] queued fold 2 -> group gpu2 task 1050
+[validate] queued fold 3 -> group gpu3 task 1051
+[validate] waiting for tasks [1048, 1049, 1050, 1051]
+17:14:43 - Task 1050 changed from Queued to Running
+17:14:56 - Task 1049 changed from Queued to Running
+17:15:04 - Task 1051 changed from Queued to Running
+17:15:13 - Task 1048 changed from Queued to Running
+17:23:41 - Task 1050 succeeded with 0
+17:23:52 - Task 1049 succeeded with 0
+17:24:09 - Task 1051 succeeded with 0
+17:24:32 - Task 1048 succeeded with 0
+
+=== 20260421T171436Z_v27-no-leg-ridge-direct-2-xgb-3 ===
+description:  v27 no leg ridge (direct×2 + xgb×3)
+overall:      Sharpe=+0.1167  mean_rho=+0.02984  std_rho=0.25572  n=1961
+fold 0:       Sharpe=+0.0068  mean_rho=+0.00180  std_rho=0.26555  n=491  runtime= 558.9s
+fold 1:       Sharpe=+0.1002  mean_rho=+0.02507  std_rho=0.25019  n=491  runtime= 537.8s
+fold 2:       Sharpe=+0.1537  mean_rho=+0.03740  std_rho=0.24329  n=491  runtime= 537.2s
+fold 3:       Sharpe=+0.2115  mean_rho=+0.05523  std_rho=0.26109  n=488  runtime= 544.1s
+last-fold-delta (fold3 - mean(others)):  +0.1246
+eval time:    compute=2178.0s  wallclock=558.9s
+cached preds: /root/commodity/validation/predictions_cache/20260421T171436Z_v27-no-leg-ridge-direct-2-xgb-3.csv
+log:          /root/commodity/validation/log.csv

@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cpu  cpus_per_fold=64
+[validate] queued fold 0 -> group cpu task 696
+[validate] queued fold 1 -> group cpu task 697
+[validate] queued fold 2 -> group cpu task 698
+[validate] queued fold 3 -> group cpu task 699
+[validate] waiting for tasks [696, 697, 698, 699]
+15:52:17 - Task 696 changed from Queued to Running
+15:52:17 - Task 697 changed from Queued to Running
+15:52:17 - Task 698 changed from Queued to Running
+15:52:17 - Task 699 changed from Queued to Running
+15:52:32 - Task 699 succeeded with 0
+15:52:34 - Task 696 succeeded with 0
+15:52:34 - Task 697 succeeded with 0
+15:52:34 - Task 698 succeeded with 0
+
+=== 20260421T155215Z_v14-v7-with-per-label-std-normalization- ===
+description:  v14 v7 with per-label std normalization before ridge
+overall:      Sharpe=+0.0894  mean_rho=+0.02191  std_rho=0.24498  n=1961
+fold 0:       Sharpe=+0.0211  mean_rho=+0.00498  std_rho=0.23533  n=491  runtime=  16.9s
+fold 1:       Sharpe=+0.0684  mean_rho=+0.01620  std_rho=0.23687  n=491  runtime=  17.2s
+fold 2:       Sharpe=+0.1045  mean_rho=+0.02681  std_rho=0.25661  n=491  runtime=  18.2s
+fold 3:       Sharpe=+0.1591  mean_rho=+0.03977  std_rho=0.24988  n=488  runtime=  15.8s
+last-fold-delta (fold3 - mean(others)):  +0.0945
+eval time:    compute=68.2s  wallclock=18.2s
+cached preds: /root/commodity/validation/predictions_cache/20260421T155215Z_v14-v7-with-per-label-std-normalization-.csv
+log:          /root/commodity/validation/log.csv

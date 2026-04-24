@@ -1,0 +1,27 @@
+[validate] detected 4 GPUs, 256 CPUs
+[validate] model.device=cuda  cpus_per_fold=64
+[validate] queued fold 0 -> group gpu0 task 1056
+[validate] queued fold 1 -> group gpu1 task 1057
+[validate] queued fold 2 -> group gpu2 task 1058
+[validate] queued fold 3 -> group gpu3 task 1059
+[validate] waiting for tasks [1056, 1057, 1058, 1059]
+17:26:00 - Task 1058 changed from Queued to Running
+17:26:17 - Task 1057 changed from Queued to Running
+17:26:30 - Task 1059 changed from Queued to Running
+17:26:53 - Task 1056 changed from Queued to Running
+17:38:13 - Task 1058 succeeded with 0
+17:38:23 - Task 1057 succeeded with 0
+17:38:53 - Task 1059 succeeded with 0
+17:39:29 - Task 1056 succeeded with 0
+
+=== 20260421T172510Z_v28-8-way-ridge-4-xgb-4-incl-xgb-direct- ===
+description:  v28 8-way: ridge×4 + xgb×4 (incl xgb_direct_dm)
+overall:      Sharpe=+0.1170  mean_rho=+0.03009  std_rho=0.25722  n=1961
+fold 0:       Sharpe=+0.0051  mean_rho=+0.00132  std_rho=0.25910  n=491  runtime= 756.7s
+fold 1:       Sharpe=+0.1001  mean_rho=+0.02517  std_rho=0.25149  n=491  runtime= 727.4s
+fold 2:       Sharpe=+0.1425  mean_rho=+0.03628  std_rho=0.25467  n=491  runtime= 731.4s
+fold 3:       Sharpe=+0.2212  mean_rho=+0.05776  std_rho=0.26110  n=488  runtime= 742.9s
+last-fold-delta (fold3 - mean(others)):  +0.1387
+eval time:    compute=2958.4s  wallclock=756.7s
+cached preds: /root/commodity/validation/predictions_cache/20260421T172510Z_v28-8-way-ridge-4-xgb-4-incl-xgb-direct-.csv
+log:          /root/commodity/validation/log.csv
