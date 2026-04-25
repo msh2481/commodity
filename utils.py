@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-def process_fx(df: pd.DataFrame) -> pd.DataFrame:
+def process_fx(df: pd.DataFrame, residuals: bool = False) -> pd.DataFrame:
     """Infer per-currency valuations from overdetermined FX pairs.
 
     For each column named like ``FX_EURUSD``, the model is:
@@ -26,8 +26,9 @@ def process_fx(df: pd.DataFrame) -> pd.DataFrame:
     result = pd.DataFrame(index=df.index)
     for ccy in currencies:
         result[f"FXL_{ccy}"] = np.nan
-    for col, _, _ in pairs:
-        result[f"FXR_{col[3:]}"] = np.nan
+    if residuals:
+        for col, _, _ in pairs:
+            result[f"FXR_{col[3:]}"] = np.nan
 
     if not pairs:
         return result
@@ -60,8 +61,9 @@ def process_fx(df: pd.DataFrame) -> pd.DataFrame:
         observed = np.full(len(pairs), np.nan, dtype=float)
         observed[mask] = np.log(values[row_i, mask])
         residuals = observed - predicted
-        for pair_i, (col, _, _) in enumerate(pairs):
-            result.loc[index, f"FXR_{col[3:]}"] = residuals[pair_i]
+        if residuals:
+            for pair_i, (col, _, _) in enumerate(pairs):
+                result.loc[index, f"FXR_{col[3:]}"] = residuals[pair_i]
 
     return result
 
