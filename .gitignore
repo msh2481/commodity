@@ -18,3 +18,10 @@ __pycache__/
 *.swo
 
 *_cache
+
+feature_imp_aux.txt
+feature_imp_primary.txt
+feature_imp_y.txt
+r2_aux.txt
+r2_primary.txt
+r2_y.txt
